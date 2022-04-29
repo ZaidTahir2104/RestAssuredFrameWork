@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="PersonRestApiSuit">
+<listeners>
+	<listener class-name="com.personapi.utilities.Listeners" />
+</listeners>
+  <test thread-count="5" name="PersonRestApiTest">
+    <classes>
+    	  <class name="com.personapi.testcases.TC001_PostPerson"/>
+    	  <class name="com.personapi.testcases.TC002_GetAllPerson"/>
+	      <class name="com.personapi.testcases.TC003_GetSinglePerson"/>
+	      <class name="com.personapi.testcases.TC004_PutPerson"/>
+	      <class name="com.personapi.testcases.TC005_DeletePerson"/>    
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [PersonRestApiSuit]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="PersonRestApiTest(failed)">
+    <classes>
+      <class name="com.personapi.testcases.TC005_DeletePerson">
+        <methods>
+          <include name="checkContentType"/>
+          <include name="checkStatusLine"/>
+          <include name="setup"/>
+          <include name="checkResponseBody"/>
+          <include name="tearDown"/>
+          <include name="checkStatusCode"/>
+          <include name="deletePerson"/>
+          <include name="checkResponseTime"/>
+        </methods>
+      </class> <!-- com.personapi.testcases.TC005_DeletePerson -->
+    </classes>
+  </test> <!-- PersonRestApiTest(failed) -->
+</suite> <!-- Failed suite [PersonRestApiSuit] -->
