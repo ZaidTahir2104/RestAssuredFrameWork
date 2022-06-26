@@ -1,2 +1,2 @@
-cd /Users/muhammadzaidtahir/eclipse-workspace/RestAssuredFramework
+cd /Users/muhammadzaidtahir/eclipse-workspace/RestAssuredFramework/
 mvn clean install

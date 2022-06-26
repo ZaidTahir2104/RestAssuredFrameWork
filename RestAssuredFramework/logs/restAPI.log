@@ -1,18 +1,18 @@
-2022-04-28 18:33:00 INFO  PersonRestAPI:28 -***************** Started TC001_PostPerson **************
-2022-04-28 18:33:01 INFO  PersonRestAPI:78 -***************** Checking Content Type **************
-2022-04-28 18:33:01 INFO  PersonRestAPI:80 -Content Type is ==> application/json; charset=utf-8
-2022-04-28 18:33:01 INFO  PersonRestAPI:61 -***************** Checking Response Time **************
-2022-04-28 18:33:01 INFO  PersonRestAPI:63 -Response Time is  ==> 181
-2022-04-28 18:33:01 INFO  PersonRestAPI:54 -***************** Checking Status Code **************
-2022-04-28 18:33:01 INFO  PersonRestAPI:56 -Response Code is ==> 201
-2022-04-28 18:33:01 INFO  PersonRestAPI:71 -***************** Checking Status Line **************
-2022-04-28 18:33:01 INFO  PersonRestAPI:73 -Response Line is ==> HTTP/1.1 201 Created
-2022-04-28 18:33:01 INFO  PersonRestAPI:84 -***************** Finished TC001_PostPerson **************
-2022-04-28 18:33:01 INFO  PersonRestAPI:17 -***************** Started TC002_GetPersonDetail **************
-2022-04-28 18:33:01 INFO  PersonRestAPI:56 -***************** Checking Content Type **************
-2022-04-28 18:33:01 INFO  PersonRestAPI:58 -Content Type is ==> application/json; charset=utf-8
-2022-04-28 18:33:01 INFO  PersonRestAPI:25 -***************** Checking Response Body **************
-2022-04-28 18:33:01 INFO  PersonRestAPI:27 -Response Body ==> [
+2022-05-13 16:58:14 INFO  PersonRestAPI:28 -***************** Started TC001_PostPerson **************
+2022-05-13 16:58:19 INFO  PersonRestAPI:78 -***************** Checking Content Type **************
+2022-05-13 16:58:19 INFO  PersonRestAPI:80 -Content Type is ==> application/json; charset=utf-8
+2022-05-13 16:58:19 INFO  PersonRestAPI:61 -***************** Checking Response Time **************
+2022-05-13 16:58:19 INFO  PersonRestAPI:63 -Response Time is  ==> 193
+2022-05-13 16:58:19 INFO  PersonRestAPI:54 -***************** Checking Status Code **************
+2022-05-13 16:58:19 INFO  PersonRestAPI:56 -Response Code is ==> 201
+2022-05-13 16:58:19 INFO  PersonRestAPI:71 -***************** Checking Status Line **************
+2022-05-13 16:58:19 INFO  PersonRestAPI:73 -Response Line is ==> HTTP/1.1 201 Created
+2022-05-13 16:58:19 INFO  PersonRestAPI:84 -***************** Finished TC001_PostPerson **************
+2022-05-13 16:58:19 INFO  PersonRestAPI:17 -***************** Started TC002_GetPersonDetail **************
+2022-05-13 16:58:19 INFO  PersonRestAPI:56 -***************** Checking Content Type **************
+2022-05-13 16:58:19 INFO  PersonRestAPI:58 -Content Type is ==> application/json; charset=utf-8
+2022-05-13 16:58:19 INFO  PersonRestAPI:25 -***************** Checking Response Body **************
+2022-05-13 16:58:19 INFO  PersonRestAPI:27 -Response Body ==> [
   {
     "firstName": "Zaid ",
     "lastName": "Tahir",
@@ -30,1661 +30,85 @@
     "id": "836"
   },
   {
-    "firstName": "ZaidF",
-    "lastName": "TahirU",
-    "address": "58-HGulshan e Lahore",
-    "id": "891",
-    "age": "21",
-    "phoneNumbers": "123-456-403"
-  }
-]
-2022-04-28 18:33:01 INFO  PersonRestAPI:39 -***************** Checking Response Time **************
-2022-04-28 18:33:01 INFO  PersonRestAPI:41 -Response Time is  ==> 13
-2022-04-28 18:33:01 INFO  PersonRestAPI:32 -***************** Checking Status Code **************
-2022-04-28 18:33:01 INFO  PersonRestAPI:34 -Response Code is ==> 200
-2022-04-28 18:33:01 INFO  PersonRestAPI:49 -***************** Checking Status Line **************
-2022-04-28 18:33:01 INFO  PersonRestAPI:51 -Response Line is ==> HTTP/1.1 200 OK
-2022-04-28 18:33:01 INFO  PersonRestAPI:62 -***************** Finished TC002_GetPersonDetail **************
-2022-04-28 18:33:01 INFO  PersonRestAPI:18 -***************** Started TC003_GetSinglePersonDetail **************
-2022-04-28 18:33:01 INFO  PersonRestAPI:58 -***************** Checking Content Type **************
-2022-04-28 18:33:01 INFO  PersonRestAPI:60 -Content Type is ==> application/json; charset=utf-8
-2022-04-28 18:33:01 INFO  PersonRestAPI:27 -***************** Checking Response Body **************
-2022-04-28 18:33:01 INFO  PersonRestAPI:29 -Response Body ==> {
-  "firstName": "ZaidF",
-  "lastName": "TahirU",
-  "address": "58-HGulshan e Lahore",
-  "id": "891",
-  "age": "21",
-  "phoneNumbers": "123-456-403"
-}
-2022-04-28 18:33:01 INFO  PersonRestAPI:41 -***************** Checking Response Time **************
-2022-04-28 18:33:01 INFO  PersonRestAPI:43 -Response Time is  ==> 8
-2022-04-28 18:33:01 INFO  PersonRestAPI:34 -***************** Checking Status Code **************
-2022-04-28 18:33:01 INFO  PersonRestAPI:36 -Response Code is ==> 200
-2022-04-28 18:33:01 INFO  PersonRestAPI:51 -***************** Checking Status Line **************
-2022-04-28 18:33:01 INFO  PersonRestAPI:53 -Response Line is ==> HTTP/1.1 200 OK
-2022-04-28 18:33:01 INFO  PersonRestAPI:64 -***************** Finished TC003_GetSinglePersonDetail **************
-2022-04-28 18:33:01 INFO  PersonRestAPI:28 -***************** Started TC004_PutPerson **************
-2022-04-28 18:33:01 INFO  PersonRestAPI:80 -***************** Checking Content Type **************
-2022-04-28 18:33:01 INFO  PersonRestAPI:82 -Content Type is ==> application/json; charset=utf-8
-2022-04-28 18:33:01 INFO  PersonRestAPI:63 -***************** Checking Response Time **************
-2022-04-28 18:33:01 INFO  PersonRestAPI:65 -Response Time is  ==> 11
-2022-04-28 18:33:01 INFO  PersonRestAPI:56 -***************** Checking Status Code **************
-2022-04-28 18:33:01 INFO  PersonRestAPI:58 -Response Code is ==> 200
-2022-04-28 18:33:01 INFO  PersonRestAPI:73 -***************** Checking Status Line **************
-2022-04-28 18:33:01 INFO  PersonRestAPI:75 -Response Line is ==> HTTP/1.1 200 OK
-2022-04-28 18:33:01 INFO  PersonRestAPI:86 -***************** Finished TC004_PutPerson **************
-2022-04-28 18:33:01 INFO  PersonRestAPI:19 -***************** Started TC005_DeletePerson **************
-2022-04-28 18:33:01 INFO  PersonRestAPI:61 -***************** Checking Content Type **************
-2022-04-28 18:33:01 INFO  PersonRestAPI:63 -Content Type is ==> application/json; charset=utf-8
-2022-04-28 18:33:01 INFO  PersonRestAPI:31 -***************** Checking Response Body **************
-2022-04-28 18:33:01 INFO  PersonRestAPI:33 -Response Body ==> {}
-2022-04-28 18:33:01 INFO  PersonRestAPI:44 -***************** Checking Response Time **************
-2022-04-28 18:33:01 INFO  PersonRestAPI:46 -Response Time is  ==> 9
-2022-04-28 18:33:01 INFO  PersonRestAPI:37 -***************** Checking Status Code **************
-2022-04-28 18:33:01 INFO  PersonRestAPI:39 -Response Code is ==> 200
-2022-04-28 18:33:01 INFO  PersonRestAPI:54 -***************** Checking Status Line **************
-2022-04-28 18:33:01 INFO  PersonRestAPI:56 -Response Line is ==> HTTP/1.1 200 OK
-2022-04-28 18:33:01 INFO  PersonRestAPI:67 -***************** Finished TC005_DeletePerson **************
-2022-04-28 18:37:32 INFO  PersonRestAPI:28 -***************** Started TC001_PostPerson **************
-2022-04-28 18:37:32 INFO  PersonRestAPI:78 -***************** Checking Content Type **************
-2022-04-28 18:37:32 INFO  PersonRestAPI:80 -Content Type is ==> application/json; charset=utf-8
-2022-04-28 18:37:32 INFO  PersonRestAPI:61 -***************** Checking Response Time **************
-2022-04-28 18:37:32 INFO  PersonRestAPI:63 -Response Time is  ==> 182
-2022-04-28 18:37:32 INFO  PersonRestAPI:54 -***************** Checking Status Code **************
-2022-04-28 18:37:32 INFO  PersonRestAPI:56 -Response Code is ==> 201
-2022-04-28 18:37:32 INFO  PersonRestAPI:71 -***************** Checking Status Line **************
-2022-04-28 18:37:32 INFO  PersonRestAPI:73 -Response Line is ==> HTTP/1.1 201 Created
-2022-04-28 18:37:32 INFO  PersonRestAPI:84 -***************** Finished TC001_PostPerson **************
-2022-04-28 18:37:32 INFO  PersonRestAPI:17 -***************** Started TC002_GetPersonDetail **************
-2022-04-28 18:37:32 INFO  PersonRestAPI:56 -***************** Checking Content Type **************
-2022-04-28 18:37:32 INFO  PersonRestAPI:58 -Content Type is ==> application/json; charset=utf-8
-2022-04-28 18:37:32 INFO  PersonRestAPI:25 -***************** Checking Response Body **************
-2022-04-28 18:37:32 INFO  PersonRestAPI:27 -Response Body ==> [
-  {
-    "firstName": "Zaid ",
-    "lastName": "Tahir",
-    "age": 30,
-    "id": "1",
-    "address": "Lahore,PK",
+    "firstName": "Saad ",
+    "lastName": "Lala",
+    "age": 31,
+    "id": "3",
+    "address": "Islamabad,PK",
     "phoneNumber": "123-456-78910"
-  },
-  {
-    "firstName": "Zaidp",
-    "lastName": "Tahirs",
-    "address": "58-NGulshan e Lahore",
-    "age": "89",
-    "phoneNumbers": "123-456-223",
-    "id": "836"
-  },
-  {
-    "firstName": "ZaidU",
-    "lastName": "TahirR",
-    "address": "58-jGulshan e Lahore",
-    "id": "441",
-    "age": "64",
-    "phoneNumbers": "123-456-473"
-  }
-]
-2022-04-28 18:37:32 INFO  PersonRestAPI:39 -***************** Checking Response Time **************
-2022-04-28 18:37:32 INFO  PersonRestAPI:41 -Response Time is  ==> 12
-2022-04-28 18:37:32 INFO  PersonRestAPI:32 -***************** Checking Status Code **************
-2022-04-28 18:37:32 INFO  PersonRestAPI:34 -Response Code is ==> 200
-2022-04-28 18:37:32 INFO  PersonRestAPI:49 -***************** Checking Status Line **************
-2022-04-28 18:37:32 INFO  PersonRestAPI:51 -Response Line is ==> HTTP/1.1 200 OK
-2022-04-28 18:37:32 INFO  PersonRestAPI:62 -***************** Finished TC002_GetPersonDetail **************
-2022-04-28 18:37:32 INFO  PersonRestAPI:18 -***************** Started TC003_GetSinglePersonDetail **************
-2022-04-28 18:37:32 INFO  PersonRestAPI:58 -***************** Checking Content Type **************
-2022-04-28 18:37:32 INFO  PersonRestAPI:60 -Content Type is ==> application/json; charset=utf-8
-2022-04-28 18:37:32 INFO  PersonRestAPI:27 -***************** Checking Response Body **************
-2022-04-28 18:37:32 INFO  PersonRestAPI:29 -Response Body ==> {
-  "firstName": "ZaidU",
-  "lastName": "TahirR",
-  "address": "58-jGulshan e Lahore",
-  "id": "441",
-  "age": "64",
-  "phoneNumbers": "123-456-473"
-}
-2022-04-28 18:37:32 INFO  PersonRestAPI:41 -***************** Checking Response Time **************
-2022-04-28 18:37:32 INFO  PersonRestAPI:43 -Response Time is  ==> 7
-2022-04-28 18:37:32 INFO  PersonRestAPI:34 -***************** Checking Status Code **************
-2022-04-28 18:37:32 INFO  PersonRestAPI:36 -Response Code is ==> 200
-2022-04-28 18:37:32 INFO  PersonRestAPI:51 -***************** Checking Status Line **************
-2022-04-28 18:37:32 INFO  PersonRestAPI:53 -Response Line is ==> HTTP/1.1 200 OK
-2022-04-28 18:37:32 INFO  PersonRestAPI:64 -***************** Finished TC003_GetSinglePersonDetail **************
-2022-04-28 18:37:32 INFO  PersonRestAPI:28 -***************** Started TC004_PutPerson **************
-2022-04-28 18:37:32 INFO  PersonRestAPI:80 -***************** Checking Content Type **************
-2022-04-28 18:37:32 INFO  PersonRestAPI:82 -Content Type is ==> application/json; charset=utf-8
-2022-04-28 18:37:32 INFO  PersonRestAPI:63 -***************** Checking Response Time **************
-2022-04-28 18:37:32 INFO  PersonRestAPI:65 -Response Time is  ==> 11
-2022-04-28 18:37:32 INFO  PersonRestAPI:56 -***************** Checking Status Code **************
-2022-04-28 18:37:32 INFO  PersonRestAPI:58 -Response Code is ==> 200
-2022-04-28 18:37:32 INFO  PersonRestAPI:73 -***************** Checking Status Line **************
-2022-04-28 18:37:32 INFO  PersonRestAPI:75 -Response Line is ==> HTTP/1.1 200 OK
-2022-04-28 18:37:32 INFO  PersonRestAPI:86 -***************** Finished TC004_PutPerson **************
-2022-04-28 18:37:32 INFO  PersonRestAPI:19 -***************** Started TC005_DeletePerson **************
-2022-04-28 18:37:32 INFO  PersonRestAPI:61 -***************** Checking Content Type **************
-2022-04-28 18:37:32 INFO  PersonRestAPI:63 -Content Type is ==> application/json; charset=utf-8
-2022-04-28 18:37:32 INFO  PersonRestAPI:31 -***************** Checking Response Body **************
-2022-04-28 18:37:32 INFO  PersonRestAPI:33 -Response Body ==> {}
-2022-04-28 18:37:32 INFO  PersonRestAPI:44 -***************** Checking Response Time **************
-2022-04-28 18:37:32 INFO  PersonRestAPI:46 -Response Time is  ==> 10
-2022-04-28 18:37:32 INFO  PersonRestAPI:37 -***************** Checking Status Code **************
-2022-04-28 18:37:32 INFO  PersonRestAPI:39 -Response Code is ==> 200
-2022-04-28 18:37:32 INFO  PersonRestAPI:54 -***************** Checking Status Line **************
-2022-04-28 18:37:32 INFO  PersonRestAPI:56 -Response Line is ==> HTTP/1.1 200 OK
-2022-04-28 18:37:32 INFO  PersonRestAPI:67 -***************** Finished TC005_DeletePerson **************
-2022-04-28 18:38:16 INFO  PersonRestAPI:28 -***************** Started TC001_PostPerson **************
-2022-04-28 18:38:16 INFO  PersonRestAPI:78 -***************** Checking Content Type **************
-2022-04-28 18:38:16 INFO  PersonRestAPI:80 -Content Type is ==> application/json; charset=utf-8
-2022-04-28 18:38:16 INFO  PersonRestAPI:61 -***************** Checking Response Time **************
-2022-04-28 18:38:16 INFO  PersonRestAPI:63 -Response Time is  ==> 190
-2022-04-28 18:38:16 INFO  PersonRestAPI:54 -***************** Checking Status Code **************
-2022-04-28 18:38:16 INFO  PersonRestAPI:56 -Response Code is ==> 201
-2022-04-28 18:38:16 INFO  PersonRestAPI:71 -***************** Checking Status Line **************
-2022-04-28 18:38:16 INFO  PersonRestAPI:73 -Response Line is ==> HTTP/1.1 201 Created
-2022-04-28 18:38:16 INFO  PersonRestAPI:84 -***************** Finished TC001_PostPerson **************
-2022-04-28 18:38:16 INFO  PersonRestAPI:17 -***************** Started TC002_GetPersonDetail **************
-2022-04-28 18:38:16 INFO  PersonRestAPI:56 -***************** Checking Content Type **************
-2022-04-28 18:38:16 INFO  PersonRestAPI:58 -Content Type is ==> application/json; charset=utf-8
-2022-04-28 18:38:16 INFO  PersonRestAPI:25 -***************** Checking Response Body **************
-2022-04-28 18:38:16 INFO  PersonRestAPI:27 -Response Body ==> [
-  {
-    "firstName": "Zaid ",
-    "lastName": "Tahir",
-    "age": 30,
-    "id": "1",
-    "address": "Lahore,PK",
-    "phoneNumber": "123-456-78910"
-  },
-  {
-    "firstName": "Zaidp",
-    "lastName": "Tahirs",
-    "address": "58-NGulshan e Lahore",
-    "age": "89",
-    "phoneNumbers": "123-456-223",
-    "id": "836"
-  },
-  {
-    "firstName": "ZaidL",
-    "lastName": "TahirJ",
-    "address": "58-xGulshan e Lahore",
-    "id": "834",
-    "age": "03",
-    "phoneNumbers": "123-456-200"
-  }
-]
-2022-04-28 18:38:16 INFO  PersonRestAPI:39 -***************** Checking Response Time **************
-2022-04-28 18:38:16 INFO  PersonRestAPI:41 -Response Time is  ==> 12
-2022-04-28 18:38:16 INFO  PersonRestAPI:32 -***************** Checking Status Code **************
-2022-04-28 18:38:16 INFO  PersonRestAPI:34 -Response Code is ==> 200
-2022-04-28 18:38:16 INFO  PersonRestAPI:49 -***************** Checking Status Line **************
-2022-04-28 18:38:16 INFO  PersonRestAPI:51 -Response Line is ==> HTTP/1.1 200 OK
-2022-04-28 18:38:16 INFO  PersonRestAPI:62 -***************** Finished TC002_GetPersonDetail **************
-2022-04-28 18:38:16 INFO  PersonRestAPI:18 -***************** Started TC003_GetSinglePersonDetail **************
-2022-04-28 18:38:16 INFO  PersonRestAPI:58 -***************** Checking Content Type **************
-2022-04-28 18:38:16 INFO  PersonRestAPI:60 -Content Type is ==> application/json; charset=utf-8
-2022-04-28 18:38:16 INFO  PersonRestAPI:27 -***************** Checking Response Body **************
-2022-04-28 18:38:16 INFO  PersonRestAPI:29 -Response Body ==> {
-  "firstName": "ZaidL",
-  "lastName": "TahirJ",
-  "address": "58-xGulshan e Lahore",
-  "id": "834",
-  "age": "03",
-  "phoneNumbers": "123-456-200"
-}
-2022-04-28 18:38:16 INFO  PersonRestAPI:41 -***************** Checking Response Time **************
-2022-04-28 18:38:16 INFO  PersonRestAPI:43 -Response Time is  ==> 8
-2022-04-28 18:38:16 INFO  PersonRestAPI:34 -***************** Checking Status Code **************
-2022-04-28 18:38:16 INFO  PersonRestAPI:36 -Response Code is ==> 200
-2022-04-28 18:38:16 INFO  PersonRestAPI:51 -***************** Checking Status Line **************
-2022-04-28 18:38:16 INFO  PersonRestAPI:53 -Response Line is ==> HTTP/1.1 200 OK
-2022-04-28 18:38:16 INFO  PersonRestAPI:64 -***************** Finished TC003_GetSinglePersonDetail **************
-2022-04-28 18:38:16 INFO  PersonRestAPI:28 -***************** Started TC004_PutPerson **************
-2022-04-28 18:38:16 INFO  PersonRestAPI:80 -***************** Checking Content Type **************
-2022-04-28 18:38:16 INFO  PersonRestAPI:82 -Content Type is ==> application/json; charset=utf-8
-2022-04-28 18:38:16 INFO  PersonRestAPI:63 -***************** Checking Response Time **************
-2022-04-28 18:38:16 INFO  PersonRestAPI:65 -Response Time is  ==> 10
-2022-04-28 18:38:16 INFO  PersonRestAPI:56 -***************** Checking Status Code **************
-2022-04-28 18:38:16 INFO  PersonRestAPI:58 -Response Code is ==> 200
-2022-04-28 18:38:16 INFO  PersonRestAPI:73 -***************** Checking Status Line **************
-2022-04-28 18:38:16 INFO  PersonRestAPI:75 -Response Line is ==> HTTP/1.1 200 OK
-2022-04-28 18:38:16 INFO  PersonRestAPI:86 -***************** Finished TC004_PutPerson **************
-2022-04-28 18:38:16 INFO  PersonRestAPI:19 -***************** Started TC005_DeletePerson **************
-2022-04-28 18:38:16 INFO  PersonRestAPI:61 -***************** Checking Content Type **************
-2022-04-28 18:38:16 INFO  PersonRestAPI:63 -Content Type is ==> application/json; charset=utf-8
-2022-04-28 18:38:16 INFO  PersonRestAPI:31 -***************** Checking Response Body **************
-2022-04-28 18:38:16 INFO  PersonRestAPI:33 -Response Body ==> {}
-2022-04-28 18:38:16 INFO  PersonRestAPI:44 -***************** Checking Response Time **************
-2022-04-28 18:38:16 INFO  PersonRestAPI:46 -Response Time is  ==> 10
-2022-04-28 18:38:16 INFO  PersonRestAPI:37 -***************** Checking Status Code **************
-2022-04-28 18:38:16 INFO  PersonRestAPI:39 -Response Code is ==> 200
-2022-04-28 18:38:16 INFO  PersonRestAPI:54 -***************** Checking Status Line **************
-2022-04-28 18:38:16 INFO  PersonRestAPI:56 -Response Line is ==> HTTP/1.1 200 OK
-2022-04-28 18:38:16 INFO  PersonRestAPI:67 -***************** Finished TC005_DeletePerson **************
-2022-04-28 18:38:48 INFO  PersonRestAPI:28 -***************** Started TC001_PostPerson **************
-2022-04-28 18:38:48 INFO  PersonRestAPI:78 -***************** Checking Content Type **************
-2022-04-28 18:38:48 INFO  PersonRestAPI:80 -Content Type is ==> application/json; charset=utf-8
-2022-04-28 18:38:48 INFO  PersonRestAPI:61 -***************** Checking Response Time **************
-2022-04-28 18:38:48 INFO  PersonRestAPI:63 -Response Time is  ==> 182
-2022-04-28 18:38:48 INFO  PersonRestAPI:54 -***************** Checking Status Code **************
-2022-04-28 18:38:48 INFO  PersonRestAPI:56 -Response Code is ==> 201
-2022-04-28 18:38:48 INFO  PersonRestAPI:71 -***************** Checking Status Line **************
-2022-04-28 18:38:48 INFO  PersonRestAPI:73 -Response Line is ==> HTTP/1.1 201 Created
-2022-04-28 18:38:48 INFO  PersonRestAPI:84 -***************** Finished TC001_PostPerson **************
-2022-04-28 18:38:48 INFO  PersonRestAPI:17 -***************** Started TC002_GetPersonDetail **************
-2022-04-28 18:38:48 INFO  PersonRestAPI:56 -***************** Checking Content Type **************
-2022-04-28 18:38:48 INFO  PersonRestAPI:58 -Content Type is ==> application/json; charset=utf-8
-2022-04-28 18:38:48 INFO  PersonRestAPI:25 -***************** Checking Response Body **************
-2022-04-28 18:38:48 INFO  PersonRestAPI:27 -Response Body ==> [
-  {
-    "firstName": "Zaid ",
-    "lastName": "Tahir",
-    "age": 30,
-    "id": "1",
-    "address": "Lahore,PK",
-    "phoneNumber": "123-456-78910"
-  },
-  {
-    "firstName": "Zaidp",
-    "lastName": "Tahirs",
-    "address": "58-NGulshan e Lahore",
-    "age": "89",
-    "phoneNumbers": "123-456-223",
-    "id": "836"
-  },
-  {
-    "firstName": "ZaidN",
-    "lastName": "TahirU",
-    "address": "58-ZGulshan e Lahore",
-    "id": "647",
-    "age": "84",
-    "phoneNumbers": "123-456-711"
-  }
-]
-2022-04-28 18:38:48 INFO  PersonRestAPI:39 -***************** Checking Response Time **************
-2022-04-28 18:38:48 INFO  PersonRestAPI:41 -Response Time is  ==> 13
-2022-04-28 18:38:48 INFO  PersonRestAPI:32 -***************** Checking Status Code **************
-2022-04-28 18:38:48 INFO  PersonRestAPI:34 -Response Code is ==> 200
-2022-04-28 18:38:48 INFO  PersonRestAPI:49 -***************** Checking Status Line **************
-2022-04-28 18:38:48 INFO  PersonRestAPI:51 -Response Line is ==> HTTP/1.1 200 OK
-2022-04-28 18:38:48 INFO  PersonRestAPI:62 -***************** Finished TC002_GetPersonDetail **************
-2022-04-28 18:38:48 INFO  PersonRestAPI:18 -***************** Started TC003_GetSinglePersonDetail **************
-2022-04-28 18:38:48 INFO  PersonRestAPI:58 -***************** Checking Content Type **************
-2022-04-28 18:38:48 INFO  PersonRestAPI:60 -Content Type is ==> application/json; charset=utf-8
-2022-04-28 18:38:48 INFO  PersonRestAPI:27 -***************** Checking Response Body **************
-2022-04-28 18:38:48 INFO  PersonRestAPI:29 -Response Body ==> {
-  "firstName": "ZaidN",
-  "lastName": "TahirU",
-  "address": "58-ZGulshan e Lahore",
-  "id": "647",
-  "age": "84",
-  "phoneNumbers": "123-456-711"
-}
-2022-04-28 18:38:48 INFO  PersonRestAPI:41 -***************** Checking Response Time **************
-2022-04-28 18:38:48 INFO  PersonRestAPI:43 -Response Time is  ==> 9
-2022-04-28 18:38:48 INFO  PersonRestAPI:34 -***************** Checking Status Code **************
-2022-04-28 18:38:48 INFO  PersonRestAPI:36 -Response Code is ==> 200
-2022-04-28 18:38:48 INFO  PersonRestAPI:51 -***************** Checking Status Line **************
-2022-04-28 18:38:48 INFO  PersonRestAPI:53 -Response Line is ==> HTTP/1.1 200 OK
-2022-04-28 18:38:48 INFO  PersonRestAPI:64 -***************** Finished TC003_GetSinglePersonDetail **************
-2022-04-28 18:38:48 INFO  PersonRestAPI:28 -***************** Started TC004_PutPerson **************
-2022-04-28 18:38:48 INFO  PersonRestAPI:80 -***************** Checking Content Type **************
-2022-04-28 18:38:48 INFO  PersonRestAPI:82 -Content Type is ==> application/json; charset=utf-8
-2022-04-28 18:38:48 INFO  PersonRestAPI:63 -***************** Checking Response Time **************
-2022-04-28 18:38:48 INFO  PersonRestAPI:65 -Response Time is  ==> 11
-2022-04-28 18:38:48 INFO  PersonRestAPI:56 -***************** Checking Status Code **************
-2022-04-28 18:38:48 INFO  PersonRestAPI:58 -Response Code is ==> 200
-2022-04-28 18:38:48 INFO  PersonRestAPI:73 -***************** Checking Status Line **************
-2022-04-28 18:38:48 INFO  PersonRestAPI:75 -Response Line is ==> HTTP/1.1 200 OK
-2022-04-28 18:38:48 INFO  PersonRestAPI:86 -***************** Finished TC004_PutPerson **************
-2022-04-28 18:38:48 INFO  PersonRestAPI:19 -***************** Started TC005_DeletePerson **************
-2022-04-28 18:38:48 INFO  PersonRestAPI:61 -***************** Checking Content Type **************
-2022-04-28 18:38:48 INFO  PersonRestAPI:63 -Content Type is ==> application/json; charset=utf-8
-2022-04-28 18:38:48 INFO  PersonRestAPI:31 -***************** Checking Response Body **************
-2022-04-28 18:38:48 INFO  PersonRestAPI:33 -Response Body ==> {}
-2022-04-28 18:38:48 INFO  PersonRestAPI:44 -***************** Checking Response Time **************
-2022-04-28 18:38:48 INFO  PersonRestAPI:46 -Response Time is  ==> 9
-2022-04-28 18:38:48 INFO  PersonRestAPI:37 -***************** Checking Status Code **************
-2022-04-28 18:38:48 INFO  PersonRestAPI:39 -Response Code is ==> 200
-2022-04-28 18:38:48 INFO  PersonRestAPI:54 -***************** Checking Status Line **************
-2022-04-28 18:38:48 INFO  PersonRestAPI:56 -Response Line is ==> HTTP/1.1 200 OK
-2022-04-28 18:38:48 INFO  PersonRestAPI:67 -***************** Finished TC005_DeletePerson **************
-2022-04-28 18:39:21 INFO  PersonRestAPI:28 -***************** Started TC001_PostPerson **************
-2022-04-28 18:39:22 INFO  PersonRestAPI:78 -***************** Checking Content Type **************
-2022-04-28 18:39:22 INFO  PersonRestAPI:80 -Content Type is ==> application/json; charset=utf-8
-2022-04-28 18:39:22 INFO  PersonRestAPI:61 -***************** Checking Response Time **************
-2022-04-28 18:39:22 INFO  PersonRestAPI:63 -Response Time is  ==> 183
-2022-04-28 18:39:22 INFO  PersonRestAPI:54 -***************** Checking Status Code **************
-2022-04-28 18:39:22 INFO  PersonRestAPI:56 -Response Code is ==> 201
-2022-04-28 18:39:22 INFO  PersonRestAPI:71 -***************** Checking Status Line **************
-2022-04-28 18:39:22 INFO  PersonRestAPI:73 -Response Line is ==> HTTP/1.1 201 Created
-2022-04-28 18:39:22 INFO  PersonRestAPI:84 -***************** Finished TC001_PostPerson **************
-2022-04-28 18:39:22 INFO  PersonRestAPI:17 -***************** Started TC002_GetPersonDetail **************
-2022-04-28 18:39:22 INFO  PersonRestAPI:56 -***************** Checking Content Type **************
-2022-04-28 18:39:22 INFO  PersonRestAPI:58 -Content Type is ==> application/json; charset=utf-8
-2022-04-28 18:39:22 INFO  PersonRestAPI:25 -***************** Checking Response Body **************
-2022-04-28 18:39:22 INFO  PersonRestAPI:27 -Response Body ==> [
-  {
-    "firstName": "Zaid ",
-    "lastName": "Tahir",
-    "age": 30,
-    "id": "1",
-    "address": "Lahore,PK",
-    "phoneNumber": "123-456-78910"
-  },
-  {
-    "firstName": "Zaidp",
-    "lastName": "Tahirs",
-    "address": "58-NGulshan e Lahore",
-    "age": "89",
-    "phoneNumbers": "123-456-223",
-    "id": "836"
-  },
-  {
-    "firstName": "ZaidB",
-    "lastName": "Tahirn",
-    "address": "58-fGulshan e Lahore",
-    "id": "484",
-    "age": "83",
-    "phoneNumbers": "123-456-721"
-  }
-]
-2022-04-28 18:39:22 INFO  PersonRestAPI:39 -***************** Checking Response Time **************
-2022-04-28 18:39:22 INFO  PersonRestAPI:41 -Response Time is  ==> 12
-2022-04-28 18:39:22 INFO  PersonRestAPI:32 -***************** Checking Status Code **************
-2022-04-28 18:39:22 INFO  PersonRestAPI:34 -Response Code is ==> 200
-2022-04-28 18:39:22 INFO  PersonRestAPI:49 -***************** Checking Status Line **************
-2022-04-28 18:39:22 INFO  PersonRestAPI:51 -Response Line is ==> HTTP/1.1 200 OK
-2022-04-28 18:39:22 INFO  PersonRestAPI:62 -***************** Finished TC002_GetPersonDetail **************
-2022-04-28 18:39:22 INFO  PersonRestAPI:18 -***************** Started TC003_GetSinglePersonDetail **************
-2022-04-28 18:39:22 INFO  PersonRestAPI:58 -***************** Checking Content Type **************
-2022-04-28 18:39:22 INFO  PersonRestAPI:60 -Content Type is ==> application/json; charset=utf-8
-2022-04-28 18:39:22 INFO  PersonRestAPI:27 -***************** Checking Response Body **************
-2022-04-28 18:39:22 INFO  PersonRestAPI:29 -Response Body ==> {
-  "firstName": "ZaidB",
-  "lastName": "Tahirn",
-  "address": "58-fGulshan e Lahore",
-  "id": "484",
-  "age": "83",
-  "phoneNumbers": "123-456-721"
-}
-2022-04-28 18:39:22 INFO  PersonRestAPI:41 -***************** Checking Response Time **************
-2022-04-28 18:39:22 INFO  PersonRestAPI:43 -Response Time is  ==> 8
-2022-04-28 18:39:22 INFO  PersonRestAPI:34 -***************** Checking Status Code **************
-2022-04-28 18:39:22 INFO  PersonRestAPI:36 -Response Code is ==> 200
-2022-04-28 18:39:22 INFO  PersonRestAPI:51 -***************** Checking Status Line **************
-2022-04-28 18:39:22 INFO  PersonRestAPI:53 -Response Line is ==> HTTP/1.1 200 OK
-2022-04-28 18:39:22 INFO  PersonRestAPI:64 -***************** Finished TC003_GetSinglePersonDetail **************
-2022-04-28 18:39:22 INFO  PersonRestAPI:28 -***************** Started TC004_PutPerson **************
-2022-04-28 18:39:22 INFO  PersonRestAPI:80 -***************** Checking Content Type **************
-2022-04-28 18:39:22 INFO  PersonRestAPI:82 -Content Type is ==> application/json; charset=utf-8
-2022-04-28 18:39:22 INFO  PersonRestAPI:63 -***************** Checking Response Time **************
-2022-04-28 18:39:22 INFO  PersonRestAPI:65 -Response Time is  ==> 13
-2022-04-28 18:39:22 INFO  PersonRestAPI:56 -***************** Checking Status Code **************
-2022-04-28 18:39:22 INFO  PersonRestAPI:58 -Response Code is ==> 200
-2022-04-28 18:39:22 INFO  PersonRestAPI:73 -***************** Checking Status Line **************
-2022-04-28 18:39:22 INFO  PersonRestAPI:75 -Response Line is ==> HTTP/1.1 200 OK
-2022-04-28 18:39:22 INFO  PersonRestAPI:86 -***************** Finished TC004_PutPerson **************
-2022-04-28 18:39:22 INFO  PersonRestAPI:19 -***************** Started TC005_DeletePerson **************
-2022-04-28 18:39:22 INFO  PersonRestAPI:61 -***************** Checking Content Type **************
-2022-04-28 18:39:22 INFO  PersonRestAPI:63 -Content Type is ==> application/json; charset=utf-8
-2022-04-28 18:39:22 INFO  PersonRestAPI:31 -***************** Checking Response Body **************
-2022-04-28 18:39:22 INFO  PersonRestAPI:33 -Response Body ==> {}
-2022-04-28 18:39:22 INFO  PersonRestAPI:44 -***************** Checking Response Time **************
-2022-04-28 18:39:22 INFO  PersonRestAPI:46 -Response Time is  ==> 9
-2022-04-28 18:39:22 INFO  PersonRestAPI:37 -***************** Checking Status Code **************
-2022-04-28 18:39:22 INFO  PersonRestAPI:39 -Response Code is ==> 200
-2022-04-28 18:39:22 INFO  PersonRestAPI:54 -***************** Checking Status Line **************
-2022-04-28 18:39:22 INFO  PersonRestAPI:56 -Response Line is ==> HTTP/1.1 200 OK
-2022-04-28 18:39:22 INFO  PersonRestAPI:67 -***************** Finished TC005_DeletePerson **************
-2022-04-28 18:41:14 INFO  PersonRestAPI:28 -***************** Started TC001_PostPerson **************
-2022-04-28 18:41:15 INFO  PersonRestAPI:78 -***************** Checking Content Type **************
-2022-04-28 18:41:15 INFO  PersonRestAPI:80 -Content Type is ==> application/json; charset=utf-8
-2022-04-28 18:41:15 INFO  PersonRestAPI:61 -***************** Checking Response Time **************
-2022-04-28 18:41:15 INFO  PersonRestAPI:63 -Response Time is  ==> 183
-2022-04-28 18:41:15 INFO  PersonRestAPI:54 -***************** Checking Status Code **************
-2022-04-28 18:41:15 INFO  PersonRestAPI:56 -Response Code is ==> 201
-2022-04-28 18:41:15 INFO  PersonRestAPI:71 -***************** Checking Status Line **************
-2022-04-28 18:41:15 INFO  PersonRestAPI:73 -Response Line is ==> HTTP/1.1 201 Created
-2022-04-28 18:41:15 INFO  PersonRestAPI:84 -***************** Finished TC001_PostPerson **************
-2022-04-28 18:41:15 INFO  PersonRestAPI:17 -***************** Started TC002_GetPersonDetail **************
-2022-04-28 18:41:15 INFO  PersonRestAPI:56 -***************** Checking Content Type **************
-2022-04-28 18:41:15 INFO  PersonRestAPI:58 -Content Type is ==> application/json; charset=utf-8
-2022-04-28 18:41:15 INFO  PersonRestAPI:25 -***************** Checking Response Body **************
-2022-04-28 18:41:15 INFO  PersonRestAPI:27 -Response Body ==> [
-  {
-    "firstName": "Zaid ",
-    "lastName": "Tahir",
-    "age": 30,
-    "id": "1",
-    "address": "Lahore,PK",
-    "phoneNumber": "123-456-78910"
-  },
-  {
-    "firstName": "Zaidp",
-    "lastName": "Tahirs",
-    "address": "58-NGulshan e Lahore",
-    "age": "89",
-    "phoneNumbers": "123-456-223",
-    "id": "836"
-  },
-  {
-    "firstName": "Zaidd",
-    "lastName": "TahirJ",
-    "address": "58-gGulshan e Lahore",
-    "id": "199",
-    "age": "19",
-    "phoneNumbers": "123-456-732"
-  }
-]
-2022-04-28 18:41:15 INFO  PersonRestAPI:39 -***************** Checking Response Time **************
-2022-04-28 18:41:15 INFO  PersonRestAPI:41 -Response Time is  ==> 13
-2022-04-28 18:41:15 INFO  PersonRestAPI:32 -***************** Checking Status Code **************
-2022-04-28 18:41:15 INFO  PersonRestAPI:34 -Response Code is ==> 200
-2022-04-28 18:41:15 INFO  PersonRestAPI:49 -***************** Checking Status Line **************
-2022-04-28 18:41:15 INFO  PersonRestAPI:51 -Response Line is ==> HTTP/1.1 200 OK
-2022-04-28 18:41:15 INFO  PersonRestAPI:62 -***************** Finished TC002_GetPersonDetail **************
-2022-04-28 18:41:15 INFO  PersonRestAPI:18 -***************** Started TC003_GetSinglePersonDetail **************
-2022-04-28 18:41:15 INFO  PersonRestAPI:58 -***************** Checking Content Type **************
-2022-04-28 18:41:15 INFO  PersonRestAPI:60 -Content Type is ==> application/json; charset=utf-8
-2022-04-28 18:41:15 INFO  PersonRestAPI:27 -***************** Checking Response Body **************
-2022-04-28 18:41:15 INFO  PersonRestAPI:29 -Response Body ==> {
-  "firstName": "Zaidd",
-  "lastName": "TahirJ",
-  "address": "58-gGulshan e Lahore",
-  "id": "199",
-  "age": "19",
-  "phoneNumbers": "123-456-732"
-}
-2022-04-28 18:41:15 INFO  PersonRestAPI:41 -***************** Checking Response Time **************
-2022-04-28 18:41:15 INFO  PersonRestAPI:43 -Response Time is  ==> 7
-2022-04-28 18:41:15 INFO  PersonRestAPI:34 -***************** Checking Status Code **************
-2022-04-28 18:41:15 INFO  PersonRestAPI:36 -Response Code is ==> 200
-2022-04-28 18:41:15 INFO  PersonRestAPI:51 -***************** Checking Status Line **************
-2022-04-28 18:41:15 INFO  PersonRestAPI:53 -Response Line is ==> HTTP/1.1 200 OK
-2022-04-28 18:41:15 INFO  PersonRestAPI:64 -***************** Finished TC003_GetSinglePersonDetail **************
-2022-04-28 18:41:15 INFO  PersonRestAPI:28 -***************** Started TC004_PutPerson **************
-2022-04-28 18:41:15 INFO  PersonRestAPI:80 -***************** Checking Content Type **************
-2022-04-28 18:41:15 INFO  PersonRestAPI:82 -Content Type is ==> application/json; charset=utf-8
-2022-04-28 18:41:15 INFO  PersonRestAPI:63 -***************** Checking Response Time **************
-2022-04-28 18:41:15 INFO  PersonRestAPI:65 -Response Time is  ==> 10
-2022-04-28 18:41:15 INFO  PersonRestAPI:56 -***************** Checking Status Code **************
-2022-04-28 18:41:15 INFO  PersonRestAPI:58 -Response Code is ==> 200
-2022-04-28 18:41:15 INFO  PersonRestAPI:73 -***************** Checking Status Line **************
-2022-04-28 18:41:15 INFO  PersonRestAPI:75 -Response Line is ==> HTTP/1.1 200 OK
-2022-04-28 18:41:15 INFO  PersonRestAPI:86 -***************** Finished TC004_PutPerson **************
-2022-04-28 18:41:15 INFO  PersonRestAPI:19 -***************** Started TC005_DeletePerson **************
-2022-04-28 18:41:15 INFO  PersonRestAPI:61 -***************** Checking Content Type **************
-2022-04-28 18:41:15 INFO  PersonRestAPI:63 -Content Type is ==> application/json; charset=utf-8
-2022-04-28 18:41:15 INFO  PersonRestAPI:31 -***************** Checking Response Body **************
-2022-04-28 18:41:15 INFO  PersonRestAPI:33 -Response Body ==> {}
-2022-04-28 18:41:15 INFO  PersonRestAPI:44 -***************** Checking Response Time **************
-2022-04-28 18:41:15 INFO  PersonRestAPI:46 -Response Time is  ==> 8
-2022-04-28 18:41:15 INFO  PersonRestAPI:37 -***************** Checking Status Code **************
-2022-04-28 18:41:15 INFO  PersonRestAPI:39 -Response Code is ==> 200
-2022-04-28 18:41:15 INFO  PersonRestAPI:54 -***************** Checking Status Line **************
-2022-04-28 18:41:15 INFO  PersonRestAPI:56 -Response Line is ==> HTTP/1.1 200 OK
-2022-04-28 18:41:15 INFO  PersonRestAPI:67 -***************** Finished TC005_DeletePerson **************
-2022-04-28 18:42:21 INFO  PersonRestAPI:28 -***************** Started TC001_PostPerson **************
-2022-04-28 18:42:21 INFO  PersonRestAPI:78 -***************** Checking Content Type **************
-2022-04-28 18:42:21 INFO  PersonRestAPI:80 -Content Type is ==> application/json; charset=utf-8
-2022-04-28 18:42:21 INFO  PersonRestAPI:61 -***************** Checking Response Time **************
-2022-04-28 18:42:21 INFO  PersonRestAPI:63 -Response Time is  ==> 185
-2022-04-28 18:42:21 INFO  PersonRestAPI:54 -***************** Checking Status Code **************
-2022-04-28 18:42:21 INFO  PersonRestAPI:56 -Response Code is ==> 201
-2022-04-28 18:42:21 INFO  PersonRestAPI:71 -***************** Checking Status Line **************
-2022-04-28 18:42:21 INFO  PersonRestAPI:73 -Response Line is ==> HTTP/1.1 201 Created
-2022-04-28 18:42:21 INFO  PersonRestAPI:84 -***************** Finished TC001_PostPerson **************
-2022-04-28 18:42:21 INFO  PersonRestAPI:17 -***************** Started TC002_GetPersonDetail **************
-2022-04-28 18:42:21 INFO  PersonRestAPI:56 -***************** Checking Content Type **************
-2022-04-28 18:42:21 INFO  PersonRestAPI:58 -Content Type is ==> application/json; charset=utf-8
-2022-04-28 18:42:21 INFO  PersonRestAPI:25 -***************** Checking Response Body **************
-2022-04-28 18:42:21 INFO  PersonRestAPI:27 -Response Body ==> [
-  {
-    "firstName": "Zaid ",
-    "lastName": "Tahir",
-    "age": 30,
-    "id": "1",
-    "address": "Lahore,PK",
-    "phoneNumber": "123-456-78910"
-  },
-  {
-    "firstName": "Zaidp",
-    "lastName": "Tahirs",
-    "address": "58-NGulshan e Lahore",
-    "age": "89",
-    "phoneNumbers": "123-456-223",
-    "id": "836"
-  },
-  {
-    "firstName": "ZaidF",
-    "lastName": "Tahirm",
-    "address": "58-GGulshan e Lahore",
-    "id": "858",
-    "age": "15",
-    "phoneNumbers": "123-456-525"
-  }
-]
-2022-04-28 18:42:21 INFO  PersonRestAPI:39 -***************** Checking Response Time **************
-2022-04-28 18:42:21 INFO  PersonRestAPI:41 -Response Time is  ==> 16
-2022-04-28 18:42:21 INFO  PersonRestAPI:32 -***************** Checking Status Code **************
-2022-04-28 18:42:21 INFO  PersonRestAPI:34 -Response Code is ==> 200
-2022-04-28 18:42:21 INFO  PersonRestAPI:49 -***************** Checking Status Line **************
-2022-04-28 18:42:21 INFO  PersonRestAPI:51 -Response Line is ==> HTTP/1.1 200 OK
-2022-04-28 18:42:21 INFO  PersonRestAPI:62 -***************** Finished TC002_GetPersonDetail **************
-2022-04-28 18:42:21 INFO  PersonRestAPI:18 -***************** Started TC003_GetSinglePersonDetail **************
-2022-04-28 18:42:21 INFO  PersonRestAPI:58 -***************** Checking Content Type **************
-2022-04-28 18:42:21 INFO  PersonRestAPI:60 -Content Type is ==> application/json; charset=utf-8
-2022-04-28 18:42:21 INFO  PersonRestAPI:27 -***************** Checking Response Body **************
-2022-04-28 18:42:21 INFO  PersonRestAPI:29 -Response Body ==> {
-  "firstName": "ZaidF",
-  "lastName": "Tahirm",
-  "address": "58-GGulshan e Lahore",
-  "id": "858",
-  "age": "15",
-  "phoneNumbers": "123-456-525"
-}
-2022-04-28 18:42:21 INFO  PersonRestAPI:41 -***************** Checking Response Time **************
-2022-04-28 18:42:21 INFO  PersonRestAPI:43 -Response Time is  ==> 8
-2022-04-28 18:42:21 INFO  PersonRestAPI:34 -***************** Checking Status Code **************
-2022-04-28 18:42:21 INFO  PersonRestAPI:36 -Response Code is ==> 200
-2022-04-28 18:42:21 INFO  PersonRestAPI:51 -***************** Checking Status Line **************
-2022-04-28 18:42:21 INFO  PersonRestAPI:53 -Response Line is ==> HTTP/1.1 200 OK
-2022-04-28 18:42:21 INFO  PersonRestAPI:64 -***************** Finished TC003_GetSinglePersonDetail **************
-2022-04-28 18:42:21 INFO  PersonRestAPI:28 -***************** Started TC004_PutPerson **************
-2022-04-28 18:42:21 INFO  PersonRestAPI:80 -***************** Checking Content Type **************
-2022-04-28 18:42:21 INFO  PersonRestAPI:82 -Content Type is ==> application/json; charset=utf-8
-2022-04-28 18:42:21 INFO  PersonRestAPI:63 -***************** Checking Response Time **************
-2022-04-28 18:42:21 INFO  PersonRestAPI:65 -Response Time is  ==> 11
-2022-04-28 18:42:21 INFO  PersonRestAPI:56 -***************** Checking Status Code **************
-2022-04-28 18:42:21 INFO  PersonRestAPI:58 -Response Code is ==> 200
-2022-04-28 18:42:21 INFO  PersonRestAPI:73 -***************** Checking Status Line **************
-2022-04-28 18:42:21 INFO  PersonRestAPI:75 -Response Line is ==> HTTP/1.1 200 OK
-2022-04-28 18:42:21 INFO  PersonRestAPI:86 -***************** Finished TC004_PutPerson **************
-2022-04-28 18:42:21 INFO  PersonRestAPI:19 -***************** Started TC005_DeletePerson **************
-2022-04-28 18:42:21 INFO  PersonRestAPI:61 -***************** Checking Content Type **************
-2022-04-28 18:42:21 INFO  PersonRestAPI:63 -Content Type is ==> application/json; charset=utf-8
-2022-04-28 18:42:21 INFO  PersonRestAPI:31 -***************** Checking Response Body **************
-2022-04-28 18:42:21 INFO  PersonRestAPI:33 -Response Body ==> {}
-2022-04-28 18:42:21 INFO  PersonRestAPI:44 -***************** Checking Response Time **************
-2022-04-28 18:42:21 INFO  PersonRestAPI:46 -Response Time is  ==> 9
-2022-04-28 18:42:21 INFO  PersonRestAPI:37 -***************** Checking Status Code **************
-2022-04-28 18:42:21 INFO  PersonRestAPI:39 -Response Code is ==> 200
-2022-04-28 18:42:21 INFO  PersonRestAPI:54 -***************** Checking Status Line **************
-2022-04-28 18:42:21 INFO  PersonRestAPI:56 -Response Line is ==> HTTP/1.1 200 OK
-2022-04-28 18:42:21 INFO  PersonRestAPI:67 -***************** Finished TC005_DeletePerson **************
-2022-04-28 18:42:39 INFO  PersonRestAPI:28 -***************** Started TC001_PostPerson **************
-2022-04-28 18:42:40 INFO  PersonRestAPI:78 -***************** Checking Content Type **************
-2022-04-28 18:42:40 INFO  PersonRestAPI:80 -Content Type is ==> application/json; charset=utf-8
-2022-04-28 18:42:40 INFO  PersonRestAPI:61 -***************** Checking Response Time **************
-2022-04-28 18:42:40 INFO  PersonRestAPI:63 -Response Time is  ==> 184
-2022-04-28 18:42:40 INFO  PersonRestAPI:54 -***************** Checking Status Code **************
-2022-04-28 18:42:40 INFO  PersonRestAPI:56 -Response Code is ==> 201
-2022-04-28 18:42:40 INFO  PersonRestAPI:71 -***************** Checking Status Line **************
-2022-04-28 18:42:40 INFO  PersonRestAPI:73 -Response Line is ==> HTTP/1.1 201 Created
-2022-04-28 18:42:40 INFO  PersonRestAPI:84 -***************** Finished TC001_PostPerson **************
-2022-04-28 18:42:40 INFO  PersonRestAPI:17 -***************** Started TC002_GetPersonDetail **************
-2022-04-28 18:42:40 INFO  PersonRestAPI:56 -***************** Checking Content Type **************
-2022-04-28 18:42:40 INFO  PersonRestAPI:58 -Content Type is ==> application/json; charset=utf-8
-2022-04-28 18:42:40 INFO  PersonRestAPI:25 -***************** Checking Response Body **************
-2022-04-28 18:42:40 INFO  PersonRestAPI:27 -Response Body ==> [
-  {
-    "firstName": "Zaid ",
-    "lastName": "Tahir",
-    "age": 30,
-    "id": "1",
-    "address": "Lahore,PK",
-    "phoneNumber": "123-456-78910"
-  },
-  {
-    "firstName": "Zaidp",
-    "lastName": "Tahirs",
-    "address": "58-NGulshan e Lahore",
-    "age": "89",
-    "phoneNumbers": "123-456-223",
-    "id": "836"
-  },
-  {
-    "firstName": "ZaidO",
-    "lastName": "TahirA",
-    "address": "58-hGulshan e Lahore",
-    "id": "343",
-    "age": "36",
-    "phoneNumbers": "123-456-599"
-  }
-]
-2022-04-28 18:42:40 INFO  PersonRestAPI:39 -***************** Checking Response Time **************
-2022-04-28 18:42:40 INFO  PersonRestAPI:41 -Response Time is  ==> 15
-2022-04-28 18:42:40 INFO  PersonRestAPI:32 -***************** Checking Status Code **************
-2022-04-28 18:42:40 INFO  PersonRestAPI:34 -Response Code is ==> 200
-2022-04-28 18:42:40 INFO  PersonRestAPI:49 -***************** Checking Status Line **************
-2022-04-28 18:42:40 INFO  PersonRestAPI:51 -Response Line is ==> HTTP/1.1 200 OK
-2022-04-28 18:42:40 INFO  PersonRestAPI:62 -***************** Finished TC002_GetPersonDetail **************
-2022-04-28 18:42:40 INFO  PersonRestAPI:18 -***************** Started TC003_GetSinglePersonDetail **************
-2022-04-28 18:42:40 INFO  PersonRestAPI:58 -***************** Checking Content Type **************
-2022-04-28 18:42:40 INFO  PersonRestAPI:60 -Content Type is ==> application/json; charset=utf-8
-2022-04-28 18:42:40 INFO  PersonRestAPI:27 -***************** Checking Response Body **************
-2022-04-28 18:42:40 INFO  PersonRestAPI:29 -Response Body ==> {
-  "firstName": "ZaidO",
-  "lastName": "TahirA",
-  "address": "58-hGulshan e Lahore",
-  "id": "343",
-  "age": "36",
-  "phoneNumbers": "123-456-599"
-}
-2022-04-28 18:42:40 INFO  PersonRestAPI:41 -***************** Checking Response Time **************
-2022-04-28 18:42:40 INFO  PersonRestAPI:43 -Response Time is  ==> 9
-2022-04-28 18:42:40 INFO  PersonRestAPI:34 -***************** Checking Status Code **************
-2022-04-28 18:42:40 INFO  PersonRestAPI:36 -Response Code is ==> 200
-2022-04-28 18:42:40 INFO  PersonRestAPI:51 -***************** Checking Status Line **************
-2022-04-28 18:42:40 INFO  PersonRestAPI:53 -Response Line is ==> HTTP/1.1 200 OK
-2022-04-28 18:42:40 INFO  PersonRestAPI:64 -***************** Finished TC003_GetSinglePersonDetail **************
-2022-04-28 18:42:40 INFO  PersonRestAPI:28 -***************** Started TC004_PutPerson **************
-2022-04-28 18:42:40 INFO  PersonRestAPI:80 -***************** Checking Content Type **************
-2022-04-28 18:42:40 INFO  PersonRestAPI:82 -Content Type is ==> application/json; charset=utf-8
-2022-04-28 18:42:40 INFO  PersonRestAPI:63 -***************** Checking Response Time **************
-2022-04-28 18:42:40 INFO  PersonRestAPI:65 -Response Time is  ==> 10
-2022-04-28 18:42:40 INFO  PersonRestAPI:56 -***************** Checking Status Code **************
-2022-04-28 18:42:40 INFO  PersonRestAPI:58 -Response Code is ==> 200
-2022-04-28 18:42:40 INFO  PersonRestAPI:73 -***************** Checking Status Line **************
-2022-04-28 18:42:40 INFO  PersonRestAPI:75 -Response Line is ==> HTTP/1.1 200 OK
-2022-04-28 18:42:40 INFO  PersonRestAPI:86 -***************** Finished TC004_PutPerson **************
-2022-04-28 18:42:40 INFO  PersonRestAPI:19 -***************** Started TC005_DeletePerson **************
-2022-04-28 18:42:40 INFO  PersonRestAPI:61 -***************** Checking Content Type **************
-2022-04-28 18:42:40 INFO  PersonRestAPI:63 -Content Type is ==> application/json; charset=utf-8
-2022-04-28 18:42:40 INFO  PersonRestAPI:31 -***************** Checking Response Body **************
-2022-04-28 18:42:40 INFO  PersonRestAPI:33 -Response Body ==> {}
-2022-04-28 18:42:40 INFO  PersonRestAPI:44 -***************** Checking Response Time **************
-2022-04-28 18:42:40 INFO  PersonRestAPI:46 -Response Time is  ==> 9
-2022-04-28 18:42:40 INFO  PersonRestAPI:37 -***************** Checking Status Code **************
-2022-04-28 18:42:40 INFO  PersonRestAPI:39 -Response Code is ==> 200
-2022-04-28 18:42:40 INFO  PersonRestAPI:54 -***************** Checking Status Line **************
-2022-04-28 18:42:40 INFO  PersonRestAPI:56 -Response Line is ==> HTTP/1.1 200 OK
-2022-04-28 18:42:40 INFO  PersonRestAPI:67 -***************** Finished TC005_DeletePerson **************
-2022-04-28 18:44:52 INFO  PersonRestAPI:28 -***************** Started TC001_PostPerson **************
-2022-04-28 18:44:52 INFO  PersonRestAPI:78 -***************** Checking Content Type **************
-2022-04-28 18:44:52 INFO  PersonRestAPI:80 -Content Type is ==> application/json; charset=utf-8
-2022-04-28 18:44:52 INFO  PersonRestAPI:61 -***************** Checking Response Time **************
-2022-04-28 18:44:52 INFO  PersonRestAPI:63 -Response Time is  ==> 180
-2022-04-28 18:44:52 INFO  PersonRestAPI:54 -***************** Checking Status Code **************
-2022-04-28 18:44:52 INFO  PersonRestAPI:56 -Response Code is ==> 201
-2022-04-28 18:44:52 INFO  PersonRestAPI:71 -***************** Checking Status Line **************
-2022-04-28 18:44:52 INFO  PersonRestAPI:73 -Response Line is ==> HTTP/1.1 201 Created
-2022-04-28 18:44:52 INFO  PersonRestAPI:84 -***************** Finished TC001_PostPerson **************
-2022-04-28 18:44:52 INFO  PersonRestAPI:17 -***************** Started TC002_GetPersonDetail **************
-2022-04-28 18:44:53 INFO  PersonRestAPI:56 -***************** Checking Content Type **************
-2022-04-28 18:44:53 INFO  PersonRestAPI:58 -Content Type is ==> application/json; charset=utf-8
-2022-04-28 18:44:53 INFO  PersonRestAPI:25 -***************** Checking Response Body **************
-2022-04-28 18:44:53 INFO  PersonRestAPI:27 -Response Body ==> [
-  {
-    "firstName": "Zaid ",
-    "lastName": "Tahir",
-    "age": 30,
-    "id": "1",
-    "address": "Lahore,PK",
-    "phoneNumber": "123-456-78910"
-  },
-  {
-    "firstName": "Zaidp",
-    "lastName": "Tahirs",
-    "address": "58-NGulshan e Lahore",
-    "age": "89",
-    "phoneNumbers": "123-456-223",
-    "id": "836"
-  },
-  {
-    "firstName": "ZaidQ",
-    "lastName": "TahirK",
-    "address": "58-IGulshan e Lahore",
-    "id": "564",
-    "age": "62",
-    "phoneNumbers": "123-456-406"
-  }
-]
-2022-04-28 18:44:53 INFO  PersonRestAPI:39 -***************** Checking Response Time **************
-2022-04-28 18:44:53 INFO  PersonRestAPI:41 -Response Time is  ==> 14
-2022-04-28 18:44:53 INFO  PersonRestAPI:32 -***************** Checking Status Code **************
-2022-04-28 18:44:53 INFO  PersonRestAPI:34 -Response Code is ==> 200
-2022-04-28 18:44:53 INFO  PersonRestAPI:49 -***************** Checking Status Line **************
-2022-04-28 18:44:53 INFO  PersonRestAPI:51 -Response Line is ==> HTTP/1.1 200 OK
-2022-04-28 18:44:53 INFO  PersonRestAPI:62 -***************** Finished TC002_GetPersonDetail **************
-2022-04-28 18:44:53 INFO  PersonRestAPI:18 -***************** Started TC003_GetSinglePersonDetail **************
-2022-04-28 18:44:53 INFO  PersonRestAPI:58 -***************** Checking Content Type **************
-2022-04-28 18:44:53 INFO  PersonRestAPI:60 -Content Type is ==> application/json; charset=utf-8
-2022-04-28 18:44:53 INFO  PersonRestAPI:27 -***************** Checking Response Body **************
-2022-04-28 18:44:53 INFO  PersonRestAPI:29 -Response Body ==> {
-  "firstName": "ZaidQ",
-  "lastName": "TahirK",
-  "address": "58-IGulshan e Lahore",
-  "id": "564",
-  "age": "62",
-  "phoneNumbers": "123-456-406"
-}
-2022-04-28 18:44:53 INFO  PersonRestAPI:41 -***************** Checking Response Time **************
-2022-04-28 18:44:53 INFO  PersonRestAPI:43 -Response Time is  ==> 8
-2022-04-28 18:44:53 INFO  PersonRestAPI:34 -***************** Checking Status Code **************
-2022-04-28 18:44:53 INFO  PersonRestAPI:36 -Response Code is ==> 200
-2022-04-28 18:44:53 INFO  PersonRestAPI:51 -***************** Checking Status Line **************
-2022-04-28 18:44:53 INFO  PersonRestAPI:53 -Response Line is ==> HTTP/1.1 200 OK
-2022-04-28 18:44:53 INFO  PersonRestAPI:64 -***************** Finished TC003_GetSinglePersonDetail **************
-2022-04-28 18:44:53 INFO  PersonRestAPI:28 -***************** Started TC004_PutPerson **************
-2022-04-28 18:44:53 INFO  PersonRestAPI:80 -***************** Checking Content Type **************
-2022-04-28 18:44:53 INFO  PersonRestAPI:82 -Content Type is ==> application/json; charset=utf-8
-2022-04-28 18:44:53 INFO  PersonRestAPI:63 -***************** Checking Response Time **************
-2022-04-28 18:44:53 INFO  PersonRestAPI:65 -Response Time is  ==> 10
-2022-04-28 18:44:53 INFO  PersonRestAPI:56 -***************** Checking Status Code **************
-2022-04-28 18:44:53 INFO  PersonRestAPI:58 -Response Code is ==> 200
-2022-04-28 18:44:53 INFO  PersonRestAPI:73 -***************** Checking Status Line **************
-2022-04-28 18:44:53 INFO  PersonRestAPI:75 -Response Line is ==> HTTP/1.1 200 OK
-2022-04-28 18:44:53 INFO  PersonRestAPI:86 -***************** Finished TC004_PutPerson **************
-2022-04-28 18:44:53 INFO  PersonRestAPI:19 -***************** Started TC005_DeletePerson **************
-2022-04-28 18:44:53 INFO  PersonRestAPI:61 -***************** Checking Content Type **************
-2022-04-28 18:44:53 INFO  PersonRestAPI:63 -Content Type is ==> application/json; charset=utf-8
-2022-04-28 18:44:53 INFO  PersonRestAPI:31 -***************** Checking Response Body **************
-2022-04-28 18:44:53 INFO  PersonRestAPI:33 -Response Body ==> {}
-2022-04-28 18:44:53 INFO  PersonRestAPI:44 -***************** Checking Response Time **************
-2022-04-28 18:44:53 INFO  PersonRestAPI:46 -Response Time is  ==> 8
-2022-04-28 18:44:53 INFO  PersonRestAPI:37 -***************** Checking Status Code **************
-2022-04-28 18:44:53 INFO  PersonRestAPI:39 -Response Code is ==> 200
-2022-04-28 18:44:53 INFO  PersonRestAPI:54 -***************** Checking Status Line **************
-2022-04-28 18:44:53 INFO  PersonRestAPI:56 -Response Line is ==> HTTP/1.1 200 OK
-2022-04-28 18:44:53 INFO  PersonRestAPI:67 -***************** Finished TC005_DeletePerson **************
-2022-04-28 18:45:28 INFO  PersonRestAPI:28 -***************** Started TC001_PostPerson **************
-2022-04-28 18:45:29 INFO  PersonRestAPI:78 -***************** Checking Content Type **************
-2022-04-28 18:45:29 INFO  PersonRestAPI:80 -Content Type is ==> application/json; charset=utf-8
-2022-04-28 18:45:29 INFO  PersonRestAPI:61 -***************** Checking Response Time **************
-2022-04-28 18:45:29 INFO  PersonRestAPI:63 -Response Time is  ==> 182
-2022-04-28 18:45:29 INFO  PersonRestAPI:54 -***************** Checking Status Code **************
-2022-04-28 18:45:29 INFO  PersonRestAPI:56 -Response Code is ==> 201
-2022-04-28 18:45:29 INFO  PersonRestAPI:71 -***************** Checking Status Line **************
-2022-04-28 18:45:29 INFO  PersonRestAPI:73 -Response Line is ==> HTTP/1.1 201 Created
-2022-04-28 18:45:29 INFO  PersonRestAPI:84 -***************** Finished TC001_PostPerson **************
-2022-04-28 18:45:29 INFO  PersonRestAPI:17 -***************** Started TC002_GetPersonDetail **************
-2022-04-28 18:45:29 INFO  PersonRestAPI:56 -***************** Checking Content Type **************
-2022-04-28 18:45:29 INFO  PersonRestAPI:58 -Content Type is ==> application/json; charset=utf-8
-2022-04-28 18:45:29 INFO  PersonRestAPI:25 -***************** Checking Response Body **************
-2022-04-28 18:45:29 INFO  PersonRestAPI:27 -Response Body ==> [
-  {
-    "firstName": "Zaid ",
-    "lastName": "Tahir",
-    "age": 30,
-    "id": "1",
-    "address": "Lahore,PK",
-    "phoneNumber": "123-456-78910"
-  },
-  {
-    "firstName": "Zaidp",
-    "lastName": "Tahirs",
-    "address": "58-NGulshan e Lahore",
-    "age": "89",
-    "phoneNumbers": "123-456-223",
-    "id": "836"
-  },
-  {
-    "firstName": "ZaidX",
-    "lastName": "Tahiru",
-    "address": "58-AGulshan e Lahore",
-    "id": "888",
-    "age": "48",
-    "phoneNumbers": "123-456-130"
-  }
-]
-2022-04-28 18:45:29 INFO  PersonRestAPI:39 -***************** Checking Response Time **************
-2022-04-28 18:45:29 INFO  PersonRestAPI:41 -Response Time is  ==> 16
-2022-04-28 18:45:29 INFO  PersonRestAPI:32 -***************** Checking Status Code **************
-2022-04-28 18:45:29 INFO  PersonRestAPI:34 -Response Code is ==> 200
-2022-04-28 18:45:29 INFO  PersonRestAPI:49 -***************** Checking Status Line **************
-2022-04-28 18:45:29 INFO  PersonRestAPI:51 -Response Line is ==> HTTP/1.1 200 OK
-2022-04-28 18:45:29 INFO  PersonRestAPI:62 -***************** Finished TC002_GetPersonDetail **************
-2022-04-28 18:45:29 INFO  PersonRestAPI:18 -***************** Started TC003_GetSinglePersonDetail **************
-2022-04-28 18:45:29 INFO  PersonRestAPI:58 -***************** Checking Content Type **************
-2022-04-28 18:45:29 INFO  PersonRestAPI:60 -Content Type is ==> application/json; charset=utf-8
-2022-04-28 18:45:29 INFO  PersonRestAPI:27 -***************** Checking Response Body **************
-2022-04-28 18:45:29 INFO  PersonRestAPI:29 -Response Body ==> {
-  "firstName": "ZaidX",
-  "lastName": "Tahiru",
-  "address": "58-AGulshan e Lahore",
-  "id": "888",
-  "age": "48",
-  "phoneNumbers": "123-456-130"
-}
-2022-04-28 18:45:29 INFO  PersonRestAPI:41 -***************** Checking Response Time **************
-2022-04-28 18:45:29 INFO  PersonRestAPI:43 -Response Time is  ==> 8
-2022-04-28 18:45:29 INFO  PersonRestAPI:34 -***************** Checking Status Code **************
-2022-04-28 18:45:29 INFO  PersonRestAPI:36 -Response Code is ==> 200
-2022-04-28 18:45:29 INFO  PersonRestAPI:51 -***************** Checking Status Line **************
-2022-04-28 18:45:29 INFO  PersonRestAPI:53 -Response Line is ==> HTTP/1.1 200 OK
-2022-04-28 18:45:29 INFO  PersonRestAPI:64 -***************** Finished TC003_GetSinglePersonDetail **************
-2022-04-28 18:45:29 INFO  PersonRestAPI:28 -***************** Started TC004_PutPerson **************
-2022-04-28 18:45:29 INFO  PersonRestAPI:80 -***************** Checking Content Type **************
-2022-04-28 18:45:29 INFO  PersonRestAPI:82 -Content Type is ==> application/json; charset=utf-8
-2022-04-28 18:45:29 INFO  PersonRestAPI:63 -***************** Checking Response Time **************
-2022-04-28 18:45:29 INFO  PersonRestAPI:65 -Response Time is  ==> 12
-2022-04-28 18:45:29 INFO  PersonRestAPI:56 -***************** Checking Status Code **************
-2022-04-28 18:45:29 INFO  PersonRestAPI:58 -Response Code is ==> 200
-2022-04-28 18:45:29 INFO  PersonRestAPI:73 -***************** Checking Status Line **************
-2022-04-28 18:45:29 INFO  PersonRestAPI:75 -Response Line is ==> HTTP/1.1 200 OK
-2022-04-28 18:45:29 INFO  PersonRestAPI:86 -***************** Finished TC004_PutPerson **************
-2022-04-28 18:45:29 INFO  PersonRestAPI:19 -***************** Started TC005_DeletePerson **************
-2022-04-28 18:45:29 INFO  PersonRestAPI:61 -***************** Checking Content Type **************
-2022-04-28 18:45:29 INFO  PersonRestAPI:63 -Content Type is ==> application/json; charset=utf-8
-2022-04-28 18:45:29 INFO  PersonRestAPI:31 -***************** Checking Response Body **************
-2022-04-28 18:45:29 INFO  PersonRestAPI:33 -Response Body ==> {}
-2022-04-28 18:45:29 INFO  PersonRestAPI:44 -***************** Checking Response Time **************
-2022-04-28 18:45:29 INFO  PersonRestAPI:46 -Response Time is  ==> 10
-2022-04-28 18:45:29 INFO  PersonRestAPI:37 -***************** Checking Status Code **************
-2022-04-28 18:45:29 INFO  PersonRestAPI:39 -Response Code is ==> 200
-2022-04-28 18:45:29 INFO  PersonRestAPI:54 -***************** Checking Status Line **************
-2022-04-28 18:45:29 INFO  PersonRestAPI:56 -Response Line is ==> HTTP/1.1 200 OK
-2022-04-28 18:45:29 INFO  PersonRestAPI:67 -***************** Finished TC005_DeletePerson **************
-2022-04-29 01:21:07 INFO  PersonRestAPI:28 -***************** Started TC001_PostPerson **************
-2022-04-29 01:21:08 INFO  PersonRestAPI:78 -***************** Checking Content Type **************
-2022-04-29 01:21:08 INFO  PersonRestAPI:80 -Content Type is ==> application/json; charset=utf-8
-2022-04-29 01:21:08 INFO  PersonRestAPI:61 -***************** Checking Response Time **************
-2022-04-29 01:21:08 INFO  PersonRestAPI:63 -Response Time is  ==> 195
-2022-04-29 01:21:08 INFO  PersonRestAPI:54 -***************** Checking Status Code **************
-2022-04-29 01:21:08 INFO  PersonRestAPI:56 -Response Code is ==> 201
-2022-04-29 01:21:08 INFO  PersonRestAPI:71 -***************** Checking Status Line **************
-2022-04-29 01:21:08 INFO  PersonRestAPI:73 -Response Line is ==> HTTP/1.1 201 Created
-2022-04-29 01:21:08 INFO  PersonRestAPI:84 -***************** Finished TC001_PostPerson **************
-2022-04-29 01:21:08 INFO  PersonRestAPI:17 -***************** Started TC002_GetPersonDetail **************
-2022-04-29 01:21:08 INFO  PersonRestAPI:56 -***************** Checking Content Type **************
-2022-04-29 01:21:08 INFO  PersonRestAPI:58 -Content Type is ==> application/json; charset=utf-8
-2022-04-29 01:21:08 INFO  PersonRestAPI:25 -***************** Checking Response Body **************
-2022-04-29 01:21:08 INFO  PersonRestAPI:27 -Response Body ==> [
-  {
-    "firstName": "Zaid ",
-    "lastName": "Tahir",
-    "age": 30,
-    "id": "1",
-    "address": "Lahore,PK",
-    "phoneNumber": "123-456-78910"
-  },
-  {
-    "firstName": "Zaidp",
-    "lastName": "Tahirs",
-    "address": "58-NGulshan e Lahore",
-    "age": "89",
-    "phoneNumbers": "123-456-223",
-    "id": "836"
-  },
-  {
-    "firstName": "Zaidt",
-    "lastName": "Tahirt",
-    "address": "58-IGulshan e Lahore",
-    "id": "940",
-    "age": "53",
-    "phoneNumbers": "123-456-480"
-  }
-]
-2022-04-29 01:21:08 INFO  PersonRestAPI:39 -***************** Checking Response Time **************
-2022-04-29 01:21:08 INFO  PersonRestAPI:41 -Response Time is  ==> 14
-2022-04-29 01:21:08 INFO  PersonRestAPI:32 -***************** Checking Status Code **************
-2022-04-29 01:21:08 INFO  PersonRestAPI:34 -Response Code is ==> 200
-2022-04-29 01:21:08 INFO  PersonRestAPI:49 -***************** Checking Status Line **************
-2022-04-29 01:21:08 INFO  PersonRestAPI:51 -Response Line is ==> HTTP/1.1 200 OK
-2022-04-29 01:21:08 INFO  PersonRestAPI:62 -***************** Finished TC002_GetPersonDetail **************
-2022-04-29 01:21:08 INFO  PersonRestAPI:18 -***************** Started TC003_GetSinglePersonDetail **************
-2022-04-29 01:21:08 INFO  PersonRestAPI:58 -***************** Checking Content Type **************
-2022-04-29 01:21:08 INFO  PersonRestAPI:60 -Content Type is ==> application/json; charset=utf-8
-2022-04-29 01:21:08 INFO  PersonRestAPI:27 -***************** Checking Response Body **************
-2022-04-29 01:21:08 INFO  PersonRestAPI:29 -Response Body ==> {
-  "firstName": "Zaidt",
-  "lastName": "Tahirt",
-  "address": "58-IGulshan e Lahore",
-  "id": "940",
-  "age": "53",
-  "phoneNumbers": "123-456-480"
-}
-2022-04-29 01:21:08 INFO  PersonRestAPI:41 -***************** Checking Response Time **************
-2022-04-29 01:21:08 INFO  PersonRestAPI:43 -Response Time is  ==> 9
-2022-04-29 01:21:08 INFO  PersonRestAPI:34 -***************** Checking Status Code **************
-2022-04-29 01:21:08 INFO  PersonRestAPI:36 -Response Code is ==> 200
-2022-04-29 01:21:08 INFO  PersonRestAPI:51 -***************** Checking Status Line **************
-2022-04-29 01:21:08 INFO  PersonRestAPI:53 -Response Line is ==> HTTP/1.1 200 OK
-2022-04-29 01:21:08 INFO  PersonRestAPI:64 -***************** Finished TC003_GetSinglePersonDetail **************
-2022-04-29 01:21:08 INFO  PersonRestAPI:28 -***************** Started TC004_PutPerson **************
-2022-04-29 01:21:08 INFO  PersonRestAPI:80 -***************** Checking Content Type **************
-2022-04-29 01:21:08 INFO  PersonRestAPI:82 -Content Type is ==> application/json; charset=utf-8
-2022-04-29 01:21:08 INFO  PersonRestAPI:63 -***************** Checking Response Time **************
-2022-04-29 01:21:08 INFO  PersonRestAPI:65 -Response Time is  ==> 13
-2022-04-29 01:21:08 INFO  PersonRestAPI:56 -***************** Checking Status Code **************
-2022-04-29 01:21:08 INFO  PersonRestAPI:58 -Response Code is ==> 200
-2022-04-29 01:21:08 INFO  PersonRestAPI:73 -***************** Checking Status Line **************
-2022-04-29 01:21:08 INFO  PersonRestAPI:75 -Response Line is ==> HTTP/1.1 200 OK
-2022-04-29 01:21:08 INFO  PersonRestAPI:86 -***************** Finished TC004_PutPerson **************
-2022-04-29 01:21:08 INFO  PersonRestAPI:19 -***************** Started TC005_DeletePerson **************
-2022-04-29 01:21:08 INFO  PersonRestAPI:61 -***************** Checking Content Type **************
-2022-04-29 01:21:08 INFO  PersonRestAPI:63 -Content Type is ==> application/json; charset=utf-8
-2022-04-29 01:21:08 INFO  PersonRestAPI:31 -***************** Checking Response Body **************
-2022-04-29 01:21:08 INFO  PersonRestAPI:33 -Response Body ==> {}
-2022-04-29 01:21:08 INFO  PersonRestAPI:44 -***************** Checking Response Time **************
-2022-04-29 01:21:08 INFO  PersonRestAPI:46 -Response Time is  ==> 9
-2022-04-29 01:21:08 INFO  PersonRestAPI:37 -***************** Checking Status Code **************
-2022-04-29 01:21:08 INFO  PersonRestAPI:39 -Response Code is ==> 200
-2022-04-29 01:21:08 INFO  PersonRestAPI:54 -***************** Checking Status Line **************
-2022-04-29 01:21:08 INFO  PersonRestAPI:56 -Response Line is ==> HTTP/1.1 200 OK
-2022-04-29 01:21:08 INFO  PersonRestAPI:67 -***************** Finished TC005_DeletePerson **************
-2022-04-29 03:02:10 INFO  PersonRestAPI:28 -***************** Started TC001_PostPerson **************
-2022-04-29 03:02:10 INFO  PersonRestAPI:78 -***************** Checking Content Type **************
-2022-04-29 03:02:10 INFO  PersonRestAPI:80 -Content Type is ==> application/json; charset=utf-8
-2022-04-29 03:02:10 INFO  PersonRestAPI:61 -***************** Checking Response Time **************
-2022-04-29 03:02:10 INFO  PersonRestAPI:63 -Response Time is  ==> 168
-2022-04-29 03:02:10 INFO  PersonRestAPI:54 -***************** Checking Status Code **************
-2022-04-29 03:02:10 INFO  PersonRestAPI:56 -Response Code is ==> 201
-2022-04-29 03:02:10 INFO  PersonRestAPI:71 -***************** Checking Status Line **************
-2022-04-29 03:02:10 INFO  PersonRestAPI:73 -Response Line is ==> HTTP/1.1 201 Created
-2022-04-29 03:02:10 INFO  PersonRestAPI:84 -***************** Finished TC001_PostPerson **************
-2022-04-29 03:02:10 INFO  PersonRestAPI:17 -***************** Started TC002_GetPersonDetail **************
-2022-04-29 03:02:10 INFO  PersonRestAPI:56 -***************** Checking Content Type **************
-2022-04-29 03:02:10 INFO  PersonRestAPI:58 -Content Type is ==> application/json; charset=utf-8
-2022-04-29 03:02:10 INFO  PersonRestAPI:25 -***************** Checking Response Body **************
-2022-04-29 03:02:10 INFO  PersonRestAPI:27 -Response Body ==> [
-  {
-    "firstName": "Zaid ",
-    "lastName": "Tahir",
-    "age": 30,
-    "id": "1",
-    "address": "Lahore,PK",
-    "phoneNumber": "123-456-78910"
-  },
-  {
-    "firstName": "Zaidp",
-    "lastName": "Tahirs",
-    "address": "58-NGulshan e Lahore",
-    "age": "89",
-    "phoneNumbers": "123-456-223",
-    "id": "836"
-  },
-  {
-    "firstName": "ZaidL",
-    "lastName": "TahirZ",
-    "address": "58-iGulshan e Lahore",
-    "id": "506",
-    "age": "59",
-    "phoneNumbers": "123-456-654"
-  }
-]
-2022-04-29 03:02:10 INFO  PersonRestAPI:39 -***************** Checking Response Time **************
-2022-04-29 03:02:10 INFO  PersonRestAPI:41 -Response Time is  ==> 13
-2022-04-29 03:02:10 INFO  PersonRestAPI:32 -***************** Checking Status Code **************
-2022-04-29 03:02:10 INFO  PersonRestAPI:34 -Response Code is ==> 200
-2022-04-29 03:02:10 INFO  PersonRestAPI:49 -***************** Checking Status Line **************
-2022-04-29 03:02:10 INFO  PersonRestAPI:51 -Response Line is ==> HTTP/1.1 200 OK
-2022-04-29 03:02:10 INFO  PersonRestAPI:62 -***************** Finished TC002_GetPersonDetail **************
-2022-04-29 03:02:10 INFO  PersonRestAPI:18 -***************** Started TC003_GetSinglePersonDetail **************
-2022-04-29 03:02:10 INFO  PersonRestAPI:58 -***************** Checking Content Type **************
-2022-04-29 03:02:10 INFO  PersonRestAPI:60 -Content Type is ==> application/json; charset=utf-8
-2022-04-29 03:02:10 INFO  PersonRestAPI:27 -***************** Checking Response Body **************
-2022-04-29 03:02:10 INFO  PersonRestAPI:29 -Response Body ==> {
-  "firstName": "ZaidL",
-  "lastName": "TahirZ",
-  "address": "58-iGulshan e Lahore",
-  "id": "506",
-  "age": "59",
-  "phoneNumbers": "123-456-654"
-}
-2022-04-29 03:02:10 INFO  PersonRestAPI:41 -***************** Checking Response Time **************
-2022-04-29 03:02:10 INFO  PersonRestAPI:43 -Response Time is  ==> 8
-2022-04-29 03:02:10 INFO  PersonRestAPI:34 -***************** Checking Status Code **************
-2022-04-29 03:02:10 INFO  PersonRestAPI:36 -Response Code is ==> 200
-2022-04-29 03:02:10 INFO  PersonRestAPI:51 -***************** Checking Status Line **************
-2022-04-29 03:02:10 INFO  PersonRestAPI:53 -Response Line is ==> HTTP/1.1 200 OK
-2022-04-29 03:02:10 INFO  PersonRestAPI:64 -***************** Finished TC003_GetSinglePersonDetail **************
-2022-04-29 03:02:10 INFO  PersonRestAPI:28 -***************** Started TC004_PutPerson **************
-2022-04-29 03:02:10 INFO  PersonRestAPI:80 -***************** Checking Content Type **************
-2022-04-29 03:02:10 INFO  PersonRestAPI:82 -Content Type is ==> application/json; charset=utf-8
-2022-04-29 03:02:10 INFO  PersonRestAPI:63 -***************** Checking Response Time **************
-2022-04-29 03:02:10 INFO  PersonRestAPI:65 -Response Time is  ==> 12
-2022-04-29 03:02:10 INFO  PersonRestAPI:56 -***************** Checking Status Code **************
-2022-04-29 03:02:10 INFO  PersonRestAPI:58 -Response Code is ==> 200
-2022-04-29 03:02:10 INFO  PersonRestAPI:73 -***************** Checking Status Line **************
-2022-04-29 03:02:10 INFO  PersonRestAPI:75 -Response Line is ==> HTTP/1.1 200 OK
-2022-04-29 03:02:10 INFO  PersonRestAPI:86 -***************** Finished TC004_PutPerson **************
-2022-04-29 03:02:10 INFO  PersonRestAPI:19 -***************** Started TC005_DeletePerson **************
-2022-04-29 03:02:10 INFO  PersonRestAPI:61 -***************** Checking Content Type **************
-2022-04-29 03:02:10 INFO  PersonRestAPI:63 -Content Type is ==> application/json; charset=utf-8
-2022-04-29 03:02:10 INFO  PersonRestAPI:31 -***************** Checking Response Body **************
-2022-04-29 03:02:10 INFO  PersonRestAPI:33 -Response Body ==> {}
-2022-04-29 03:02:10 INFO  PersonRestAPI:44 -***************** Checking Response Time **************
-2022-04-29 03:02:10 INFO  PersonRestAPI:46 -Response Time is  ==> 9
-2022-04-29 03:02:10 INFO  PersonRestAPI:37 -***************** Checking Status Code **************
-2022-04-29 03:02:10 INFO  PersonRestAPI:39 -Response Code is ==> 200
-2022-04-29 03:02:10 INFO  PersonRestAPI:54 -***************** Checking Status Line **************
-2022-04-29 03:02:10 INFO  PersonRestAPI:56 -Response Line is ==> HTTP/1.1 200 OK
-2022-04-29 03:02:10 INFO  PersonRestAPI:67 -***************** Finished TC005_DeletePerson **************
-2022-04-29 04:10:21 INFO  PersonRestAPI:28 -***************** Started TC001_PostPerson **************
-2022-04-29 04:10:22 INFO  PersonRestAPI:78 -***************** Checking Content Type **************
-2022-04-29 04:10:22 INFO  PersonRestAPI:80 -Content Type is ==> application/json; charset=utf-8
-2022-04-29 04:10:22 INFO  PersonRestAPI:61 -***************** Checking Response Time **************
-2022-04-29 04:10:22 INFO  PersonRestAPI:63 -Response Time is  ==> 192
-2022-04-29 04:10:22 INFO  PersonRestAPI:54 -***************** Checking Status Code **************
-2022-04-29 04:10:22 INFO  PersonRestAPI:56 -Response Code is ==> 201
-2022-04-29 04:10:22 INFO  PersonRestAPI:71 -***************** Checking Status Line **************
-2022-04-29 04:10:22 INFO  PersonRestAPI:73 -Response Line is ==> HTTP/1.1 201 Created
-2022-04-29 04:10:22 INFO  PersonRestAPI:84 -***************** Finished TC001_PostPerson **************
-2022-04-29 04:10:22 INFO  PersonRestAPI:17 -***************** Started TC002_GetPersonDetail **************
-2022-04-29 04:10:22 INFO  PersonRestAPI:56 -***************** Checking Content Type **************
-2022-04-29 04:10:22 INFO  PersonRestAPI:58 -Content Type is ==> application/json; charset=utf-8
-2022-04-29 04:10:22 INFO  PersonRestAPI:25 -***************** Checking Response Body **************
-2022-04-29 04:10:22 INFO  PersonRestAPI:27 -Response Body ==> [
-  {
-    "firstName": "Zaid ",
-    "lastName": "Tahir",
-    "age": 30,
-    "id": "1",
-    "address": "Lahore,PK",
-    "phoneNumber": "123-456-78910"
-  },
-  {
-    "firstName": "Zaidp",
-    "lastName": "Tahirs",
-    "address": "58-NGulshan e Lahore",
-    "age": "89",
-    "phoneNumbers": "123-456-223",
-    "id": "836"
-  },
-  {
-    "firstName": "ZaidY",
-    "lastName": "Tahirx",
-    "address": "58-zGulshan e Lahore",
-    "id": "034",
-    "age": "18",
-    "phoneNumbers": "123-456-825"
-  }
-]
-2022-04-29 04:10:22 INFO  PersonRestAPI:39 -***************** Checking Response Time **************
-2022-04-29 04:10:22 INFO  PersonRestAPI:41 -Response Time is  ==> 15
-2022-04-29 04:10:22 INFO  PersonRestAPI:32 -***************** Checking Status Code **************
-2022-04-29 04:10:22 INFO  PersonRestAPI:34 -Response Code is ==> 200
-2022-04-29 04:10:22 INFO  PersonRestAPI:49 -***************** Checking Status Line **************
-2022-04-29 04:10:22 INFO  PersonRestAPI:51 -Response Line is ==> HTTP/1.1 200 OK
-2022-04-29 04:10:22 INFO  PersonRestAPI:62 -***************** Finished TC002_GetPersonDetail **************
-2022-04-29 04:10:22 INFO  PersonRestAPI:18 -***************** Started TC003_GetSinglePersonDetail **************
-2022-04-29 04:10:22 INFO  PersonRestAPI:58 -***************** Checking Content Type **************
-2022-04-29 04:10:22 INFO  PersonRestAPI:60 -Content Type is ==> application/json; charset=utf-8
-2022-04-29 04:10:22 INFO  PersonRestAPI:27 -***************** Checking Response Body **************
-2022-04-29 04:10:22 INFO  PersonRestAPI:29 -Response Body ==> {
-  "firstName": "ZaidY",
-  "lastName": "Tahirx",
-  "address": "58-zGulshan e Lahore",
-  "id": "034",
-  "age": "18",
-  "phoneNumbers": "123-456-825"
-}
-2022-04-29 04:10:22 INFO  PersonRestAPI:41 -***************** Checking Response Time **************
-2022-04-29 04:10:22 INFO  PersonRestAPI:43 -Response Time is  ==> 9
-2022-04-29 04:10:22 INFO  PersonRestAPI:34 -***************** Checking Status Code **************
-2022-04-29 04:10:22 INFO  PersonRestAPI:36 -Response Code is ==> 200
-2022-04-29 04:10:22 INFO  PersonRestAPI:51 -***************** Checking Status Line **************
-2022-04-29 04:10:22 INFO  PersonRestAPI:53 -Response Line is ==> HTTP/1.1 200 OK
-2022-04-29 04:10:22 INFO  PersonRestAPI:64 -***************** Finished TC003_GetSinglePersonDetail **************
-2022-04-29 04:10:22 INFO  PersonRestAPI:28 -***************** Started TC004_PutPerson **************
-2022-04-29 04:10:22 INFO  PersonRestAPI:80 -***************** Checking Content Type **************
-2022-04-29 04:10:22 INFO  PersonRestAPI:82 -Content Type is ==> application/json; charset=utf-8
-2022-04-29 04:10:22 INFO  PersonRestAPI:63 -***************** Checking Response Time **************
-2022-04-29 04:10:22 INFO  PersonRestAPI:65 -Response Time is  ==> 10
-2022-04-29 04:10:22 INFO  PersonRestAPI:56 -***************** Checking Status Code **************
-2022-04-29 04:10:22 INFO  PersonRestAPI:58 -Response Code is ==> 200
-2022-04-29 04:10:22 INFO  PersonRestAPI:73 -***************** Checking Status Line **************
-2022-04-29 04:10:22 INFO  PersonRestAPI:75 -Response Line is ==> HTTP/1.1 200 OK
-2022-04-29 04:10:22 INFO  PersonRestAPI:86 -***************** Finished TC004_PutPerson **************
-2022-04-29 04:10:22 INFO  PersonRestAPI:19 -***************** Started TC005_DeletePerson **************
-2022-04-29 04:10:22 INFO  PersonRestAPI:61 -***************** Checking Content Type **************
-2022-04-29 04:10:22 INFO  PersonRestAPI:63 -Content Type is ==> application/json; charset=utf-8
-2022-04-29 04:10:22 INFO  PersonRestAPI:31 -***************** Checking Response Body **************
-2022-04-29 04:10:22 INFO  PersonRestAPI:33 -Response Body ==> {}
-2022-04-29 04:10:22 INFO  PersonRestAPI:44 -***************** Checking Response Time **************
-2022-04-29 04:10:22 INFO  PersonRestAPI:46 -Response Time is  ==> 9
-2022-04-29 04:10:22 INFO  PersonRestAPI:37 -***************** Checking Status Code **************
-2022-04-29 04:10:22 INFO  PersonRestAPI:39 -Response Code is ==> 200
-2022-04-29 04:10:22 INFO  PersonRestAPI:54 -***************** Checking Status Line **************
-2022-04-29 04:10:22 INFO  PersonRestAPI:56 -Response Line is ==> HTTP/1.1 200 OK
-2022-04-29 04:10:22 INFO  PersonRestAPI:67 -***************** Finished TC005_DeletePerson **************
-2022-04-29 04:11:16 INFO  PersonRestAPI:28 -***************** Started TC001_PostPerson **************
-2022-04-29 04:11:16 INFO  PersonRestAPI:78 -***************** Checking Content Type **************
-2022-04-29 04:11:16 INFO  PersonRestAPI:80 -Content Type is ==> application/json; charset=utf-8
-2022-04-29 04:11:16 INFO  PersonRestAPI:61 -***************** Checking Response Time **************
-2022-04-29 04:11:16 INFO  PersonRestAPI:63 -Response Time is  ==> 233
-2022-04-29 04:11:16 INFO  PersonRestAPI:54 -***************** Checking Status Code **************
-2022-04-29 04:11:16 INFO  PersonRestAPI:56 -Response Code is ==> 201
-2022-04-29 04:11:16 INFO  PersonRestAPI:71 -***************** Checking Status Line **************
-2022-04-29 04:11:16 INFO  PersonRestAPI:73 -Response Line is ==> HTTP/1.1 201 Created
-2022-04-29 04:11:16 INFO  PersonRestAPI:84 -***************** Finished TC001_PostPerson **************
-2022-04-29 04:11:16 INFO  PersonRestAPI:17 -***************** Started TC002_GetPersonDetail **************
-2022-04-29 04:11:16 INFO  PersonRestAPI:56 -***************** Checking Content Type **************
-2022-04-29 04:11:16 INFO  PersonRestAPI:58 -Content Type is ==> application/json; charset=utf-8
-2022-04-29 04:11:16 INFO  PersonRestAPI:25 -***************** Checking Response Body **************
-2022-04-29 04:11:16 INFO  PersonRestAPI:27 -Response Body ==> [
-  {
-    "firstName": "Zaid ",
-    "lastName": "Tahir",
-    "age": 30,
-    "id": "1",
-    "address": "Lahore,PK",
-    "phoneNumber": "123-456-78910"
-  },
-  {
-    "firstName": "Zaidp",
-    "lastName": "Tahirs",
-    "address": "58-NGulshan e Lahore",
-    "age": "89",
-    "phoneNumbers": "123-456-223",
-    "id": "836"
-  },
-  {
-    "firstName": "Zaidk",
-    "lastName": "Tahirm",
-    "address": "58-HGulshan e Lahore",
-    "id": "122",
-    "age": "08",
-    "phoneNumbers": "123-456-625"
-  }
-]
-2022-04-29 04:11:16 INFO  PersonRestAPI:39 -***************** Checking Response Time **************
-2022-04-29 04:11:16 INFO  PersonRestAPI:41 -Response Time is  ==> 13
-2022-04-29 04:11:16 INFO  PersonRestAPI:32 -***************** Checking Status Code **************
-2022-04-29 04:11:16 INFO  PersonRestAPI:34 -Response Code is ==> 200
-2022-04-29 04:11:16 INFO  PersonRestAPI:49 -***************** Checking Status Line **************
-2022-04-29 04:11:16 INFO  PersonRestAPI:51 -Response Line is ==> HTTP/1.1 200 OK
-2022-04-29 04:11:16 INFO  PersonRestAPI:62 -***************** Finished TC002_GetPersonDetail **************
-2022-04-29 04:11:16 INFO  PersonRestAPI:18 -***************** Started TC003_GetSinglePersonDetail **************
-2022-04-29 04:11:16 INFO  PersonRestAPI:58 -***************** Checking Content Type **************
-2022-04-29 04:11:16 INFO  PersonRestAPI:60 -Content Type is ==> application/json; charset=utf-8
-2022-04-29 04:11:16 INFO  PersonRestAPI:27 -***************** Checking Response Body **************
-2022-04-29 04:11:16 INFO  PersonRestAPI:29 -Response Body ==> {
-  "firstName": "Zaidk",
-  "lastName": "Tahirm",
-  "address": "58-HGulshan e Lahore",
-  "id": "122",
-  "age": "08",
-  "phoneNumbers": "123-456-625"
-}
-2022-04-29 04:11:16 INFO  PersonRestAPI:41 -***************** Checking Response Time **************
-2022-04-29 04:11:16 INFO  PersonRestAPI:43 -Response Time is  ==> 9
-2022-04-29 04:11:16 INFO  PersonRestAPI:34 -***************** Checking Status Code **************
-2022-04-29 04:11:16 INFO  PersonRestAPI:36 -Response Code is ==> 200
-2022-04-29 04:11:16 INFO  PersonRestAPI:51 -***************** Checking Status Line **************
-2022-04-29 04:11:16 INFO  PersonRestAPI:53 -Response Line is ==> HTTP/1.1 200 OK
-2022-04-29 04:11:16 INFO  PersonRestAPI:64 -***************** Finished TC003_GetSinglePersonDetail **************
-2022-04-29 04:11:16 INFO  PersonRestAPI:28 -***************** Started TC004_PutPerson **************
-2022-04-29 04:11:16 INFO  PersonRestAPI:80 -***************** Checking Content Type **************
-2022-04-29 04:11:16 INFO  PersonRestAPI:82 -Content Type is ==> application/json; charset=utf-8
-2022-04-29 04:11:16 INFO  PersonRestAPI:63 -***************** Checking Response Time **************
-2022-04-29 04:11:16 INFO  PersonRestAPI:65 -Response Time is  ==> 11
-2022-04-29 04:11:16 INFO  PersonRestAPI:56 -***************** Checking Status Code **************
-2022-04-29 04:11:16 INFO  PersonRestAPI:58 -Response Code is ==> 200
-2022-04-29 04:11:16 INFO  PersonRestAPI:73 -***************** Checking Status Line **************
-2022-04-29 04:11:16 INFO  PersonRestAPI:75 -Response Line is ==> HTTP/1.1 200 OK
-2022-04-29 04:11:16 INFO  PersonRestAPI:86 -***************** Finished TC004_PutPerson **************
-2022-04-29 04:11:16 INFO  PersonRestAPI:19 -***************** Started TC005_DeletePerson **************
-2022-04-29 04:11:16 INFO  PersonRestAPI:61 -***************** Checking Content Type **************
-2022-04-29 04:11:16 INFO  PersonRestAPI:63 -Content Type is ==> application/json; charset=utf-8
-2022-04-29 04:11:16 INFO  PersonRestAPI:31 -***************** Checking Response Body **************
-2022-04-29 04:11:16 INFO  PersonRestAPI:33 -Response Body ==> {}
-2022-04-29 04:11:16 INFO  PersonRestAPI:44 -***************** Checking Response Time **************
-2022-04-29 04:11:16 INFO  PersonRestAPI:46 -Response Time is  ==> 9
-2022-04-29 04:11:16 INFO  PersonRestAPI:37 -***************** Checking Status Code **************
-2022-04-29 04:11:16 INFO  PersonRestAPI:39 -Response Code is ==> 200
-2022-04-29 04:11:16 INFO  PersonRestAPI:54 -***************** Checking Status Line **************
-2022-04-29 04:11:16 INFO  PersonRestAPI:56 -Response Line is ==> HTTP/1.1 200 OK
-2022-04-29 04:11:16 INFO  PersonRestAPI:67 -***************** Finished TC005_DeletePerson **************
-2022-04-29 04:12:03 INFO  PersonRestAPI:28 -***************** Started TC001_PostPerson **************
-2022-04-29 04:12:04 INFO  PersonRestAPI:78 -***************** Checking Content Type **************
-2022-04-29 04:12:04 INFO  PersonRestAPI:80 -Content Type is ==> application/json; charset=utf-8
-2022-04-29 04:12:04 INFO  PersonRestAPI:61 -***************** Checking Response Time **************
-2022-04-29 04:12:04 INFO  PersonRestAPI:63 -Response Time is  ==> 164
-2022-04-29 04:12:04 INFO  PersonRestAPI:54 -***************** Checking Status Code **************
-2022-04-29 04:12:04 INFO  PersonRestAPI:56 -Response Code is ==> 201
-2022-04-29 04:12:04 INFO  PersonRestAPI:71 -***************** Checking Status Line **************
-2022-04-29 04:12:04 INFO  PersonRestAPI:73 -Response Line is ==> HTTP/1.1 201 Created
-2022-04-29 04:12:04 INFO  PersonRestAPI:84 -***************** Finished TC001_PostPerson **************
-2022-04-29 04:12:04 INFO  PersonRestAPI:17 -***************** Started TC002_GetPersonDetail **************
-2022-04-29 04:12:04 INFO  PersonRestAPI:56 -***************** Checking Content Type **************
-2022-04-29 04:12:04 INFO  PersonRestAPI:58 -Content Type is ==> application/json; charset=utf-8
-2022-04-29 04:12:04 INFO  PersonRestAPI:25 -***************** Checking Response Body **************
-2022-04-29 04:12:04 INFO  PersonRestAPI:27 -Response Body ==> [
-  {
-    "firstName": "Zaid ",
-    "lastName": "Tahir",
-    "age": 30,
-    "id": "1",
-    "address": "Lahore,PK",
-    "phoneNumber": "123-456-78910"
-  },
-  {
-    "firstName": "Zaidp",
-    "lastName": "Tahirs",
-    "address": "58-NGulshan e Lahore",
-    "age": "89",
-    "phoneNumbers": "123-456-223",
-    "id": "836"
-  },
-  {
-    "firstName": "Zaidp",
-    "lastName": "TahirW",
-    "address": "58-LGulshan e Lahore",
-    "id": "661",
-    "age": "92",
-    "phoneNumbers": "123-456-542"
-  }
-]
-2022-04-29 04:12:04 INFO  PersonRestAPI:39 -***************** Checking Response Time **************
-2022-04-29 04:12:04 INFO  PersonRestAPI:41 -Response Time is  ==> 14
-2022-04-29 04:12:04 INFO  PersonRestAPI:32 -***************** Checking Status Code **************
-2022-04-29 04:12:04 INFO  PersonRestAPI:34 -Response Code is ==> 200
-2022-04-29 04:12:04 INFO  PersonRestAPI:49 -***************** Checking Status Line **************
-2022-04-29 04:12:04 INFO  PersonRestAPI:51 -Response Line is ==> HTTP/1.1 200 OK
-2022-04-29 04:12:04 INFO  PersonRestAPI:62 -***************** Finished TC002_GetPersonDetail **************
-2022-04-29 04:12:04 INFO  PersonRestAPI:18 -***************** Started TC003_GetSinglePersonDetail **************
-2022-04-29 04:12:04 INFO  PersonRestAPI:58 -***************** Checking Content Type **************
-2022-04-29 04:12:04 INFO  PersonRestAPI:60 -Content Type is ==> application/json; charset=utf-8
-2022-04-29 04:12:04 INFO  PersonRestAPI:27 -***************** Checking Response Body **************
-2022-04-29 04:12:04 INFO  PersonRestAPI:29 -Response Body ==> {
-  "firstName": "Zaidp",
-  "lastName": "TahirW",
-  "address": "58-LGulshan e Lahore",
-  "id": "661",
-  "age": "92",
-  "phoneNumbers": "123-456-542"
-}
-2022-04-29 04:12:04 INFO  PersonRestAPI:41 -***************** Checking Response Time **************
-2022-04-29 04:12:04 INFO  PersonRestAPI:43 -Response Time is  ==> 8
-2022-04-29 04:12:04 INFO  PersonRestAPI:34 -***************** Checking Status Code **************
-2022-04-29 04:12:04 INFO  PersonRestAPI:36 -Response Code is ==> 200
-2022-04-29 04:12:04 INFO  PersonRestAPI:51 -***************** Checking Status Line **************
-2022-04-29 04:12:04 INFO  PersonRestAPI:53 -Response Line is ==> HTTP/1.1 200 OK
-2022-04-29 04:12:04 INFO  PersonRestAPI:64 -***************** Finished TC003_GetSinglePersonDetail **************
-2022-04-29 04:12:04 INFO  PersonRestAPI:28 -***************** Started TC004_PutPerson **************
-2022-04-29 04:12:04 INFO  PersonRestAPI:80 -***************** Checking Content Type **************
-2022-04-29 04:12:04 INFO  PersonRestAPI:82 -Content Type is ==> application/json; charset=utf-8
-2022-04-29 04:12:04 INFO  PersonRestAPI:63 -***************** Checking Response Time **************
-2022-04-29 04:12:04 INFO  PersonRestAPI:65 -Response Time is  ==> 11
-2022-04-29 04:12:04 INFO  PersonRestAPI:56 -***************** Checking Status Code **************
-2022-04-29 04:12:04 INFO  PersonRestAPI:58 -Response Code is ==> 200
-2022-04-29 04:12:04 INFO  PersonRestAPI:73 -***************** Checking Status Line **************
-2022-04-29 04:12:04 INFO  PersonRestAPI:75 -Response Line is ==> HTTP/1.1 200 OK
-2022-04-29 04:12:04 INFO  PersonRestAPI:86 -***************** Finished TC004_PutPerson **************
-2022-04-29 04:12:04 INFO  PersonRestAPI:19 -***************** Started TC005_DeletePerson **************
-2022-04-29 04:12:04 INFO  PersonRestAPI:61 -***************** Checking Content Type **************
-2022-04-29 04:12:04 INFO  PersonRestAPI:63 -Content Type is ==> application/json; charset=utf-8
-2022-04-29 04:12:04 INFO  PersonRestAPI:31 -***************** Checking Response Body **************
-2022-04-29 04:12:04 INFO  PersonRestAPI:33 -Response Body ==> {}
-2022-04-29 04:12:04 INFO  PersonRestAPI:44 -***************** Checking Response Time **************
-2022-04-29 04:12:04 INFO  PersonRestAPI:46 -Response Time is  ==> 10
-2022-04-29 04:12:04 INFO  PersonRestAPI:37 -***************** Checking Status Code **************
-2022-04-29 04:12:04 INFO  PersonRestAPI:39 -Response Code is ==> 200
-2022-04-29 04:12:04 INFO  PersonRestAPI:54 -***************** Checking Status Line **************
-2022-04-29 04:12:04 INFO  PersonRestAPI:56 -Response Line is ==> HTTP/1.1 200 OK
-2022-04-29 04:12:04 INFO  PersonRestAPI:67 -***************** Finished TC005_DeletePerson **************
-2022-04-29 11:45:45 INFO  PersonRestAPI:28 -***************** Started TC001_PostPerson **************
-2022-04-29 11:45:46 INFO  PersonRestAPI:78 -***************** Checking Content Type **************
-2022-04-29 11:45:46 INFO  PersonRestAPI:80 -Content Type is ==> application/json; charset=utf-8
-2022-04-29 11:45:46 INFO  PersonRestAPI:61 -***************** Checking Response Time **************
-2022-04-29 11:45:46 INFO  PersonRestAPI:63 -Response Time is  ==> 362
-2022-04-29 11:45:46 INFO  PersonRestAPI:54 -***************** Checking Status Code **************
-2022-04-29 11:45:46 INFO  PersonRestAPI:56 -Response Code is ==> 201
-2022-04-29 11:45:46 INFO  PersonRestAPI:71 -***************** Checking Status Line **************
-2022-04-29 11:45:46 INFO  PersonRestAPI:73 -Response Line is ==> HTTP/1.1 201 Created
-2022-04-29 11:45:46 INFO  PersonRestAPI:84 -***************** Finished TC001_PostPerson **************
-2022-04-29 11:45:46 INFO  PersonRestAPI:17 -***************** Started TC002_GetPersonDetail **************
-2022-04-29 11:45:46 INFO  PersonRestAPI:56 -***************** Checking Content Type **************
-2022-04-29 11:45:46 INFO  PersonRestAPI:58 -Content Type is ==> application/json; charset=utf-8
-2022-04-29 11:45:46 INFO  PersonRestAPI:25 -***************** Checking Response Body **************
-2022-04-29 11:45:46 INFO  PersonRestAPI:27 -Response Body ==> [
-  {
-    "firstName": "Zaid ",
-    "lastName": "Tahir",
-    "age": 30,
-    "id": "1",
-    "address": "Lahore,PK",
-    "phoneNumber": "123-456-78910"
-  },
-  {
-    "firstName": "Zaidp",
-    "lastName": "Tahirs",
-    "address": "58-NGulshan e Lahore",
-    "age": "89",
-    "phoneNumbers": "123-456-223",
-    "id": "836"
   },
   {
     "firstName": "Zaidj",
-    "lastName": "TahirJ",
-    "address": "58-CGulshan e Lahore",
-    "id": "601",
-    "age": "09",
-    "phoneNumbers": "123-456-610"
-  }
-]
-2022-04-29 11:45:46 INFO  PersonRestAPI:39 -***************** Checking Response Time **************
-2022-04-29 11:45:46 INFO  PersonRestAPI:41 -Response Time is  ==> 20
-2022-04-29 11:45:46 INFO  PersonRestAPI:32 -***************** Checking Status Code **************
-2022-04-29 11:45:46 INFO  PersonRestAPI:34 -Response Code is ==> 200
-2022-04-29 11:45:46 INFO  PersonRestAPI:49 -***************** Checking Status Line **************
-2022-04-29 11:45:46 INFO  PersonRestAPI:51 -Response Line is ==> HTTP/1.1 200 OK
-2022-04-29 11:45:46 INFO  PersonRestAPI:62 -***************** Finished TC002_GetPersonDetail **************
-2022-04-29 11:45:46 INFO  PersonRestAPI:18 -***************** Started TC003_GetSinglePersonDetail **************
-2022-04-29 11:45:46 INFO  PersonRestAPI:58 -***************** Checking Content Type **************
-2022-04-29 11:45:46 INFO  PersonRestAPI:60 -Content Type is ==> application/json; charset=utf-8
-2022-04-29 11:45:46 INFO  PersonRestAPI:27 -***************** Checking Response Body **************
-2022-04-29 11:45:46 INFO  PersonRestAPI:29 -Response Body ==> {
-  "firstName": "Zaidj",
-  "lastName": "TahirJ",
-  "address": "58-CGulshan e Lahore",
-  "id": "601",
-  "age": "09",
-  "phoneNumbers": "123-456-610"
-}
-2022-04-29 11:45:46 INFO  PersonRestAPI:41 -***************** Checking Response Time **************
-2022-04-29 11:45:46 INFO  PersonRestAPI:43 -Response Time is  ==> 12
-2022-04-29 11:45:46 INFO  PersonRestAPI:34 -***************** Checking Status Code **************
-2022-04-29 11:45:46 INFO  PersonRestAPI:36 -Response Code is ==> 200
-2022-04-29 11:45:46 INFO  PersonRestAPI:51 -***************** Checking Status Line **************
-2022-04-29 11:45:46 INFO  PersonRestAPI:53 -Response Line is ==> HTTP/1.1 200 OK
-2022-04-29 11:45:46 INFO  PersonRestAPI:64 -***************** Finished TC003_GetSinglePersonDetail **************
-2022-04-29 11:45:46 INFO  PersonRestAPI:28 -***************** Started TC004_PutPerson **************
-2022-04-29 11:45:46 INFO  PersonRestAPI:80 -***************** Checking Content Type **************
-2022-04-29 11:45:46 INFO  PersonRestAPI:82 -Content Type is ==> application/json; charset=utf-8
-2022-04-29 11:45:46 INFO  PersonRestAPI:63 -***************** Checking Response Time **************
-2022-04-29 11:45:46 INFO  PersonRestAPI:65 -Response Time is  ==> 17
-2022-04-29 11:45:46 INFO  PersonRestAPI:56 -***************** Checking Status Code **************
-2022-04-29 11:45:46 INFO  PersonRestAPI:58 -Response Code is ==> 200
-2022-04-29 11:45:46 INFO  PersonRestAPI:73 -***************** Checking Status Line **************
-2022-04-29 11:45:46 INFO  PersonRestAPI:75 -Response Line is ==> HTTP/1.1 200 OK
-2022-04-29 11:45:46 INFO  PersonRestAPI:86 -***************** Finished TC004_PutPerson **************
-2022-04-29 11:45:46 INFO  PersonRestAPI:19 -***************** Started TC005_DeletePerson **************
-2022-04-29 11:45:46 INFO  PersonRestAPI:61 -***************** Checking Content Type **************
-2022-04-29 11:45:46 INFO  PersonRestAPI:63 -Content Type is ==> application/json; charset=utf-8
-2022-04-29 11:45:46 INFO  PersonRestAPI:31 -***************** Checking Response Body **************
-2022-04-29 11:45:46 INFO  PersonRestAPI:33 -Response Body ==> {}
-2022-04-29 11:45:46 INFO  PersonRestAPI:44 -***************** Checking Response Time **************
-2022-04-29 11:45:46 INFO  PersonRestAPI:46 -Response Time is  ==> 11
-2022-04-29 11:45:46 INFO  PersonRestAPI:37 -***************** Checking Status Code **************
-2022-04-29 11:45:46 INFO  PersonRestAPI:39 -Response Code is ==> 200
-2022-04-29 11:45:46 INFO  PersonRestAPI:54 -***************** Checking Status Line **************
-2022-04-29 11:45:46 INFO  PersonRestAPI:56 -Response Line is ==> HTTP/1.1 200 OK
-2022-04-29 11:45:46 INFO  PersonRestAPI:67 -***************** Finished TC005_DeletePerson **************
-2022-04-29 11:54:30 INFO  PersonRestAPI:28 -***************** Started TC001_PostPerson **************
-2022-04-29 11:54:31 INFO  PersonRestAPI:78 -***************** Checking Content Type **************
-2022-04-29 11:54:31 INFO  PersonRestAPI:80 -Content Type is ==> application/json; charset=utf-8
-2022-04-29 11:54:32 INFO  PersonRestAPI:61 -***************** Checking Response Time **************
-2022-04-29 11:54:32 INFO  PersonRestAPI:63 -Response Time is  ==> 328
-2022-04-29 11:54:32 INFO  PersonRestAPI:54 -***************** Checking Status Code **************
-2022-04-29 11:54:32 INFO  PersonRestAPI:56 -Response Code is ==> 201
-2022-04-29 11:54:32 INFO  PersonRestAPI:71 -***************** Checking Status Line **************
-2022-04-29 11:54:32 INFO  PersonRestAPI:73 -Response Line is ==> HTTP/1.1 201 Created
-2022-04-29 11:54:32 INFO  PersonRestAPI:84 -***************** Finished TC001_PostPerson **************
-2022-04-29 11:54:32 INFO  PersonRestAPI:17 -***************** Started TC002_GetPersonDetail **************
-2022-04-29 11:54:32 INFO  PersonRestAPI:56 -***************** Checking Content Type **************
-2022-04-29 11:54:32 INFO  PersonRestAPI:58 -Content Type is ==> application/json; charset=utf-8
-2022-04-29 11:54:32 INFO  PersonRestAPI:25 -***************** Checking Response Body **************
-2022-04-29 11:54:32 INFO  PersonRestAPI:27 -Response Body ==> [
-  {
-    "firstName": "Zaid ",
-    "lastName": "Tahir",
-    "age": 30,
-    "id": "1",
-    "address": "Lahore,PK",
-    "phoneNumber": "123-456-78910"
-  },
-  {
-    "firstName": "Zaidp",
-    "lastName": "Tahirs",
-    "address": "58-NGulshan e Lahore",
-    "age": "89",
-    "phoneNumbers": "123-456-223",
-    "id": "836"
-  },
-  {
-    "firstName": "Zaidy",
-    "lastName": "TahirE",
-    "address": "58-JGulshan e Lahore",
-    "id": "123",
-    "age": "03",
-    "phoneNumbers": "123-456-871"
-  }
-]
-2022-04-29 11:54:32 INFO  PersonRestAPI:39 -***************** Checking Response Time **************
-2022-04-29 11:54:32 INFO  PersonRestAPI:41 -Response Time is  ==> 19
-2022-04-29 11:54:32 INFO  PersonRestAPI:32 -***************** Checking Status Code **************
-2022-04-29 11:54:32 INFO  PersonRestAPI:34 -Response Code is ==> 200
-2022-04-29 11:54:32 INFO  PersonRestAPI:49 -***************** Checking Status Line **************
-2022-04-29 11:54:32 INFO  PersonRestAPI:51 -Response Line is ==> HTTP/1.1 200 OK
-2022-04-29 11:54:32 INFO  PersonRestAPI:62 -***************** Finished TC002_GetPersonDetail **************
-2022-04-29 11:54:32 INFO  PersonRestAPI:18 -***************** Started TC003_GetSinglePersonDetail **************
-2022-04-29 11:54:32 INFO  PersonRestAPI:58 -***************** Checking Content Type **************
-2022-04-29 11:54:32 INFO  PersonRestAPI:60 -Content Type is ==> application/json; charset=utf-8
-2022-04-29 11:54:32 INFO  PersonRestAPI:27 -***************** Checking Response Body **************
-2022-04-29 11:54:32 INFO  PersonRestAPI:29 -Response Body ==> {
-  "firstName": "Zaidy",
-  "lastName": "TahirE",
-  "address": "58-JGulshan e Lahore",
-  "id": "123",
-  "age": "03",
-  "phoneNumbers": "123-456-871"
-}
-2022-04-29 11:54:32 INFO  PersonRestAPI:41 -***************** Checking Response Time **************
-2022-04-29 11:54:32 INFO  PersonRestAPI:43 -Response Time is  ==> 12
-2022-04-29 11:54:32 INFO  PersonRestAPI:34 -***************** Checking Status Code **************
-2022-04-29 11:54:32 INFO  PersonRestAPI:36 -Response Code is ==> 200
-2022-04-29 11:54:32 INFO  PersonRestAPI:51 -***************** Checking Status Line **************
-2022-04-29 11:54:32 INFO  PersonRestAPI:53 -Response Line is ==> HTTP/1.1 200 OK
-2022-04-29 11:54:32 INFO  PersonRestAPI:64 -***************** Finished TC003_GetSinglePersonDetail **************
-2022-04-29 11:54:32 INFO  PersonRestAPI:28 -***************** Started TC004_PutPerson **************
-2022-04-29 11:54:32 INFO  PersonRestAPI:80 -***************** Checking Content Type **************
-2022-04-29 11:54:32 INFO  PersonRestAPI:82 -Content Type is ==> application/json; charset=utf-8
-2022-04-29 11:54:32 INFO  PersonRestAPI:63 -***************** Checking Response Time **************
-2022-04-29 11:54:32 INFO  PersonRestAPI:65 -Response Time is  ==> 15
-2022-04-29 11:54:32 INFO  PersonRestAPI:56 -***************** Checking Status Code **************
-2022-04-29 11:54:32 INFO  PersonRestAPI:58 -Response Code is ==> 200
-2022-04-29 11:54:32 INFO  PersonRestAPI:73 -***************** Checking Status Line **************
-2022-04-29 11:54:32 INFO  PersonRestAPI:75 -Response Line is ==> HTTP/1.1 200 OK
-2022-04-29 11:54:32 INFO  PersonRestAPI:86 -***************** Finished TC004_PutPerson **************
-2022-04-29 11:54:32 INFO  PersonRestAPI:19 -***************** Started TC005_DeletePerson **************
-2022-04-29 11:54:32 INFO  PersonRestAPI:61 -***************** Checking Content Type **************
-2022-04-29 11:54:32 INFO  PersonRestAPI:63 -Content Type is ==> application/json; charset=utf-8
-2022-04-29 11:54:32 INFO  PersonRestAPI:31 -***************** Checking Response Body **************
-2022-04-29 11:54:32 INFO  PersonRestAPI:33 -Response Body ==> {}
-2022-04-29 11:54:32 INFO  PersonRestAPI:44 -***************** Checking Response Time **************
-2022-04-29 11:54:32 INFO  PersonRestAPI:46 -Response Time is  ==> 11
-2022-04-29 11:54:32 INFO  PersonRestAPI:37 -***************** Checking Status Code **************
-2022-04-29 11:54:32 INFO  PersonRestAPI:39 -Response Code is ==> 200
-2022-04-29 11:54:32 INFO  PersonRestAPI:54 -***************** Checking Status Line **************
-2022-04-29 11:54:32 INFO  PersonRestAPI:56 -Response Line is ==> HTTP/1.1 200 OK
-2022-04-29 11:54:32 INFO  PersonRestAPI:67 -***************** Finished TC005_DeletePerson **************
-2022-04-29 11:55:08 INFO  PersonRestAPI:28 -***************** Started TC001_PostPerson **************
-2022-04-29 11:55:09 INFO  PersonRestAPI:78 -***************** Checking Content Type **************
-2022-04-29 11:55:09 INFO  PersonRestAPI:80 -Content Type is ==> application/json; charset=utf-8
-2022-04-29 11:55:09 INFO  PersonRestAPI:61 -***************** Checking Response Time **************
-2022-04-29 11:55:09 INFO  PersonRestAPI:63 -Response Time is  ==> 324
-2022-04-29 11:55:09 INFO  PersonRestAPI:54 -***************** Checking Status Code **************
-2022-04-29 11:55:09 INFO  PersonRestAPI:56 -Response Code is ==> 201
-2022-04-29 11:55:09 INFO  PersonRestAPI:71 -***************** Checking Status Line **************
-2022-04-29 11:55:09 INFO  PersonRestAPI:73 -Response Line is ==> HTTP/1.1 201 Created
-2022-04-29 11:55:09 INFO  PersonRestAPI:84 -***************** Finished TC001_PostPerson **************
-2022-04-29 11:55:09 INFO  PersonRestAPI:17 -***************** Started TC002_GetPersonDetail **************
-2022-04-29 11:55:09 INFO  PersonRestAPI:56 -***************** Checking Content Type **************
-2022-04-29 11:55:09 INFO  PersonRestAPI:58 -Content Type is ==> application/json; charset=utf-8
-2022-04-29 11:55:09 INFO  PersonRestAPI:25 -***************** Checking Response Body **************
-2022-04-29 11:55:09 INFO  PersonRestAPI:27 -Response Body ==> [
-  {
-    "firstName": "Zaid ",
-    "lastName": "Tahir",
-    "age": 30,
-    "id": "1",
-    "address": "Lahore,PK",
-    "phoneNumber": "123-456-78910"
-  },
-  {
-    "firstName": "Zaidp",
-    "lastName": "Tahirs",
-    "address": "58-NGulshan e Lahore",
-    "age": "89",
-    "phoneNumbers": "123-456-223",
-    "id": "836"
-  },
-  {
-    "firstName": "ZaidN",
-    "lastName": "TahirO",
-    "address": "58-eGulshan e Lahore",
-    "id": "489",
-    "age": "00",
-    "phoneNumbers": "123-456-433"
-  }
-]
-2022-04-29 11:55:09 INFO  PersonRestAPI:39 -***************** Checking Response Time **************
-2022-04-29 11:55:09 INFO  PersonRestAPI:41 -Response Time is  ==> 20
-2022-04-29 11:55:09 INFO  PersonRestAPI:32 -***************** Checking Status Code **************
-2022-04-29 11:55:09 INFO  PersonRestAPI:34 -Response Code is ==> 200
-2022-04-29 11:55:09 INFO  PersonRestAPI:49 -***************** Checking Status Line **************
-2022-04-29 11:55:09 INFO  PersonRestAPI:51 -Response Line is ==> HTTP/1.1 200 OK
-2022-04-29 11:55:09 INFO  PersonRestAPI:62 -***************** Finished TC002_GetPersonDetail **************
-2022-04-29 11:55:09 INFO  PersonRestAPI:18 -***************** Started TC003_GetSinglePersonDetail **************
-2022-04-29 11:55:09 INFO  PersonRestAPI:58 -***************** Checking Content Type **************
-2022-04-29 11:55:09 INFO  PersonRestAPI:60 -Content Type is ==> application/json; charset=utf-8
-2022-04-29 11:55:09 INFO  PersonRestAPI:27 -***************** Checking Response Body **************
-2022-04-29 11:55:09 INFO  PersonRestAPI:29 -Response Body ==> {
-  "firstName": "ZaidN",
-  "lastName": "TahirO",
-  "address": "58-eGulshan e Lahore",
-  "id": "489",
-  "age": "00",
-  "phoneNumbers": "123-456-433"
-}
-2022-04-29 11:55:09 INFO  PersonRestAPI:41 -***************** Checking Response Time **************
-2022-04-29 11:55:09 INFO  PersonRestAPI:43 -Response Time is  ==> 12
-2022-04-29 11:55:09 INFO  PersonRestAPI:34 -***************** Checking Status Code **************
-2022-04-29 11:55:09 INFO  PersonRestAPI:36 -Response Code is ==> 200
-2022-04-29 11:55:09 INFO  PersonRestAPI:51 -***************** Checking Status Line **************
-2022-04-29 11:55:09 INFO  PersonRestAPI:53 -Response Line is ==> HTTP/1.1 200 OK
-2022-04-29 11:55:09 INFO  PersonRestAPI:64 -***************** Finished TC003_GetSinglePersonDetail **************
-2022-04-29 11:55:09 INFO  PersonRestAPI:28 -***************** Started TC004_PutPerson **************
-2022-04-29 11:55:09 INFO  PersonRestAPI:80 -***************** Checking Content Type **************
-2022-04-29 11:55:09 INFO  PersonRestAPI:82 -Content Type is ==> application/json; charset=utf-8
-2022-04-29 11:55:09 INFO  PersonRestAPI:63 -***************** Checking Response Time **************
-2022-04-29 11:55:09 INFO  PersonRestAPI:65 -Response Time is  ==> 14
-2022-04-29 11:55:09 INFO  PersonRestAPI:56 -***************** Checking Status Code **************
-2022-04-29 11:55:09 INFO  PersonRestAPI:58 -Response Code is ==> 200
-2022-04-29 11:55:09 INFO  PersonRestAPI:73 -***************** Checking Status Line **************
-2022-04-29 11:55:09 INFO  PersonRestAPI:75 -Response Line is ==> HTTP/1.1 200 OK
-2022-04-29 11:55:09 INFO  PersonRestAPI:86 -***************** Finished TC004_PutPerson **************
-2022-04-29 11:55:09 INFO  PersonRestAPI:19 -***************** Started TC005_DeletePerson **************
-2022-04-29 11:55:09 INFO  PersonRestAPI:61 -***************** Checking Content Type **************
-2022-04-29 11:55:09 INFO  PersonRestAPI:63 -Content Type is ==> application/json; charset=utf-8
-2022-04-29 11:55:09 INFO  PersonRestAPI:31 -***************** Checking Response Body **************
-2022-04-29 11:55:09 INFO  PersonRestAPI:33 -Response Body ==> {}
-2022-04-29 11:55:09 INFO  PersonRestAPI:44 -***************** Checking Response Time **************
-2022-04-29 11:55:09 INFO  PersonRestAPI:46 -Response Time is  ==> 12
-2022-04-29 11:55:09 INFO  PersonRestAPI:37 -***************** Checking Status Code **************
-2022-04-29 11:55:09 INFO  PersonRestAPI:39 -Response Code is ==> 200
-2022-04-29 11:55:09 INFO  PersonRestAPI:54 -***************** Checking Status Line **************
-2022-04-29 11:55:09 INFO  PersonRestAPI:56 -Response Line is ==> HTTP/1.1 200 OK
-2022-04-29 11:55:09 INFO  PersonRestAPI:67 -***************** Finished TC005_DeletePerson **************
-2022-04-29 11:57:19 INFO  PersonRestAPI:28 -***************** Started TC001_PostPerson **************
-2022-04-29 11:57:20 INFO  PersonRestAPI:78 -***************** Checking Content Type **************
-2022-04-29 11:57:20 INFO  PersonRestAPI:80 -Content Type is ==> application/json; charset=utf-8
-2022-04-29 11:57:20 INFO  PersonRestAPI:61 -***************** Checking Response Time **************
-2022-04-29 11:57:20 INFO  PersonRestAPI:63 -Response Time is  ==> 326
-2022-04-29 11:57:20 INFO  PersonRestAPI:54 -***************** Checking Status Code **************
-2022-04-29 11:57:20 INFO  PersonRestAPI:56 -Response Code is ==> 201
-2022-04-29 11:57:20 INFO  PersonRestAPI:71 -***************** Checking Status Line **************
-2022-04-29 11:57:20 INFO  PersonRestAPI:73 -Response Line is ==> HTTP/1.1 201 Created
-2022-04-29 11:57:20 INFO  PersonRestAPI:84 -***************** Finished TC001_PostPerson **************
-2022-04-29 11:57:20 INFO  PersonRestAPI:17 -***************** Started TC002_GetPersonDetail **************
-2022-04-29 11:57:20 INFO  PersonRestAPI:56 -***************** Checking Content Type **************
-2022-04-29 11:57:20 INFO  PersonRestAPI:58 -Content Type is ==> application/json; charset=utf-8
-2022-04-29 11:57:20 INFO  PersonRestAPI:25 -***************** Checking Response Body **************
-2022-04-29 11:57:20 INFO  PersonRestAPI:27 -Response Body ==> [
-  {
-    "firstName": "Zaid ",
-    "lastName": "Tahir",
-    "age": 30,
-    "id": "1",
-    "address": "Lahore,PK",
-    "phoneNumber": "123-456-78910"
-  },
-  {
-    "firstName": "Zaidp",
-    "lastName": "Tahirs",
-    "address": "58-NGulshan e Lahore",
-    "age": "89",
-    "phoneNumbers": "123-456-223",
-    "id": "836"
-  },
-  {
-    "firstName": "Zaidi",
-    "lastName": "TahirB",
-    "address": "58-AGulshan e Lahore",
-    "id": "969",
+    "lastName": "Tahirc",
+    "address": "58-mGulshan e Lahore",
+    "id": "079",
     "age": "21",
-    "phoneNumbers": "123-456-098"
+    "phoneNumbers": "123-456-635"
   }
 ]
-2022-04-29 11:57:20 INFO  PersonRestAPI:39 -***************** Checking Response Time **************
-2022-04-29 11:57:20 INFO  PersonRestAPI:41 -Response Time is  ==> 20
-2022-04-29 11:57:20 INFO  PersonRestAPI:32 -***************** Checking Status Code **************
-2022-04-29 11:57:20 INFO  PersonRestAPI:34 -Response Code is ==> 200
-2022-04-29 11:57:20 INFO  PersonRestAPI:49 -***************** Checking Status Line **************
-2022-04-29 11:57:20 INFO  PersonRestAPI:51 -Response Line is ==> HTTP/1.1 200 OK
-2022-04-29 11:57:20 INFO  PersonRestAPI:62 -***************** Finished TC002_GetPersonDetail **************
-2022-04-29 11:57:20 INFO  PersonRestAPI:18 -***************** Started TC003_GetSinglePersonDetail **************
-2022-04-29 11:57:20 INFO  PersonRestAPI:58 -***************** Checking Content Type **************
-2022-04-29 11:57:20 INFO  PersonRestAPI:60 -Content Type is ==> application/json; charset=utf-8
-2022-04-29 11:57:20 INFO  PersonRestAPI:27 -***************** Checking Response Body **************
-2022-04-29 11:57:20 INFO  PersonRestAPI:29 -Response Body ==> {
-  "firstName": "Zaidi",
-  "lastName": "TahirB",
-  "address": "58-AGulshan e Lahore",
-  "id": "969",
+2022-05-13 16:58:19 INFO  PersonRestAPI:39 -***************** Checking Response Time **************
+2022-05-13 16:58:19 INFO  PersonRestAPI:41 -Response Time is  ==> 15
+2022-05-13 16:58:19 INFO  PersonRestAPI:32 -***************** Checking Status Code **************
+2022-05-13 16:58:19 INFO  PersonRestAPI:34 -Response Code is ==> 200
+2022-05-13 16:58:19 INFO  PersonRestAPI:49 -***************** Checking Status Line **************
+2022-05-13 16:58:19 INFO  PersonRestAPI:51 -Response Line is ==> HTTP/1.1 200 OK
+2022-05-13 16:58:19 INFO  PersonRestAPI:62 -***************** Finished TC002_GetPersonDetail **************
+2022-05-13 16:58:19 INFO  PersonRestAPI:18 -***************** Started TC003_GetSinglePersonDetail **************
+2022-05-13 16:58:19 INFO  PersonRestAPI:58 -***************** Checking Content Type **************
+2022-05-13 16:58:19 INFO  PersonRestAPI:60 -Content Type is ==> application/json; charset=utf-8
+2022-05-13 16:58:19 INFO  PersonRestAPI:27 -***************** Checking Response Body **************
+2022-05-13 16:58:19 INFO  PersonRestAPI:29 -Response Body ==> {
+  "firstName": "Zaidj",
+  "lastName": "Tahirc",
+  "address": "58-mGulshan e Lahore",
+  "id": "079",
   "age": "21",
-  "phoneNumbers": "123-456-098"
+  "phoneNumbers": "123-456-635"
 }
-2022-04-29 11:57:20 INFO  PersonRestAPI:41 -***************** Checking Response Time **************
-2022-04-29 11:57:20 INFO  PersonRestAPI:43 -Response Time is  ==> 10
-2022-04-29 11:57:20 INFO  PersonRestAPI:34 -***************** Checking Status Code **************
-2022-04-29 11:57:20 INFO  PersonRestAPI:36 -Response Code is ==> 200
-2022-04-29 11:57:20 INFO  PersonRestAPI:51 -***************** Checking Status Line **************
-2022-04-29 11:57:20 INFO  PersonRestAPI:53 -Response Line is ==> HTTP/1.1 200 OK
-2022-04-29 11:57:20 INFO  PersonRestAPI:64 -***************** Finished TC003_GetSinglePersonDetail **************
-2022-04-29 11:57:20 INFO  PersonRestAPI:28 -***************** Started TC004_PutPerson **************
-2022-04-29 11:57:20 INFO  PersonRestAPI:80 -***************** Checking Content Type **************
-2022-04-29 11:57:20 INFO  PersonRestAPI:82 -Content Type is ==> application/json; charset=utf-8
-2022-04-29 11:57:20 INFO  PersonRestAPI:63 -***************** Checking Response Time **************
-2022-04-29 11:57:20 INFO  PersonRestAPI:65 -Response Time is  ==> 14
-2022-04-29 11:57:20 INFO  PersonRestAPI:56 -***************** Checking Status Code **************
-2022-04-29 11:57:20 INFO  PersonRestAPI:58 -Response Code is ==> 200
-2022-04-29 11:57:20 INFO  PersonRestAPI:73 -***************** Checking Status Line **************
-2022-04-29 11:57:20 INFO  PersonRestAPI:75 -Response Line is ==> HTTP/1.1 200 OK
-2022-04-29 11:57:20 INFO  PersonRestAPI:86 -***************** Finished TC004_PutPerson **************
-2022-04-29 11:57:20 INFO  PersonRestAPI:19 -***************** Started TC005_DeletePerson **************
-2022-04-29 11:57:20 INFO  PersonRestAPI:61 -***************** Checking Content Type **************
-2022-04-29 11:57:20 INFO  PersonRestAPI:63 -Content Type is ==> application/json; charset=utf-8
-2022-04-29 11:57:20 INFO  PersonRestAPI:31 -***************** Checking Response Body **************
-2022-04-29 11:57:20 INFO  PersonRestAPI:33 -Response Body ==> {}
-2022-04-29 11:57:20 INFO  PersonRestAPI:44 -***************** Checking Response Time **************
-2022-04-29 11:57:20 INFO  PersonRestAPI:46 -Response Time is  ==> 11
-2022-04-29 11:57:20 INFO  PersonRestAPI:37 -***************** Checking Status Code **************
-2022-04-29 11:57:20 INFO  PersonRestAPI:39 -Response Code is ==> 200
-2022-04-29 11:57:20 INFO  PersonRestAPI:54 -***************** Checking Status Line **************
-2022-04-29 11:57:20 INFO  PersonRestAPI:56 -Response Line is ==> HTTP/1.1 200 OK
-2022-04-29 11:57:20 INFO  PersonRestAPI:67 -***************** Finished TC005_DeletePerson **************
-2022-04-29 12:18:44 INFO  PersonRestAPI:28 -***************** Started TC001_PostPerson **************
-2022-04-29 12:18:45 INFO  PersonRestAPI:78 -***************** Checking Content Type **************
-2022-04-29 12:18:45 INFO  PersonRestAPI:80 -Content Type is ==> application/json; charset=utf-8
-2022-04-29 12:18:45 INFO  PersonRestAPI:61 -***************** Checking Response Time **************
-2022-04-29 12:18:45 INFO  PersonRestAPI:63 -Response Time is  ==> 305
-2022-04-29 12:18:45 INFO  PersonRestAPI:54 -***************** Checking Status Code **************
-2022-04-29 12:18:45 INFO  PersonRestAPI:56 -Response Code is ==> 201
-2022-04-29 12:18:45 INFO  PersonRestAPI:71 -***************** Checking Status Line **************
-2022-04-29 12:18:45 INFO  PersonRestAPI:73 -Response Line is ==> HTTP/1.1 201 Created
-2022-04-29 12:18:45 INFO  PersonRestAPI:84 -***************** Finished TC001_PostPerson **************
-2022-04-29 12:18:45 INFO  PersonRestAPI:17 -***************** Started TC002_GetPersonDetail **************
-2022-04-29 12:18:45 INFO  PersonRestAPI:56 -***************** Checking Content Type **************
-2022-04-29 12:18:45 INFO  PersonRestAPI:58 -Content Type is ==> application/json; charset=utf-8
-2022-04-29 12:18:45 INFO  PersonRestAPI:25 -***************** Checking Response Body **************
-2022-04-29 12:18:45 INFO  PersonRestAPI:27 -Response Body ==> [
+2022-05-13 16:58:19 INFO  PersonRestAPI:41 -***************** Checking Response Time **************
+2022-05-13 16:58:19 INFO  PersonRestAPI:43 -Response Time is  ==> 8
+2022-05-13 16:58:19 INFO  PersonRestAPI:34 -***************** Checking Status Code **************
+2022-05-13 16:58:19 INFO  PersonRestAPI:36 -Response Code is ==> 200
+2022-05-13 16:58:19 INFO  PersonRestAPI:51 -***************** Checking Status Line **************
+2022-05-13 16:58:19 INFO  PersonRestAPI:53 -Response Line is ==> HTTP/1.1 200 OK
+2022-05-13 16:58:19 INFO  PersonRestAPI:64 -***************** Finished TC003_GetSinglePersonDetail **************
+2022-05-13 16:58:19 INFO  PersonRestAPI:28 -***************** Started TC004_PutPerson **************
+2022-05-13 16:58:19 INFO  PersonRestAPI:80 -***************** Checking Content Type **************
+2022-05-13 16:58:19 INFO  PersonRestAPI:82 -Content Type is ==> application/json; charset=utf-8
+2022-05-13 16:58:19 INFO  PersonRestAPI:63 -***************** Checking Response Time **************
+2022-05-13 16:58:19 INFO  PersonRestAPI:65 -Response Time is  ==> 11
+2022-05-13 16:58:19 INFO  PersonRestAPI:56 -***************** Checking Status Code **************
+2022-05-13 16:58:19 INFO  PersonRestAPI:58 -Response Code is ==> 200
+2022-05-13 16:58:19 INFO  PersonRestAPI:73 -***************** Checking Status Line **************
+2022-05-13 16:58:19 INFO  PersonRestAPI:75 -Response Line is ==> HTTP/1.1 200 OK
+2022-05-13 16:58:19 INFO  PersonRestAPI:86 -***************** Finished TC004_PutPerson **************
+2022-05-13 16:58:19 INFO  PersonRestAPI:19 -***************** Started TC005_DeletePerson **************
+2022-05-13 16:58:19 INFO  PersonRestAPI:61 -***************** Checking Content Type **************
+2022-05-13 16:58:19 INFO  PersonRestAPI:63 -Content Type is ==> application/json; charset=utf-8
+2022-05-13 16:58:19 INFO  PersonRestAPI:31 -***************** Checking Response Body **************
+2022-05-13 16:58:19 INFO  PersonRestAPI:33 -Response Body ==> {}
+2022-05-13 16:58:19 INFO  PersonRestAPI:44 -***************** Checking Response Time **************
+2022-05-13 16:58:19 INFO  PersonRestAPI:46 -Response Time is  ==> 9
+2022-05-13 16:58:19 INFO  PersonRestAPI:37 -***************** Checking Status Code **************
+2022-05-13 16:58:19 INFO  PersonRestAPI:39 -Response Code is ==> 200
+2022-05-13 16:58:19 INFO  PersonRestAPI:54 -***************** Checking Status Line **************
+2022-05-13 16:58:19 INFO  PersonRestAPI:56 -Response Line is ==> HTTP/1.1 200 OK
+2022-05-13 16:58:19 INFO  PersonRestAPI:67 -***************** Finished TC005_DeletePerson **************
+2022-05-13 17:00:12 INFO  PersonRestAPI:28 -***************** Started TC001_PostPerson **************
+2022-05-13 17:00:18 INFO  PersonRestAPI:78 -***************** Checking Content Type **************
+2022-05-13 17:00:18 INFO  PersonRestAPI:80 -Content Type is ==> application/json; charset=utf-8
+2022-05-13 17:00:18 INFO  PersonRestAPI:61 -***************** Checking Response Time **************
+2022-05-13 17:00:18 INFO  PersonRestAPI:63 -Response Time is  ==> 189
+2022-05-13 17:00:18 INFO  PersonRestAPI:54 -***************** Checking Status Code **************
+2022-05-13 17:00:18 INFO  PersonRestAPI:56 -Response Code is ==> 201
+2022-05-13 17:00:18 INFO  PersonRestAPI:71 -***************** Checking Status Line **************
+2022-05-13 17:00:18 INFO  PersonRestAPI:73 -Response Line is ==> HTTP/1.1 201 Created
+2022-05-13 17:00:18 INFO  PersonRestAPI:84 -***************** Finished TC001_PostPerson **************
+2022-05-13 17:00:18 INFO  PersonRestAPI:17 -***************** Started TC002_GetPersonDetail **************
+2022-05-13 17:00:18 INFO  PersonRestAPI:56 -***************** Checking Content Type **************
+2022-05-13 17:00:18 INFO  PersonRestAPI:58 -Content Type is ==> application/json; charset=utf-8
+2022-05-13 17:00:18 INFO  PersonRestAPI:25 -***************** Checking Response Body **************
+2022-05-13 17:00:18 INFO  PersonRestAPI:27 -Response Body ==> [
   {
     "firstName": "Zaid ",
     "lastName": "Tahir",
@@ -1702,226 +126,637 @@
     "id": "836"
   },
   {
-    "firstName": "ZaidJ",
-    "lastName": "Tahirs",
-    "address": "58-sGulshan e Lahore",
-    "id": "604",
-    "age": "60",
-    "phoneNumbers": "123-456-647"
+    "firstName": "Saad ",
+    "lastName": "Lala",
+    "age": 31,
+    "id": "3",
+    "address": "Islamabad,PK",
+    "phoneNumber": "123-456-78910"
+  },
+  {
+    "firstName": "Zaidz",
+    "lastName": "TahirL",
+    "address": "58-JGulshan e Lahore",
+    "id": "510",
+    "age": "81",
+    "phoneNumbers": "123-456-760"
   }
 ]
-2022-04-29 12:18:45 INFO  PersonRestAPI:39 -***************** Checking Response Time **************
-2022-04-29 12:18:45 INFO  PersonRestAPI:41 -Response Time is  ==> 20
-2022-04-29 12:18:45 INFO  PersonRestAPI:32 -***************** Checking Status Code **************
-2022-04-29 12:18:45 INFO  PersonRestAPI:34 -Response Code is ==> 200
-2022-04-29 12:18:45 INFO  PersonRestAPI:49 -***************** Checking Status Line **************
-2022-04-29 12:18:45 INFO  PersonRestAPI:51 -Response Line is ==> HTTP/1.1 200 OK
-2022-04-29 12:18:45 INFO  PersonRestAPI:62 -***************** Finished TC002_GetPersonDetail **************
-2022-04-29 12:18:45 INFO  PersonRestAPI:18 -***************** Started TC003_GetSinglePersonDetail **************
-2022-04-29 12:18:45 INFO  PersonRestAPI:58 -***************** Checking Content Type **************
-2022-04-29 12:18:45 INFO  PersonRestAPI:60 -Content Type is ==> application/json; charset=utf-8
-2022-04-29 12:18:45 INFO  PersonRestAPI:27 -***************** Checking Response Body **************
-2022-04-29 12:18:45 INFO  PersonRestAPI:29 -Response Body ==> {
-  "firstName": "ZaidJ",
-  "lastName": "Tahirs",
-  "address": "58-sGulshan e Lahore",
-  "id": "604",
-  "age": "60",
-  "phoneNumbers": "123-456-647"
+2022-05-13 17:00:18 INFO  PersonRestAPI:39 -***************** Checking Response Time **************
+2022-05-13 17:00:18 INFO  PersonRestAPI:41 -Response Time is  ==> 14
+2022-05-13 17:00:18 INFO  PersonRestAPI:32 -***************** Checking Status Code **************
+2022-05-13 17:00:18 INFO  PersonRestAPI:34 -Response Code is ==> 200
+2022-05-13 17:00:18 INFO  PersonRestAPI:49 -***************** Checking Status Line **************
+2022-05-13 17:00:18 INFO  PersonRestAPI:51 -Response Line is ==> HTTP/1.1 200 OK
+2022-05-13 17:00:18 INFO  PersonRestAPI:62 -***************** Finished TC002_GetPersonDetail **************
+2022-05-13 17:00:18 INFO  PersonRestAPI:18 -***************** Started TC003_GetSinglePersonDetail **************
+2022-05-13 17:00:18 INFO  PersonRestAPI:58 -***************** Checking Content Type **************
+2022-05-13 17:00:18 INFO  PersonRestAPI:60 -Content Type is ==> application/json; charset=utf-8
+2022-05-13 17:00:18 INFO  PersonRestAPI:27 -***************** Checking Response Body **************
+2022-05-13 17:00:18 INFO  PersonRestAPI:29 -Response Body ==> {
+  "firstName": "Zaidz",
+  "lastName": "TahirL",
+  "address": "58-JGulshan e Lahore",
+  "id": "510",
+  "age": "81",
+  "phoneNumbers": "123-456-760"
 }
-2022-04-29 12:18:45 INFO  PersonRestAPI:41 -***************** Checking Response Time **************
-2022-04-29 12:18:45 INFO  PersonRestAPI:43 -Response Time is  ==> 9
-2022-04-29 12:18:45 INFO  PersonRestAPI:34 -***************** Checking Status Code **************
-2022-04-29 12:18:45 INFO  PersonRestAPI:36 -Response Code is ==> 200
-2022-04-29 12:18:45 INFO  PersonRestAPI:51 -***************** Checking Status Line **************
-2022-04-29 12:18:45 INFO  PersonRestAPI:53 -Response Line is ==> HTTP/1.1 200 OK
-2022-04-29 12:18:45 INFO  PersonRestAPI:64 -***************** Finished TC003_GetSinglePersonDetail **************
-2022-04-29 12:18:45 INFO  PersonRestAPI:28 -***************** Started TC004_PutPerson **************
-2022-04-29 12:18:45 INFO  PersonRestAPI:80 -***************** Checking Content Type **************
-2022-04-29 12:18:45 INFO  PersonRestAPI:82 -Content Type is ==> application/json; charset=utf-8
-2022-04-29 12:18:45 INFO  PersonRestAPI:63 -***************** Checking Response Time **************
-2022-04-29 12:18:45 INFO  PersonRestAPI:65 -Response Time is  ==> 13
-2022-04-29 12:18:45 INFO  PersonRestAPI:56 -***************** Checking Status Code **************
-2022-04-29 12:18:45 INFO  PersonRestAPI:58 -Response Code is ==> 200
-2022-04-29 12:18:45 INFO  PersonRestAPI:73 -***************** Checking Status Line **************
-2022-04-29 12:18:45 INFO  PersonRestAPI:75 -Response Line is ==> HTTP/1.1 200 OK
-2022-04-29 12:18:45 INFO  PersonRestAPI:86 -***************** Finished TC004_PutPerson **************
-2022-04-29 12:18:45 INFO  PersonRestAPI:19 -***************** Started TC005_DeletePerson **************
-2022-04-29 12:18:45 INFO  DefaultHttpClient:695 -I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {}->http://localhost:3000: The target server failed to respond
-2022-04-29 12:18:45 INFO  DefaultHttpClient:705 -Retrying request to {}->http://localhost:3000
-2022-04-29 12:20:19 INFO  PersonRestAPI:28 -***************** Started TC001_PostPerson **************
-2022-04-29 12:20:20 INFO  PersonRestAPI:78 -***************** Checking Content Type **************
-2022-04-29 12:20:20 INFO  PersonRestAPI:80 -Content Type is ==> application/json; charset=utf-8
-2022-04-29 12:20:20 INFO  PersonRestAPI:61 -***************** Checking Response Time **************
-2022-04-29 12:20:20 INFO  PersonRestAPI:63 -Response Time is  ==> 323
-2022-04-29 12:20:20 INFO  PersonRestAPI:54 -***************** Checking Status Code **************
-2022-04-29 12:20:20 INFO  PersonRestAPI:56 -Response Code is ==> 201
-2022-04-29 12:20:20 INFO  PersonRestAPI:71 -***************** Checking Status Line **************
-2022-04-29 12:20:20 INFO  PersonRestAPI:73 -Response Line is ==> HTTP/1.1 201 Created
-2022-04-29 12:20:20 INFO  PersonRestAPI:84 -***************** Finished TC001_PostPerson **************
-2022-04-29 12:20:20 INFO  PersonRestAPI:17 -***************** Started TC002_GetPersonDetail **************
-2022-04-29 12:20:20 INFO  PersonRestAPI:56 -***************** Checking Content Type **************
-2022-04-29 12:20:20 INFO  PersonRestAPI:58 -Content Type is ==> application/json; charset=utf-8
-2022-04-29 12:20:20 INFO  PersonRestAPI:25 -***************** Checking Response Body **************
-2022-04-29 12:20:20 INFO  PersonRestAPI:27 -Response Body ==> [
+2022-05-13 17:00:18 INFO  PersonRestAPI:41 -***************** Checking Response Time **************
+2022-05-13 17:00:18 INFO  PersonRestAPI:43 -Response Time is  ==> 8
+2022-05-13 17:00:18 INFO  PersonRestAPI:34 -***************** Checking Status Code **************
+2022-05-13 17:00:18 INFO  PersonRestAPI:36 -Response Code is ==> 200
+2022-05-13 17:00:18 INFO  PersonRestAPI:51 -***************** Checking Status Line **************
+2022-05-13 17:00:18 INFO  PersonRestAPI:53 -Response Line is ==> HTTP/1.1 200 OK
+2022-05-13 17:00:18 INFO  PersonRestAPI:64 -***************** Finished TC003_GetSinglePersonDetail **************
+2022-05-13 17:00:18 INFO  PersonRestAPI:28 -***************** Started TC004_PutPerson **************
+2022-05-13 17:00:18 INFO  PersonRestAPI:80 -***************** Checking Content Type **************
+2022-05-13 17:00:18 INFO  PersonRestAPI:82 -Content Type is ==> application/json; charset=utf-8
+2022-05-13 17:00:18 INFO  PersonRestAPI:63 -***************** Checking Response Time **************
+2022-05-13 17:00:18 INFO  PersonRestAPI:65 -Response Time is  ==> 11
+2022-05-13 17:00:18 INFO  PersonRestAPI:56 -***************** Checking Status Code **************
+2022-05-13 17:00:18 INFO  PersonRestAPI:58 -Response Code is ==> 200
+2022-05-13 17:00:18 INFO  PersonRestAPI:73 -***************** Checking Status Line **************
+2022-05-13 17:00:18 INFO  PersonRestAPI:75 -Response Line is ==> HTTP/1.1 200 OK
+2022-05-13 17:00:18 INFO  PersonRestAPI:86 -***************** Finished TC004_PutPerson **************
+2022-05-13 17:00:18 INFO  PersonRestAPI:19 -***************** Started TC005_DeletePerson **************
+2022-05-13 17:00:18 INFO  PersonRestAPI:61 -***************** Checking Content Type **************
+2022-05-13 17:00:18 INFO  PersonRestAPI:63 -Content Type is ==> application/json; charset=utf-8
+2022-05-13 17:00:18 INFO  PersonRestAPI:31 -***************** Checking Response Body **************
+2022-05-13 17:00:18 INFO  PersonRestAPI:33 -Response Body ==> {}
+2022-05-13 17:00:18 INFO  PersonRestAPI:44 -***************** Checking Response Time **************
+2022-05-13 17:00:18 INFO  PersonRestAPI:46 -Response Time is  ==> 12
+2022-05-13 17:00:18 INFO  PersonRestAPI:37 -***************** Checking Status Code **************
+2022-05-13 17:00:18 INFO  PersonRestAPI:39 -Response Code is ==> 200
+2022-05-13 17:00:18 INFO  PersonRestAPI:54 -***************** Checking Status Line **************
+2022-05-13 17:00:18 INFO  PersonRestAPI:56 -Response Line is ==> HTTP/1.1 200 OK
+2022-05-13 17:00:18 INFO  PersonRestAPI:67 -***************** Finished TC005_DeletePerson **************
+2022-05-19 15:43:43 INFO  PersonRestAPI:29 -***************** Started TC001_PostPerson **************
+2022-05-19 15:43:48 INFO  PersonRestAPI:79 -***************** Checking Content Type **************
+2022-05-19 15:43:48 INFO  PersonRestAPI:81 -Content Type is ==> application/json; charset=utf-8
+2022-05-19 15:43:48 INFO  PersonRestAPI:62 -***************** Checking Response Time **************
+2022-05-19 15:43:48 INFO  PersonRestAPI:64 -Response Time is  ==> 192
+2022-05-19 15:43:48 INFO  PersonRestAPI:55 -***************** Checking Status Code **************
+2022-05-19 15:43:48 INFO  PersonRestAPI:57 -Response Code is ==> 201
+2022-05-19 15:43:48 INFO  PersonRestAPI:72 -***************** Checking Status Line **************
+2022-05-19 15:43:48 INFO  PersonRestAPI:74 -Response Line is ==> HTTP/1.1 201 Created
+2022-05-19 15:43:48 INFO  PersonRestAPI:85 -***************** Finished TC001_PostPerson **************
+2022-05-19 15:56:17 INFO  PersonRestAPI:19 -***************** Started TC002_GetPersonDetail **************
+2022-05-19 15:56:23 INFO  PersonRestAPI:58 -***************** Checking Content Type **************
+2022-05-19 15:56:23 INFO  PersonRestAPI:60 -Content Type is ==> application/json; charset=utf-8
+2022-05-19 15:56:23 INFO  PersonRestAPI:27 -***************** Checking Response Body **************
+2022-05-19 15:56:23 INFO  PersonRestAPI:29 -Response Body ==> [
   {
-    "firstName": "Zaid ",
-    "lastName": "Tahir",
-    "age": 30,
-    "id": "1",
-    "address": "Lahore,PK",
+    "firstName": "Ahsan",
+    "lastName": "Lala",
+    "age": 31,
+    "address": "Islamabad,PK",
+    "phoneNumber": "123-456-78910",
+    "id": 1
+  },
+  {
+    "firstName": "Saad",
+    "lastName": "Lala",
+    "age": 31,
+    "address": "Islamabad,PK",
+    "phoneNumber": "123-456-78910",
+    "id": 2
+  },
+  {
+    "firstName": "Adil",
+    "lastName": "Lala",
+    "age": 31,
+    "address": "Islamabad,PK",
+    "phoneNumber": "123-456-78910",
+    "id": 3
+  },
+  {
+    "firstName": "Asad",
+    "lastName": "Lala",
+    "age": 31,
+    "address": "Islamabad,PK",
+    "phoneNumber": "123-456-78910",
+    "id": 4
+  },
+  {
+    "firstName": "Umar",
+    "lastName": "Lala",
+    "age": 31,
+    "address": "Islamabad,PK",
+    "phoneNumber": "123-456-78910",
+    "id": 5
+  },
+  {
+    "firstName": "Musa",
+    "lastName": "Lala",
+    "age": 31,
+    "address": "Islamabad,PK",
+    "phoneNumber": "123-456-78910",
+    "id": 6
+  },
+  {
+    "firstName": "Adnan",
+    "lastName": "Lala",
+    "age": 31,
+    "address": "Islamabad,PK",
+    "phoneNumber": "123-456-78910",
+    "id": 7
+  },
+  {
+    "firstName": "Imran",
+    "lastName": "Lala",
+    "age": 31,
+    "address": "Islamabad,PK",
+    "phoneNumber": "123-456-78910",
+    "id": 8
+  },
+  {
+    "firstName": "Farhan",
+    "lastName": "Lala",
+    "age": 31,
+    "address": "Islamabad,PK",
+    "phoneNumber": "123-456-78910",
+    "id": 9
+  },
+  {
+    "firstName": "Nouman",
+    "lastName": "Lala",
+    "age": 31,
+    "address": "Islamabad,PK",
+    "phoneNumber": "123-456-78910",
+    "id": 10
+  },
+  {
+    "firstName": "Anees",
+    "lastName": "Lala",
+    "age": 31,
+    "address": "Islamabad,PK",
+    "phoneNumber": "123-456-78910",
+    "id": 11
+  },
+  {
+    "firstName": "Ahmad",
+    "lastName": "Lala",
+    "age": 31,
+    "address": "Islamabad,PK",
+    "phoneNumber": "123-456-78910",
+    "id": 12
+  },
+  {
+    "firstName": "Tahir",
+    "lastName": "Lala",
+    "age": 31,
+    "address": "Islamabad,PK",
+    "phoneNumber": "123-456-78910",
+    "id": 13
+  },
+  {
+    "firstName": "ZaidaHQ",
+    "lastName": "Lala",
+    "age": 31,
+    "id": 502,
+    "address": "Islamabad,PK",
     "phoneNumber": "123-456-78910"
   },
   {
-    "firstName": "Zaidp",
-    "lastName": "Tahirs",
-    "address": "58-NGulshan e Lahore",
-    "age": "89",
-    "phoneNumbers": "123-456-223",
-    "id": "836"
+    "firstName": "ZaidA",
+    "lastName": "Tahirn",
+    "address": "58-LGulshan e Lahore",
+    "id": "115",
+    "age": "50",
+    "phoneNumbers": "123-456-280"
+  }
+]
+2022-05-19 15:56:23 INFO  PersonRestAPI:41 -***************** Checking Response Time **************
+2022-05-19 15:56:23 INFO  PersonRestAPI:43 -Response Time is  ==> 194
+2022-05-19 15:56:23 INFO  PersonRestAPI:34 -***************** Checking Status Code **************
+2022-05-19 15:56:23 INFO  PersonRestAPI:36 -Response Code is ==> 200
+2022-05-19 15:56:23 INFO  PersonRestAPI:51 -***************** Checking Status Line **************
+2022-05-19 15:56:23 INFO  PersonRestAPI:53 -Response Line is ==> HTTP/1.1 200 OK
+2022-05-19 15:56:23 INFO  PersonRestAPI:64 -***************** Finished TC002_GetPersonDetail **************
+2022-05-19 16:00:18 INFO  PersonRestAPI:29 -***************** Started TC001_PostPerson **************
+2022-05-19 16:01:10 INFO  PersonRestAPI:29 -***************** Started TC001_PostPerson **************
+2022-05-19 16:01:15 INFO  PersonRestAPI:78 -***************** Checking Content Type **************
+2022-05-19 16:01:15 INFO  PersonRestAPI:80 -Content Type is ==> application/json; charset=utf-8
+2022-05-19 16:01:15 INFO  PersonRestAPI:61 -***************** Checking Response Time **************
+2022-05-19 16:01:15 INFO  PersonRestAPI:63 -Response Time is  ==> 176
+2022-05-19 16:01:15 INFO  PersonRestAPI:54 -***************** Checking Status Code **************
+2022-05-19 16:01:15 INFO  PersonRestAPI:56 -Response Code is ==> 201
+2022-05-19 16:01:15 INFO  PersonRestAPI:71 -***************** Checking Status Line **************
+2022-05-19 16:01:15 INFO  PersonRestAPI:73 -Response Line is ==> HTTP/1.1 201 Created
+2022-05-19 16:01:15 INFO  PersonRestAPI:84 -***************** Finished TC001_PostPerson **************
+2022-05-19 16:41:19 INFO  PersonRestAPI:29 -***************** Started TC001_PostPerson **************
+2022-05-19 16:41:25 INFO  PersonRestAPI:78 -***************** Checking Content Type **************
+2022-05-19 16:41:25 INFO  PersonRestAPI:80 -Content Type is ==> application/json; charset=utf-8
+2022-05-19 16:41:25 INFO  PersonRestAPI:61 -***************** Checking Response Time **************
+2022-05-19 16:41:25 INFO  PersonRestAPI:63 -Response Time is  ==> 201
+2022-05-19 16:41:25 INFO  PersonRestAPI:54 -***************** Checking Status Code **************
+2022-05-19 16:41:25 INFO  PersonRestAPI:56 -Response Code is ==> 201
+2022-05-19 16:41:25 INFO  PersonRestAPI:71 -***************** Checking Status Line **************
+2022-05-19 16:41:25 INFO  PersonRestAPI:73 -Response Line is ==> HTTP/1.1 201 Created
+2022-05-19 16:41:25 INFO  PersonRestAPI:84 -***************** Finished TC001_PostPerson **************
+2022-05-19 16:41:25 INFO  PersonRestAPI:19 -***************** Started TC002_GetPersonDetail **************
+2022-05-19 16:41:25 INFO  PersonRestAPI:58 -***************** Checking Content Type **************
+2022-05-19 16:41:25 INFO  PersonRestAPI:60 -Content Type is ==> application/json; charset=utf-8
+2022-05-19 16:41:25 INFO  PersonRestAPI:27 -***************** Checking Response Body **************
+2022-05-19 16:41:25 INFO  PersonRestAPI:29 -Response Body ==> [
+  {
+    "firstName": "Ahsan",
+    "lastName": "Lala",
+    "age": 31,
+    "address": "Islamabad,PK",
+    "phoneNumber": "123-456-78910",
+    "id": 1
   },
   {
-    "firstName": "Zaidn",
-    "lastName": "TahirZ",
+    "firstName": "Saad",
+    "lastName": "Lala",
+    "age": 31,
+    "address": "Islamabad,PK",
+    "phoneNumber": "123-456-78910",
+    "id": 2
+  },
+  {
+    "firstName": "Adil",
+    "lastName": "Lala",
+    "age": 31,
+    "address": "Islamabad,PK",
+    "phoneNumber": "123-456-78910",
+    "id": 3
+  },
+  {
+    "firstName": "Asad",
+    "lastName": "Lala",
+    "age": 31,
+    "address": "Islamabad,PK",
+    "phoneNumber": "123-456-78910",
+    "id": 4
+  },
+  {
+    "firstName": "Umar",
+    "lastName": "Lala",
+    "age": 31,
+    "address": "Islamabad,PK",
+    "phoneNumber": "123-456-78910",
+    "id": 5
+  },
+  {
+    "firstName": "Musa",
+    "lastName": "Lala",
+    "age": 31,
+    "address": "Islamabad,PK",
+    "phoneNumber": "123-456-78910",
+    "id": 6
+  },
+  {
+    "firstName": "Adnan",
+    "lastName": "Lala",
+    "age": 31,
+    "address": "Islamabad,PK",
+    "phoneNumber": "123-456-78910",
+    "id": 7
+  },
+  {
+    "firstName": "Imran",
+    "lastName": "Lala",
+    "age": 31,
+    "address": "Islamabad,PK",
+    "phoneNumber": "123-456-78910",
+    "id": 8
+  },
+  {
+    "firstName": "Farhan",
+    "lastName": "Lala",
+    "age": 31,
+    "address": "Islamabad,PK",
+    "phoneNumber": "123-456-78910",
+    "id": 9
+  },
+  {
+    "firstName": "Nouman",
+    "lastName": "Lala",
+    "age": 31,
+    "address": "Islamabad,PK",
+    "phoneNumber": "123-456-78910",
+    "id": 10
+  },
+  {
+    "firstName": "Anees",
+    "lastName": "Lala",
+    "age": 31,
+    "address": "Islamabad,PK",
+    "phoneNumber": "123-456-78910",
+    "id": 11
+  },
+  {
+    "firstName": "Ahmad",
+    "lastName": "Lala",
+    "age": 31,
+    "address": "Islamabad,PK",
+    "phoneNumber": "123-456-78910",
+    "id": 12
+  },
+  {
+    "firstName": "Tahir",
+    "lastName": "Lala",
+    "age": 31,
+    "address": "Islamabad,PK",
+    "phoneNumber": "123-456-78910",
+    "id": 13
+  },
+  {
+    "firstName": "ZaidaHQ",
+    "lastName": "Lala",
+    "age": 31,
+    "id": 502,
+    "address": "Islamabad,PK",
+    "phoneNumber": "123-456-78910"
+  },
+  {
+    "firstName": "ZaidA",
+    "lastName": "Tahirn",
+    "address": "58-LGulshan e Lahore",
+    "id": "115",
+    "age": "50",
+    "phoneNumbers": "123-456-280"
+  },
+  {
+    "firstName": "ZaidX",
+    "lastName": "Tahirk",
     "address": "58-CGulshan e Lahore",
-    "id": "404",
-    "age": "86",
-    "phoneNumbers": "123-456-684"
+    "id": "735",
+    "age": "49",
+    "phoneNumbers": "123-456-573"
+  },
+  {
+    "firstName": "Zaidt",
+    "lastName": "TahirU",
+    "address": "58-QGulshan e Lahore",
+    "id": "176",
+    "age": "09",
+    "phoneNumbers": "123-456-429"
+  },
+  {
+    "firstName": "ZaidV",
+    "lastName": "TahirS",
+    "address": "58-ZGulshan e Lahore",
+    "id": "460",
+    "age": "60",
+    "phoneNumbers": "123-456-935"
   }
 ]
-2022-04-29 12:20:20 INFO  PersonRestAPI:39 -***************** Checking Response Time **************
-2022-04-29 12:20:20 INFO  PersonRestAPI:41 -Response Time is  ==> 19
-2022-04-29 12:20:20 INFO  PersonRestAPI:32 -***************** Checking Status Code **************
-2022-04-29 12:20:20 INFO  PersonRestAPI:34 -Response Code is ==> 200
-2022-04-29 12:20:20 INFO  PersonRestAPI:49 -***************** Checking Status Line **************
-2022-04-29 12:20:20 INFO  PersonRestAPI:51 -Response Line is ==> HTTP/1.1 200 OK
-2022-04-29 12:20:20 INFO  PersonRestAPI:62 -***************** Finished TC002_GetPersonDetail **************
-2022-04-29 12:20:20 INFO  PersonRestAPI:18 -***************** Started TC003_GetSinglePersonDetail **************
-2022-04-29 12:20:20 INFO  PersonRestAPI:58 -***************** Checking Content Type **************
-2022-04-29 12:20:20 INFO  PersonRestAPI:60 -Content Type is ==> application/json; charset=utf-8
-2022-04-29 12:20:20 INFO  PersonRestAPI:27 -***************** Checking Response Body **************
-2022-04-29 12:20:20 INFO  PersonRestAPI:29 -Response Body ==> {
-  "firstName": "Zaidn",
-  "lastName": "TahirZ",
-  "address": "58-CGulshan e Lahore",
-  "id": "404",
-  "age": "86",
-  "phoneNumbers": "123-456-684"
+2022-05-19 16:41:25 INFO  PersonRestAPI:41 -***************** Checking Response Time **************
+2022-05-19 16:41:25 INFO  PersonRestAPI:43 -Response Time is  ==> 17
+2022-05-19 16:41:25 INFO  PersonRestAPI:34 -***************** Checking Status Code **************
+2022-05-19 16:41:25 INFO  PersonRestAPI:36 -Response Code is ==> 200
+2022-05-19 16:41:25 INFO  PersonRestAPI:51 -***************** Checking Status Line **************
+2022-05-19 16:41:25 INFO  PersonRestAPI:53 -Response Line is ==> HTTP/1.1 200 OK
+2022-05-19 16:41:25 INFO  PersonRestAPI:64 -***************** Finished TC002_GetPersonDetail **************
+2022-05-19 16:41:25 INFO  PersonRestAPI:18 -***************** Started TC003_GetSinglePersonDetail **************
+2022-05-19 16:41:25 INFO  PersonRestAPI:58 -***************** Checking Content Type **************
+2022-05-19 16:41:25 INFO  PersonRestAPI:60 -Content Type is ==> application/json; charset=utf-8
+2022-05-19 16:41:25 INFO  PersonRestAPI:27 -***************** Checking Response Body **************
+2022-05-19 16:41:25 INFO  PersonRestAPI:29 -Response Body ==> {
+  "firstName": "ZaidV",
+  "lastName": "TahirS",
+  "address": "58-ZGulshan e Lahore",
+  "id": "460",
+  "age": "60",
+  "phoneNumbers": "123-456-935"
 }
-2022-04-29 12:20:20 INFO  PersonRestAPI:41 -***************** Checking Response Time **************
-2022-04-29 12:20:20 INFO  PersonRestAPI:43 -Response Time is  ==> 11
-2022-04-29 12:20:20 INFO  PersonRestAPI:34 -***************** Checking Status Code **************
-2022-04-29 12:20:20 INFO  PersonRestAPI:36 -Response Code is ==> 200
-2022-04-29 12:20:20 INFO  PersonRestAPI:51 -***************** Checking Status Line **************
-2022-04-29 12:20:20 INFO  PersonRestAPI:53 -Response Line is ==> HTTP/1.1 200 OK
-2022-04-29 12:20:20 INFO  PersonRestAPI:64 -***************** Finished TC003_GetSinglePersonDetail **************
-2022-04-29 12:20:20 INFO  PersonRestAPI:28 -***************** Started TC004_PutPerson **************
-2022-04-29 12:20:20 INFO  PersonRestAPI:80 -***************** Checking Content Type **************
-2022-04-29 12:20:20 INFO  PersonRestAPI:82 -Content Type is ==> application/json; charset=utf-8
-2022-04-29 12:20:20 INFO  PersonRestAPI:63 -***************** Checking Response Time **************
-2022-04-29 12:20:20 INFO  PersonRestAPI:65 -Response Time is  ==> 12
-2022-04-29 12:20:20 INFO  PersonRestAPI:56 -***************** Checking Status Code **************
-2022-04-29 12:20:20 INFO  PersonRestAPI:58 -Response Code is ==> 200
-2022-04-29 12:20:20 INFO  PersonRestAPI:73 -***************** Checking Status Line **************
-2022-04-29 12:20:20 INFO  PersonRestAPI:75 -Response Line is ==> HTTP/1.1 200 OK
-2022-04-29 12:20:20 INFO  PersonRestAPI:86 -***************** Finished TC004_PutPerson **************
-2022-04-29 12:20:20 INFO  PersonRestAPI:19 -***************** Started TC005_DeletePerson **************
-2022-04-29 12:20:20 INFO  PersonRestAPI:61 -***************** Checking Content Type **************
-2022-04-29 12:20:20 INFO  PersonRestAPI:63 -Content Type is ==> application/json; charset=utf-8
-2022-04-29 12:20:20 INFO  PersonRestAPI:31 -***************** Checking Response Body **************
-2022-04-29 12:20:20 INFO  PersonRestAPI:33 -Response Body ==> {}
-2022-04-29 12:20:20 INFO  PersonRestAPI:44 -***************** Checking Response Time **************
-2022-04-29 12:20:20 INFO  PersonRestAPI:46 -Response Time is  ==> 12
-2022-04-29 12:20:20 INFO  PersonRestAPI:37 -***************** Checking Status Code **************
-2022-04-29 12:20:20 INFO  PersonRestAPI:39 -Response Code is ==> 200
-2022-04-29 12:20:21 INFO  PersonRestAPI:54 -***************** Checking Status Line **************
-2022-04-29 12:20:21 INFO  PersonRestAPI:56 -Response Line is ==> HTTP/1.1 200 OK
-2022-04-29 12:20:21 INFO  PersonRestAPI:67 -***************** Finished TC005_DeletePerson **************
-2022-04-29 12:24:25 INFO  PersonRestAPI:28 -***************** Started TC001_PostPerson **************
-2022-04-29 12:24:26 INFO  PersonRestAPI:78 -***************** Checking Content Type **************
-2022-04-29 12:24:26 INFO  PersonRestAPI:80 -Content Type is ==> application/json; charset=utf-8
-2022-04-29 12:24:26 INFO  PersonRestAPI:61 -***************** Checking Response Time **************
-2022-04-29 12:24:26 INFO  PersonRestAPI:63 -Response Time is  ==> 320
-2022-04-29 12:24:26 INFO  PersonRestAPI:54 -***************** Checking Status Code **************
-2022-04-29 12:24:26 INFO  PersonRestAPI:56 -Response Code is ==> 201
-2022-04-29 12:24:26 INFO  PersonRestAPI:71 -***************** Checking Status Line **************
-2022-04-29 12:24:26 INFO  PersonRestAPI:73 -Response Line is ==> HTTP/1.1 201 Created
-2022-04-29 12:24:26 INFO  PersonRestAPI:84 -***************** Finished TC001_PostPerson **************
-2022-04-29 12:24:26 INFO  PersonRestAPI:17 -***************** Started TC002_GetPersonDetail **************
-2022-04-29 12:24:26 INFO  PersonRestAPI:56 -***************** Checking Content Type **************
-2022-04-29 12:24:26 INFO  PersonRestAPI:58 -Content Type is ==> application/json; charset=utf-8
-2022-04-29 12:24:26 INFO  PersonRestAPI:25 -***************** Checking Response Body **************
-2022-04-29 12:24:26 INFO  PersonRestAPI:27 -Response Body ==> [
+2022-05-19 16:41:25 INFO  PersonRestAPI:41 -***************** Checking Response Time **************
+2022-05-19 16:41:25 INFO  PersonRestAPI:43 -Response Time is  ==> 9
+2022-05-19 16:41:25 INFO  PersonRestAPI:34 -***************** Checking Status Code **************
+2022-05-19 16:41:25 INFO  PersonRestAPI:36 -Response Code is ==> 200
+2022-05-19 16:41:25 INFO  PersonRestAPI:51 -***************** Checking Status Line **************
+2022-05-19 16:41:25 INFO  PersonRestAPI:53 -Response Line is ==> HTTP/1.1 200 OK
+2022-05-19 16:41:25 INFO  PersonRestAPI:64 -***************** Finished TC003_GetSinglePersonDetail **************
+2022-05-19 16:41:25 INFO  PersonRestAPI:28 -***************** Started TC004_PutPerson **************
+2022-05-19 16:41:25 INFO  PersonRestAPI:80 -***************** Checking Content Type **************
+2022-05-19 16:41:25 INFO  PersonRestAPI:82 -Content Type is ==> application/json; charset=utf-8
+2022-05-19 16:41:25 INFO  PersonRestAPI:63 -***************** Checking Response Time **************
+2022-05-19 16:41:25 INFO  PersonRestAPI:65 -Response Time is  ==> 15
+2022-05-19 16:41:25 INFO  PersonRestAPI:56 -***************** Checking Status Code **************
+2022-05-19 16:41:25 INFO  PersonRestAPI:58 -Response Code is ==> 200
+2022-05-19 16:41:25 INFO  PersonRestAPI:73 -***************** Checking Status Line **************
+2022-05-19 16:41:25 INFO  PersonRestAPI:75 -Response Line is ==> HTTP/1.1 200 OK
+2022-05-19 16:41:25 INFO  PersonRestAPI:86 -***************** Finished TC004_PutPerson **************
+2022-05-19 16:41:25 INFO  PersonRestAPI:19 -***************** Started TC005_DeletePerson **************
+2022-05-19 16:41:25 INFO  PersonRestAPI:61 -***************** Checking Content Type **************
+2022-05-19 16:41:25 INFO  PersonRestAPI:63 -Content Type is ==> application/json; charset=utf-8
+2022-05-19 16:41:25 INFO  PersonRestAPI:31 -***************** Checking Response Body **************
+2022-05-19 16:41:25 INFO  PersonRestAPI:33 -Response Body ==> {}
+2022-05-19 16:41:25 INFO  PersonRestAPI:44 -***************** Checking Response Time **************
+2022-05-19 16:41:25 INFO  PersonRestAPI:46 -Response Time is  ==> 9
+2022-05-19 16:41:25 INFO  PersonRestAPI:37 -***************** Checking Status Code **************
+2022-05-19 16:41:25 INFO  PersonRestAPI:39 -Response Code is ==> 200
+2022-05-19 16:41:25 INFO  PersonRestAPI:54 -***************** Checking Status Line **************
+2022-05-19 16:41:25 INFO  PersonRestAPI:56 -Response Line is ==> HTTP/1.1 200 OK
+2022-05-19 16:41:25 INFO  PersonRestAPI:67 -***************** Finished TC005_DeletePerson **************
+2022-05-19 16:42:35 INFO  PersonRestAPI:29 -***************** Started TC001_PostPerson **************
+2022-05-19 16:42:40 INFO  PersonRestAPI:78 -***************** Checking Content Type **************
+2022-05-19 16:42:40 INFO  PersonRestAPI:80 -Content Type is ==> application/json; charset=utf-8
+2022-05-19 16:42:40 INFO  PersonRestAPI:61 -***************** Checking Response Time **************
+2022-05-19 16:42:40 INFO  PersonRestAPI:63 -Response Time is  ==> 175
+2022-05-19 16:42:40 INFO  PersonRestAPI:54 -***************** Checking Status Code **************
+2022-05-19 16:42:40 INFO  PersonRestAPI:56 -Response Code is ==> 201
+2022-05-19 16:42:40 INFO  PersonRestAPI:71 -***************** Checking Status Line **************
+2022-05-19 16:42:40 INFO  PersonRestAPI:73 -Response Line is ==> HTTP/1.1 201 Created
+2022-05-19 16:42:40 INFO  PersonRestAPI:84 -***************** Finished TC001_PostPerson **************
+2022-05-19 16:42:40 INFO  PersonRestAPI:19 -***************** Started TC002_GetPersonDetail **************
+2022-05-19 16:42:40 INFO  PersonRestAPI:58 -***************** Checking Content Type **************
+2022-05-19 16:42:40 INFO  PersonRestAPI:60 -Content Type is ==> application/json; charset=utf-8
+2022-05-19 16:42:40 INFO  PersonRestAPI:27 -***************** Checking Response Body **************
+2022-05-19 16:42:40 INFO  PersonRestAPI:29 -Response Body ==> [
   {
-    "firstName": "Zaid ",
-    "lastName": "Tahir",
-    "age": 30,
-    "id": "1",
-    "address": "Lahore,PK",
+    "firstName": "Ahsan",
+    "lastName": "Lala",
+    "age": 31,
+    "address": "Islamabad,PK",
+    "phoneNumber": "123-456-78910",
+    "id": 1
+  },
+  {
+    "firstName": "Saad",
+    "lastName": "Lala",
+    "age": 31,
+    "address": "Islamabad,PK",
+    "phoneNumber": "123-456-78910",
+    "id": 2
+  },
+  {
+    "firstName": "Adil",
+    "lastName": "Lala",
+    "age": 31,
+    "address": "Islamabad,PK",
+    "phoneNumber": "123-456-78910",
+    "id": 3
+  },
+  {
+    "firstName": "Asad",
+    "lastName": "Lala",
+    "age": 31,
+    "address": "Islamabad,PK",
+    "phoneNumber": "123-456-78910",
+    "id": 4
+  },
+  {
+    "firstName": "Umar",
+    "lastName": "Lala",
+    "age": 31,
+    "address": "Islamabad,PK",
+    "phoneNumber": "123-456-78910",
+    "id": 5
+  },
+  {
+    "firstName": "Musa",
+    "lastName": "Lala",
+    "age": 31,
+    "address": "Islamabad,PK",
+    "phoneNumber": "123-456-78910",
+    "id": 6
+  },
+  {
+    "firstName": "Adnan",
+    "lastName": "Lala",
+    "age": 31,
+    "address": "Islamabad,PK",
+    "phoneNumber": "123-456-78910",
+    "id": 7
+  },
+  {
+    "firstName": "Imran",
+    "lastName": "Lala",
+    "age": 31,
+    "address": "Islamabad,PK",
+    "phoneNumber": "123-456-78910",
+    "id": 8
+  },
+  {
+    "firstName": "Farhan",
+    "lastName": "Lala",
+    "age": 31,
+    "address": "Islamabad,PK",
+    "phoneNumber": "123-456-78910",
+    "id": 9
+  },
+  {
+    "firstName": "Nouman",
+    "lastName": "Lala",
+    "age": 31,
+    "address": "Islamabad,PK",
+    "phoneNumber": "123-456-78910",
+    "id": 10
+  },
+  {
+    "firstName": "Anees",
+    "lastName": "Lala",
+    "age": 31,
+    "address": "Islamabad,PK",
+    "phoneNumber": "123-456-78910",
+    "id": 11
+  },
+  {
+    "firstName": "Ahmad",
+    "lastName": "Lala",
+    "age": 31,
+    "address": "Islamabad,PK",
+    "phoneNumber": "123-456-78910",
+    "id": 12
+  },
+  {
+    "firstName": "Tahir",
+    "lastName": "Lala",
+    "age": 31,
+    "address": "Islamabad,PK",
+    "phoneNumber": "123-456-78910",
+    "id": 13
+  },
+  {
+    "firstName": "ZaidaHQ",
+    "lastName": "Lala",
+    "age": 31,
+    "id": 502,
+    "address": "Islamabad,PK",
     "phoneNumber": "123-456-78910"
   },
   {
-    "firstName": "Zaidp",
-    "lastName": "Tahirs",
-    "address": "58-NGulshan e Lahore",
-    "age": "89",
-    "phoneNumbers": "123-456-223",
-    "id": "836"
+    "firstName": "ZaidA",
+    "lastName": "Tahirn",
+    "address": "58-LGulshan e Lahore",
+    "id": "115",
+    "age": "50",
+    "phoneNumbers": "123-456-280"
   },
   {
-    "firstName": "ZaidC",
-    "lastName": "TahirM",
-    "address": "58-UGulshan e Lahore",
-    "id": "881",
-    "age": "41",
-    "phoneNumbers": "123-456-905"
+    "firstName": "ZaidX",
+    "lastName": "Tahirk",
+    "address": "58-CGulshan e Lahore",
+    "id": "735",
+    "age": "49",
+    "phoneNumbers": "123-456-573"
+  },
+  {
+    "firstName": "Zaidt",
+    "lastName": "TahirU",
+    "address": "58-QGulshan e Lahore",
+    "id": "176",
+    "age": "09",
+    "phoneNumbers": "123-456-429"
+  },
+  {
+    "firstName": "Zaidt",
+    "lastName": "TahirF",
+    "address": "58-OGulshan e Lahore",
+    "id": "384",
+    "age": "58",
+    "phoneNumbers": "123-456-488"
   }
 ]
-2022-04-29 12:24:26 INFO  PersonRestAPI:39 -***************** Checking Response Time **************
-2022-04-29 12:24:26 INFO  PersonRestAPI:41 -Response Time is  ==> 21
-2022-04-29 12:24:26 INFO  PersonRestAPI:32 -***************** Checking Status Code **************
-2022-04-29 12:24:26 INFO  PersonRestAPI:34 -Response Code is ==> 200
-2022-04-29 12:24:26 INFO  PersonRestAPI:49 -***************** Checking Status Line **************
-2022-04-29 12:24:26 INFO  PersonRestAPI:51 -Response Line is ==> HTTP/1.1 200 OK
-2022-04-29 12:24:26 INFO  PersonRestAPI:62 -***************** Finished TC002_GetPersonDetail **************
-2022-04-29 12:24:26 INFO  PersonRestAPI:18 -***************** Started TC003_GetSinglePersonDetail **************
-2022-04-29 12:24:26 INFO  PersonRestAPI:58 -***************** Checking Content Type **************
-2022-04-29 12:24:26 INFO  PersonRestAPI:60 -Content Type is ==> application/json; charset=utf-8
-2022-04-29 12:24:26 INFO  PersonRestAPI:27 -***************** Checking Response Body **************
-2022-04-29 12:24:26 INFO  PersonRestAPI:29 -Response Body ==> {
-  "firstName": "ZaidC",
-  "lastName": "TahirM",
-  "address": "58-UGulshan e Lahore",
-  "id": "881",
-  "age": "41",
-  "phoneNumbers": "123-456-905"
+2022-05-19 16:42:40 INFO  PersonRestAPI:41 -***************** Checking Response Time **************
+2022-05-19 16:42:40 INFO  PersonRestAPI:43 -Response Time is  ==> 15
+2022-05-19 16:42:40 INFO  PersonRestAPI:34 -***************** Checking Status Code **************
+2022-05-19 16:42:40 INFO  PersonRestAPI:36 -Response Code is ==> 200
+2022-05-19 16:42:40 INFO  PersonRestAPI:51 -***************** Checking Status Line **************
+2022-05-19 16:42:40 INFO  PersonRestAPI:53 -Response Line is ==> HTTP/1.1 200 OK
+2022-05-19 16:42:40 INFO  PersonRestAPI:64 -***************** Finished TC002_GetPersonDetail **************
+2022-05-19 16:42:40 INFO  PersonRestAPI:18 -***************** Started TC003_GetSinglePersonDetail **************
+2022-05-19 16:42:40 INFO  PersonRestAPI:58 -***************** Checking Content Type **************
+2022-05-19 16:42:40 INFO  PersonRestAPI:60 -Content Type is ==> application/json; charset=utf-8
+2022-05-19 16:42:40 INFO  PersonRestAPI:27 -***************** Checking Response Body **************
+2022-05-19 16:42:40 INFO  PersonRestAPI:29 -Response Body ==> {
+  "firstName": "Zaidt",
+  "lastName": "TahirF",
+  "address": "58-OGulshan e Lahore",
+  "id": "384",
+  "age": "58",
+  "phoneNumbers": "123-456-488"
 }
-2022-04-29 12:24:26 INFO  PersonRestAPI:41 -***************** Checking Response Time **************
-2022-04-29 12:24:26 INFO  PersonRestAPI:43 -Response Time is  ==> 13
-2022-04-29 12:24:26 INFO  PersonRestAPI:34 -***************** Checking Status Code **************
-2022-04-29 12:24:26 INFO  PersonRestAPI:36 -Response Code is ==> 200
-2022-04-29 12:24:26 INFO  PersonRestAPI:51 -***************** Checking Status Line **************
-2022-04-29 12:24:26 INFO  PersonRestAPI:53 -Response Line is ==> HTTP/1.1 200 OK
-2022-04-29 12:24:26 INFO  PersonRestAPI:64 -***************** Finished TC003_GetSinglePersonDetail **************
-2022-04-29 12:24:26 INFO  PersonRestAPI:28 -***************** Started TC004_PutPerson **************
-2022-04-29 12:24:26 INFO  PersonRestAPI:80 -***************** Checking Content Type **************
-2022-04-29 12:24:26 INFO  PersonRestAPI:82 -Content Type is ==> application/json; charset=utf-8
-2022-04-29 12:24:26 INFO  PersonRestAPI:63 -***************** Checking Response Time **************
-2022-04-29 12:24:26 INFO  PersonRestAPI:65 -Response Time is  ==> 16
-2022-04-29 12:24:27 INFO  PersonRestAPI:56 -***************** Checking Status Code **************
-2022-04-29 12:24:27 INFO  PersonRestAPI:58 -Response Code is ==> 200
-2022-04-29 12:24:27 INFO  PersonRestAPI:73 -***************** Checking Status Line **************
-2022-04-29 12:24:27 INFO  PersonRestAPI:75 -Response Line is ==> HTTP/1.1 200 OK
-2022-04-29 12:24:27 INFO  PersonRestAPI:86 -***************** Finished TC004_PutPerson **************
-2022-04-29 12:24:27 INFO  PersonRestAPI:19 -***************** Started TC005_DeletePerson **************
-2022-04-29 12:24:27 INFO  PersonRestAPI:61 -***************** Checking Content Type **************
-2022-04-29 12:24:27 INFO  PersonRestAPI:63 -Content Type is ==> application/json; charset=utf-8
-2022-04-29 12:24:27 INFO  PersonRestAPI:31 -***************** Checking Response Body **************
-2022-04-29 12:24:27 INFO  PersonRestAPI:33 -Response Body ==> {}
-2022-04-29 12:24:27 INFO  PersonRestAPI:44 -***************** Checking Response Time **************
-2022-04-29 12:24:27 INFO  PersonRestAPI:46 -Response Time is  ==> 9
-2022-04-29 12:24:27 INFO  PersonRestAPI:37 -***************** Checking Status Code **************
-2022-04-29 12:24:27 INFO  PersonRestAPI:39 -Response Code is ==> 200
-2022-04-29 12:24:27 INFO  PersonRestAPI:54 -***************** Checking Status Line **************
-2022-04-29 12:24:27 INFO  PersonRestAPI:56 -Response Line is ==> HTTP/1.1 200 OK
-2022-04-29 12:24:27 INFO  PersonRestAPI:67 -***************** Finished TC005_DeletePerson **************
+2022-05-19 16:42:40 INFO  PersonRestAPI:41 -***************** Checking Response Time **************
+2022-05-19 16:42:40 INFO  PersonRestAPI:43 -Response Time is  ==> 9
+2022-05-19 16:42:40 INFO  PersonRestAPI:34 -***************** Checking Status Code **************
+2022-05-19 16:42:40 INFO  PersonRestAPI:36 -Response Code is ==> 200
+2022-05-19 16:42:40 INFO  PersonRestAPI:51 -***************** Checking Status Line **************
+2022-05-19 16:42:40 INFO  PersonRestAPI:53 -Response Line is ==> HTTP/1.1 200 OK
+2022-05-19 16:42:40 INFO  PersonRestAPI:64 -***************** Finished TC003_GetSinglePersonDetail **************
+2022-05-19 16:42:40 INFO  PersonRestAPI:28 -***************** Started TC004_PutPerson **************
+2022-05-19 16:42:41 INFO  PersonRestAPI:80 -***************** Checking Content Type **************
+2022-05-19 16:42:41 INFO  PersonRestAPI:82 -Content Type is ==> application/json; charset=utf-8
+2022-05-19 16:42:41 INFO  PersonRestAPI:63 -***************** Checking Response Time **************
+2022-05-19 16:42:41 INFO  PersonRestAPI:65 -Response Time is  ==> 12
+2022-05-19 16:42:41 INFO  PersonRestAPI:56 -***************** Checking Status Code **************
+2022-05-19 16:42:41 INFO  PersonRestAPI:58 -Response Code is ==> 200
+2022-05-19 16:42:41 INFO  PersonRestAPI:73 -***************** Checking Status Line **************
+2022-05-19 16:42:41 INFO  PersonRestAPI:75 -Response Line is ==> HTTP/1.1 200 OK
+2022-05-19 16:42:41 INFO  PersonRestAPI:86 -***************** Finished TC004_PutPerson **************
+2022-05-19 16:42:41 INFO  PersonRestAPI:19 -***************** Started TC005_DeletePerson **************
+2022-05-19 16:42:41 INFO  PersonRestAPI:61 -***************** Checking Content Type **************
+2022-05-19 16:42:41 INFO  PersonRestAPI:63 -Content Type is ==> application/json; charset=utf-8
+2022-05-19 16:42:41 INFO  PersonRestAPI:31 -***************** Checking Response Body **************
+2022-05-19 16:42:41 INFO  PersonRestAPI:33 -Response Body ==> {}
+2022-05-19 16:42:41 INFO  PersonRestAPI:44 -***************** Checking Response Time **************
+2022-05-19 16:42:41 INFO  PersonRestAPI:46 -Response Time is  ==> 11
+2022-05-19 16:42:41 INFO  PersonRestAPI:37 -***************** Checking Status Code **************
+2022-05-19 16:42:41 INFO  PersonRestAPI:39 -Response Code is ==> 200
+2022-05-19 16:42:41 INFO  PersonRestAPI:54 -***************** Checking Status Line **************
+2022-05-19 16:42:41 INFO  PersonRestAPI:56 -Response Line is ==> HTTP/1.1 200 OK
+2022-05-19 16:42:41 INFO  PersonRestAPI:67 -***************** Finished TC005_DeletePerson **************

@@ -5,6 +5,8 @@ import org.testng.annotations.BeforeClass;
 import org.testng.AssertJUnit;
 import org.testng.annotations.AfterClass;
 import com.personapi.base.TestBase;
+import com.personapi.utilities.RestUtils;
+
 import io.restassured.RestAssured;
 import io.restassured.http.Method;
 import io.restassured.specification.RequestSpecification;
@@ -15,7 +17,7 @@ public class TC002_GetAllPerson extends TestBase {
 	@BeforeClass
 	public void getAllPerson() throws InterruptedException {
 		logger.info("***************** Started TC002_GetPersonDetail **************");
-		RestAssured.baseURI = "http://localhost:3000/";
+		RestAssured.baseURI = RestUtils.urlBase();
 		RequestSpecification httprequest = RestAssured.given();
 		response = httprequest.request(Method.GET,"/persons");
 		//Thread.sleep(5000);

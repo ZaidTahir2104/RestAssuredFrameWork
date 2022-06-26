@@ -21,12 +21,13 @@ public class TC001_PostPerson extends TestBase {
 	String personId = personID;
 	String address = RestUtils.personAddress();
 	String phoneNumber = RestUtils.personPhoneNumber();
+	String BaseUrl= RestUtils.urlBase();
 
 	@SuppressWarnings("unchecked")
 	@BeforeClass
 	public void postPerson() throws InterruptedException {
 		logger.info("***************** Started TC001_PostPerson **************");
-		RestAssured.baseURI = "http://localhost:3000/";
+		RestAssured.baseURI = BaseUrl;
 		httprequest = RestAssured.given();
 		JSONObject requestParams = new JSONObject();
 		requestParams.put("firstName", fName);
@@ -46,7 +47,6 @@ public class TC001_PostPerson extends TestBase {
 		AssertJUnit.assertEquals(responseBody.contains(personAge), true);
 		AssertJUnit.assertEquals(responseBody.contains(address), true);
 		AssertJUnit.assertEquals(responseBody.contains(phoneNumber), true);
-		//Thread.sleep(5000);
 		}
 		
 	@Test

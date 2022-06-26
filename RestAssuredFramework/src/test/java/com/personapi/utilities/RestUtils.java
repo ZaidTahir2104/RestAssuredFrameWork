@@ -23,6 +23,10 @@ public class RestUtils {
 		String generatePhoneNumber = RandomStringUtils.randomNumeric(3);
 		return ("123-456-"+generatePhoneNumber);
 	}
+	public static String urlBase() {
+		
+		return ("http://localhost:3000/");
+	}
 //	public static String personID() {
 //		String generateID = RandomStringUtils.randomNumeric(3);
 //		return (generateID);
