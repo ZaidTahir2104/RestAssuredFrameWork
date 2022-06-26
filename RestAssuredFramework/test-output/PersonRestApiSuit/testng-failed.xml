@@ -2,18 +2,18 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [PersonRestApiSuit]" guice-stage="DEVELOPMENT">
   <listeners>
-    <listener class-name="com.personapi.utilities.Listeners"/>
+    <listener class-name="com.personapi.utilities.AllureListeners"/>
   </listeners>
   <test thread-count="5" name="PersonRestApiTest(failed)">
     <classes>
-      <class name="com.personapi.testcases.TC002_GetAllPerson">
+      <class name="com.personapi.testcases.TC001_PostPerson">
         <methods>
-          <include name="getAllPerson"/>
-          <include name="setup"/>
           <include name="tearDown"/>
+          <include name="setup"/>
           <include name="checkStatusCode"/>
+          <include name="postPerson"/>
         </methods>
-      </class> <!-- com.personapi.testcases.TC002_GetAllPerson -->
+      </class> <!-- com.personapi.testcases.TC001_PostPerson -->
     </classes>
   </test> <!-- PersonRestApiTest(failed) -->
 </suite> <!-- Failed suite [PersonRestApiSuit] -->

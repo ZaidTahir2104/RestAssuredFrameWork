@@ -760,3 +760,434 @@
 2022-05-19 16:42:41 INFO  PersonRestAPI:54 -***************** Checking Status Line **************
 2022-05-19 16:42:41 INFO  PersonRestAPI:56 -Response Line is ==> HTTP/1.1 200 OK
 2022-05-19 16:42:41 INFO  PersonRestAPI:67 -***************** Finished TC005_DeletePerson **************
+2022-06-06 15:54:11 INFO  PersonRestAPI:29 -***************** Started TC001_PostPerson **************
+2022-06-06 15:54:17 INFO  PersonRestAPI:19 -***************** Started TC002_GetPersonDetail **************
+2022-06-06 15:54:17 INFO  PersonRestAPI:18 -***************** Started TC003_GetSinglePersonDetail **************
+2022-06-06 15:54:17 INFO  PersonRestAPI:28 -***************** Started TC004_PutPerson **************
+2022-06-06 15:54:17 INFO  PersonRestAPI:19 -***************** Started TC005_DeletePerson **************
+2022-06-07 17:55:23 INFO  PersonRestAPI:29 -***************** Started TC001_PostPerson **************
+2022-06-07 17:55:29 INFO  PersonRestAPI:19 -***************** Started TC002_GetPersonDetail **************
+2022-06-07 17:55:29 INFO  PersonRestAPI:18 -***************** Started TC003_GetSinglePersonDetail **************
+2022-06-07 17:55:29 INFO  PersonRestAPI:28 -***************** Started TC004_PutPerson **************
+2022-06-07 17:55:29 INFO  PersonRestAPI:19 -***************** Started TC005_DeletePerson **************
+2022-06-07 17:55:56 INFO  PersonRestAPI:29 -***************** Started TC001_PostPerson **************
+2022-06-07 17:56:01 INFO  PersonRestAPI:19 -***************** Started TC002_GetPersonDetail **************
+2022-06-07 17:56:01 INFO  PersonRestAPI:18 -***************** Started TC003_GetSinglePersonDetail **************
+2022-06-07 17:56:01 INFO  PersonRestAPI:28 -***************** Started TC004_PutPerson **************
+2022-06-07 17:56:02 INFO  PersonRestAPI:19 -***************** Started TC005_DeletePerson **************
+2022-06-07 17:58:00 INFO  PersonRestAPI:29 -***************** Started TC001_PostPerson **************
+2022-06-07 17:58:06 INFO  PersonRestAPI:78 -***************** Checking Content Type **************
+2022-06-07 17:58:06 INFO  PersonRestAPI:80 -Content Type is ==> application/json; charset=utf-8
+2022-06-07 17:58:06 INFO  PersonRestAPI:61 -***************** Checking Response Time **************
+2022-06-07 17:58:06 INFO  PersonRestAPI:63 -Response Time is  ==> 221
+2022-06-07 17:58:06 INFO  PersonRestAPI:54 -***************** Checking Status Code **************
+2022-06-07 17:58:06 INFO  PersonRestAPI:56 -Response Code is ==> 201
+2022-06-07 17:58:06 INFO  PersonRestAPI:71 -***************** Checking Status Line **************
+2022-06-07 17:58:06 INFO  PersonRestAPI:73 -Response Line is ==> HTTP/1.1 201 Created
+2022-06-07 17:58:06 INFO  PersonRestAPI:84 -***************** Finished TC001_PostPerson **************
+2022-06-07 17:58:06 INFO  PersonRestAPI:19 -***************** Started TC002_GetPersonDetail **************
+2022-06-07 17:58:06 INFO  PersonRestAPI:58 -***************** Checking Content Type **************
+2022-06-07 17:58:06 INFO  PersonRestAPI:60 -Content Type is ==> application/json; charset=utf-8
+2022-06-07 17:58:06 INFO  PersonRestAPI:27 -***************** Checking Response Body **************
+2022-06-07 17:58:06 INFO  PersonRestAPI:29 -Response Body ==> [
+  {
+    "firstName": "Ahsan",
+    "lastName": "Lala",
+    "age": 31,
+    "address": "Islamabad,PK",
+    "phoneNumber": "123-456-78910",
+    "id": 1
+  },
+  {
+    "firstName": "Saad",
+    "lastName": "Lala",
+    "age": 31,
+    "address": "Islamabad,PK",
+    "phoneNumber": "123-456-78910",
+    "id": 2
+  },
+  {
+    "firstName": "Adil",
+    "lastName": "Lala",
+    "age": 31,
+    "address": "Islamabad,PK",
+    "phoneNumber": "123-456-78910",
+    "id": 3
+  },
+  {
+    "firstName": "Asad",
+    "lastName": "Lala",
+    "age": 31,
+    "address": "Islamabad,PK",
+    "phoneNumber": "123-456-78910",
+    "id": 4
+  },
+  {
+    "firstName": "Umar",
+    "lastName": "Lala",
+    "age": 31,
+    "address": "Islamabad,PK",
+    "phoneNumber": "123-456-78910",
+    "id": 5
+  },
+  {
+    "firstName": "Musa",
+    "lastName": "Lala",
+    "age": 31,
+    "address": "Islamabad,PK",
+    "phoneNumber": "123-456-78910",
+    "id": 6
+  },
+  {
+    "firstName": "Adnan",
+    "lastName": "Lala",
+    "age": 31,
+    "address": "Islamabad,PK",
+    "phoneNumber": "123-456-78910",
+    "id": 7
+  },
+  {
+    "firstName": "Imran",
+    "lastName": "Lala",
+    "age": 31,
+    "address": "Islamabad,PK",
+    "phoneNumber": "123-456-78910",
+    "id": 8
+  },
+  {
+    "firstName": "Farhan",
+    "lastName": "Lala",
+    "age": 31,
+    "address": "Islamabad,PK",
+    "phoneNumber": "123-456-78910",
+    "id": 9
+  },
+  {
+    "firstName": "Nouman",
+    "lastName": "Lala",
+    "age": 31,
+    "address": "Islamabad,PK",
+    "phoneNumber": "123-456-78910",
+    "id": 10
+  },
+  {
+    "firstName": "Anees",
+    "lastName": "Lala",
+    "age": 31,
+    "address": "Islamabad,PK",
+    "phoneNumber": "123-456-78910",
+    "id": 11
+  },
+  {
+    "firstName": "Ahmad",
+    "lastName": "Lala",
+    "age": 31,
+    "address": "Islamabad,PK",
+    "phoneNumber": "123-456-78910",
+    "id": 12
+  },
+  {
+    "firstName": "Tahir",
+    "lastName": "Lala",
+    "age": 31,
+    "address": "Islamabad,PK",
+    "phoneNumber": "123-456-78910",
+    "id": 13
+  },
+  {
+    "firstName": "ZaidaHQ",
+    "lastName": "Lala",
+    "age": 31,
+    "id": 502,
+    "address": "Islamabad,PK",
+    "phoneNumber": "123-456-78910"
+  },
+  {
+    "firstName": "ZaidA",
+    "lastName": "Tahirn",
+    "address": "58-LGulshan e Lahore",
+    "id": "115",
+    "age": "50",
+    "phoneNumbers": "123-456-280"
+  },
+  {
+    "firstName": "ZaidX",
+    "lastName": "Tahirk",
+    "address": "58-CGulshan e Lahore",
+    "id": "735",
+    "age": "49",
+    "phoneNumbers": "123-456-573"
+  },
+  {
+    "firstName": "Zaidt",
+    "lastName": "TahirU",
+    "address": "58-QGulshan e Lahore",
+    "id": "176",
+    "age": "09",
+    "phoneNumbers": "123-456-429"
+  },
+  {
+    "firstName": "Zaidh",
+    "lastName": "TahirF",
+    "address": "58-VGulshan e Lahore",
+    "id": "579",
+    "age": "46",
+    "phoneNumbers": "123-456-144"
+  }
+]
+2022-06-07 17:58:06 INFO  PersonRestAPI:41 -***************** Checking Response Time **************
+2022-06-07 17:58:06 INFO  PersonRestAPI:43 -Response Time is  ==> 21
+2022-06-07 17:58:06 INFO  PersonRestAPI:34 -***************** Checking Status Code **************
+2022-06-07 17:58:06 INFO  PersonRestAPI:36 -Response Code is ==> 200
+2022-06-07 17:58:06 INFO  PersonRestAPI:51 -***************** Checking Status Line **************
+2022-06-07 17:58:06 INFO  PersonRestAPI:53 -Response Line is ==> HTTP/1.1 200 OK
+2022-06-07 17:58:06 INFO  PersonRestAPI:64 -***************** Finished TC002_GetPersonDetail **************
+2022-06-07 17:58:06 INFO  PersonRestAPI:18 -***************** Started TC003_GetSinglePersonDetail **************
+2022-06-07 17:58:06 INFO  PersonRestAPI:58 -***************** Checking Content Type **************
+2022-06-07 17:58:06 INFO  PersonRestAPI:60 -Content Type is ==> application/json; charset=utf-8
+2022-06-07 17:58:06 INFO  PersonRestAPI:27 -***************** Checking Response Body **************
+2022-06-07 17:58:06 INFO  PersonRestAPI:29 -Response Body ==> {
+  "firstName": "Zaidh",
+  "lastName": "TahirF",
+  "address": "58-VGulshan e Lahore",
+  "id": "579",
+  "age": "46",
+  "phoneNumbers": "123-456-144"
+}
+2022-06-07 17:58:06 INFO  PersonRestAPI:41 -***************** Checking Response Time **************
+2022-06-07 17:58:06 INFO  PersonRestAPI:43 -Response Time is  ==> 9
+2022-06-07 17:58:06 INFO  PersonRestAPI:34 -***************** Checking Status Code **************
+2022-06-07 17:58:06 INFO  PersonRestAPI:36 -Response Code is ==> 200
+2022-06-07 17:58:06 INFO  PersonRestAPI:51 -***************** Checking Status Line **************
+2022-06-07 17:58:06 INFO  PersonRestAPI:53 -Response Line is ==> HTTP/1.1 200 OK
+2022-06-07 17:58:06 INFO  PersonRestAPI:64 -***************** Finished TC003_GetSinglePersonDetail **************
+2022-06-07 17:58:06 INFO  PersonRestAPI:28 -***************** Started TC004_PutPerson **************
+2022-06-07 17:58:06 INFO  PersonRestAPI:80 -***************** Checking Content Type **************
+2022-06-07 17:58:06 INFO  PersonRestAPI:82 -Content Type is ==> application/json; charset=utf-8
+2022-06-07 17:58:06 INFO  PersonRestAPI:63 -***************** Checking Response Time **************
+2022-06-07 17:58:06 INFO  PersonRestAPI:65 -Response Time is  ==> 12
+2022-06-07 17:58:06 INFO  PersonRestAPI:56 -***************** Checking Status Code **************
+2022-06-07 17:58:06 INFO  PersonRestAPI:58 -Response Code is ==> 200
+2022-06-07 17:58:06 INFO  PersonRestAPI:73 -***************** Checking Status Line **************
+2022-06-07 17:58:06 INFO  PersonRestAPI:75 -Response Line is ==> HTTP/1.1 200 OK
+2022-06-07 17:58:06 INFO  PersonRestAPI:86 -***************** Finished TC004_PutPerson **************
+2022-06-07 17:58:06 INFO  PersonRestAPI:19 -***************** Started TC005_DeletePerson **************
+2022-06-07 17:58:06 INFO  PersonRestAPI:61 -***************** Checking Content Type **************
+2022-06-07 17:58:06 INFO  PersonRestAPI:63 -Content Type is ==> application/json; charset=utf-8
+2022-06-07 17:58:06 INFO  PersonRestAPI:31 -***************** Checking Response Body **************
+2022-06-07 17:58:06 INFO  PersonRestAPI:33 -Response Body ==> {}
+2022-06-07 17:58:06 INFO  PersonRestAPI:44 -***************** Checking Response Time **************
+2022-06-07 17:58:06 INFO  PersonRestAPI:46 -Response Time is  ==> 11
+2022-06-07 17:58:06 INFO  PersonRestAPI:37 -***************** Checking Status Code **************
+2022-06-07 17:58:06 INFO  PersonRestAPI:39 -Response Code is ==> 200
+2022-06-07 17:58:06 INFO  PersonRestAPI:54 -***************** Checking Status Line **************
+2022-06-07 17:58:06 INFO  PersonRestAPI:56 -Response Line is ==> HTTP/1.1 200 OK
+2022-06-07 17:58:06 INFO  PersonRestAPI:67 -***************** Finished TC005_DeletePerson **************
+2022-06-07 18:02:26 INFO  PersonRestAPI:29 -***************** Started TC001_PostPerson **************
+2022-06-07 18:02:31 INFO  PersonRestAPI:78 -***************** Checking Content Type **************
+2022-06-07 18:02:31 INFO  PersonRestAPI:80 -Content Type is ==> application/json; charset=utf-8
+2022-06-07 18:02:31 INFO  PersonRestAPI:61 -***************** Checking Response Time **************
+2022-06-07 18:02:31 INFO  PersonRestAPI:63 -Response Time is  ==> 190
+2022-06-07 18:02:31 INFO  PersonRestAPI:54 -***************** Checking Status Code **************
+2022-06-07 18:02:31 INFO  PersonRestAPI:56 -Response Code is ==> 201
+2022-06-07 18:02:31 INFO  PersonRestAPI:71 -***************** Checking Status Line **************
+2022-06-07 18:02:31 INFO  PersonRestAPI:73 -Response Line is ==> HTTP/1.1 201 Created
+2022-06-07 18:02:31 INFO  PersonRestAPI:84 -***************** Finished TC001_PostPerson **************
+2022-06-07 18:02:31 INFO  PersonRestAPI:19 -***************** Started TC002_GetPersonDetail **************
+2022-06-07 18:02:31 INFO  PersonRestAPI:58 -***************** Checking Content Type **************
+2022-06-07 18:02:31 INFO  PersonRestAPI:60 -Content Type is ==> application/json; charset=utf-8
+2022-06-07 18:02:31 INFO  PersonRestAPI:27 -***************** Checking Response Body **************
+2022-06-07 18:02:31 INFO  PersonRestAPI:29 -Response Body ==> [
+  {
+    "firstName": "Ahsan",
+    "lastName": "Lala",
+    "age": 31,
+    "address": "Islamabad,PK",
+    "phoneNumber": "123-456-78910",
+    "id": 1
+  },
+  {
+    "firstName": "Saad",
+    "lastName": "Lala",
+    "age": 31,
+    "address": "Islamabad,PK",
+    "phoneNumber": "123-456-78910",
+    "id": 2
+  },
+  {
+    "firstName": "Adil",
+    "lastName": "Lala",
+    "age": 31,
+    "address": "Islamabad,PK",
+    "phoneNumber": "123-456-78910",
+    "id": 3
+  },
+  {
+    "firstName": "Asad",
+    "lastName": "Lala",
+    "age": 31,
+    "address": "Islamabad,PK",
+    "phoneNumber": "123-456-78910",
+    "id": 4
+  },
+  {
+    "firstName": "Umar",
+    "lastName": "Lala",
+    "age": 31,
+    "address": "Islamabad,PK",
+    "phoneNumber": "123-456-78910",
+    "id": 5
+  },
+  {
+    "firstName": "Musa",
+    "lastName": "Lala",
+    "age": 31,
+    "address": "Islamabad,PK",
+    "phoneNumber": "123-456-78910",
+    "id": 6
+  },
+  {
+    "firstName": "Adnan",
+    "lastName": "Lala",
+    "age": 31,
+    "address": "Islamabad,PK",
+    "phoneNumber": "123-456-78910",
+    "id": 7
+  },
+  {
+    "firstName": "Imran",
+    "lastName": "Lala",
+    "age": 31,
+    "address": "Islamabad,PK",
+    "phoneNumber": "123-456-78910",
+    "id": 8
+  },
+  {
+    "firstName": "Farhan",
+    "lastName": "Lala",
+    "age": 31,
+    "address": "Islamabad,PK",
+    "phoneNumber": "123-456-78910",
+    "id": 9
+  },
+  {
+    "firstName": "Nouman",
+    "lastName": "Lala",
+    "age": 31,
+    "address": "Islamabad,PK",
+    "phoneNumber": "123-456-78910",
+    "id": 10
+  },
+  {
+    "firstName": "Anees",
+    "lastName": "Lala",
+    "age": 31,
+    "address": "Islamabad,PK",
+    "phoneNumber": "123-456-78910",
+    "id": 11
+  },
+  {
+    "firstName": "Ahmad",
+    "lastName": "Lala",
+    "age": 31,
+    "address": "Islamabad,PK",
+    "phoneNumber": "123-456-78910",
+    "id": 12
+  },
+  {
+    "firstName": "Tahir",
+    "lastName": "Lala",
+    "age": 31,
+    "address": "Islamabad,PK",
+    "phoneNumber": "123-456-78910",
+    "id": 13
+  },
+  {
+    "firstName": "ZaidaHQ",
+    "lastName": "Lala",
+    "age": 31,
+    "id": 502,
+    "address": "Islamabad,PK",
+    "phoneNumber": "123-456-78910"
+  },
+  {
+    "firstName": "ZaidA",
+    "lastName": "Tahirn",
+    "address": "58-LGulshan e Lahore",
+    "id": "115",
+    "age": "50",
+    "phoneNumbers": "123-456-280"
+  },
+  {
+    "firstName": "ZaidX",
+    "lastName": "Tahirk",
+    "address": "58-CGulshan e Lahore",
+    "id": "735",
+    "age": "49",
+    "phoneNumbers": "123-456-573"
+  },
+  {
+    "firstName": "Zaidt",
+    "lastName": "TahirU",
+    "address": "58-QGulshan e Lahore",
+    "id": "176",
+    "age": "09",
+    "phoneNumbers": "123-456-429"
+  },
+  {
+    "firstName": "ZaidF",
+    "lastName": "TahirN",
+    "address": "58-bGulshan e Lahore",
+    "id": "376",
+    "age": "62",
+    "phoneNumbers": "123-456-168"
+  }
+]
+2022-06-07 18:02:31 INFO  PersonRestAPI:41 -***************** Checking Response Time **************
+2022-06-07 18:02:31 INFO  PersonRestAPI:43 -Response Time is  ==> 15
+2022-06-07 18:02:31 INFO  PersonRestAPI:34 -***************** Checking Status Code **************
+2022-06-07 18:02:31 INFO  PersonRestAPI:36 -Response Code is ==> 200
+2022-06-07 18:02:31 INFO  PersonRestAPI:51 -***************** Checking Status Line **************
+2022-06-07 18:02:31 INFO  PersonRestAPI:53 -Response Line is ==> HTTP/1.1 200 OK
+2022-06-07 18:02:31 INFO  PersonRestAPI:64 -***************** Finished TC002_GetPersonDetail **************
+2022-06-07 18:02:31 INFO  PersonRestAPI:18 -***************** Started TC003_GetSinglePersonDetail **************
+2022-06-07 18:02:31 INFO  PersonRestAPI:58 -***************** Checking Content Type **************
+2022-06-07 18:02:31 INFO  PersonRestAPI:60 -Content Type is ==> application/json; charset=utf-8
+2022-06-07 18:02:31 INFO  PersonRestAPI:27 -***************** Checking Response Body **************
+2022-06-07 18:02:31 INFO  PersonRestAPI:29 -Response Body ==> {
+  "firstName": "ZaidF",
+  "lastName": "TahirN",
+  "address": "58-bGulshan e Lahore",
+  "id": "376",
+  "age": "62",
+  "phoneNumbers": "123-456-168"
+}
+2022-06-07 18:02:31 INFO  PersonRestAPI:41 -***************** Checking Response Time **************
+2022-06-07 18:02:31 INFO  PersonRestAPI:43 -Response Time is  ==> 9
+2022-06-07 18:02:31 INFO  PersonRestAPI:34 -***************** Checking Status Code **************
+2022-06-07 18:02:31 INFO  PersonRestAPI:36 -Response Code is ==> 200
+2022-06-07 18:02:31 INFO  PersonRestAPI:51 -***************** Checking Status Line **************
+2022-06-07 18:02:31 INFO  PersonRestAPI:53 -Response Line is ==> HTTP/1.1 200 OK
+2022-06-07 18:02:31 INFO  PersonRestAPI:64 -***************** Finished TC003_GetSinglePersonDetail **************
+2022-06-07 18:02:31 INFO  PersonRestAPI:28 -***************** Started TC004_PutPerson **************
+2022-06-07 18:02:31 INFO  PersonRestAPI:80 -***************** Checking Content Type **************
+2022-06-07 18:02:31 INFO  PersonRestAPI:82 -Content Type is ==> application/json; charset=utf-8
+2022-06-07 18:02:31 INFO  PersonRestAPI:63 -***************** Checking Response Time **************
+2022-06-07 18:02:31 INFO  PersonRestAPI:65 -Response Time is  ==> 12
+2022-06-07 18:02:31 INFO  PersonRestAPI:56 -***************** Checking Status Code **************
+2022-06-07 18:02:31 INFO  PersonRestAPI:58 -Response Code is ==> 200
+2022-06-07 18:02:31 INFO  PersonRestAPI:73 -***************** Checking Status Line **************
+2022-06-07 18:02:31 INFO  PersonRestAPI:75 -Response Line is ==> HTTP/1.1 200 OK
+2022-06-07 18:02:31 INFO  PersonRestAPI:86 -***************** Finished TC004_PutPerson **************
+2022-06-07 18:02:31 INFO  PersonRestAPI:19 -***************** Started TC005_DeletePerson **************
+2022-06-07 18:02:31 INFO  PersonRestAPI:61 -***************** Checking Content Type **************
+2022-06-07 18:02:31 INFO  PersonRestAPI:63 -Content Type is ==> application/json; charset=utf-8
+2022-06-07 18:02:31 INFO  PersonRestAPI:31 -***************** Checking Response Body **************
+2022-06-07 18:02:31 INFO  PersonRestAPI:33 -Response Body ==> {}
+2022-06-07 18:02:31 INFO  PersonRestAPI:44 -***************** Checking Response Time **************
+2022-06-07 18:02:31 INFO  PersonRestAPI:46 -Response Time is  ==> 9
+2022-06-07 18:02:31 INFO  PersonRestAPI:37 -***************** Checking Status Code **************
+2022-06-07 18:02:31 INFO  PersonRestAPI:39 -Response Code is ==> 200
+2022-06-07 18:02:31 INFO  PersonRestAPI:54 -***************** Checking Status Line **************
+2022-06-07 18:02:31 INFO  PersonRestAPI:56 -Response Line is ==> HTTP/1.1 200 OK
+2022-06-07 18:02:31 INFO  PersonRestAPI:67 -***************** Finished TC005_DeletePerson **************

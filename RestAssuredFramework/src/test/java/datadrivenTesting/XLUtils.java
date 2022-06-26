@@ -9,7 +9,9 @@ import org.apache.poi.xssf.usermodel.XSSFRow;
 import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
-public class XLUtils {
+import com.personapi.base.TestBase;
+
+public class XLUtils extends TestBase {
 	public static FileInputStream fi;
 	public static FileOutputStream fo;
 	public static XSSFWorkbook wb;

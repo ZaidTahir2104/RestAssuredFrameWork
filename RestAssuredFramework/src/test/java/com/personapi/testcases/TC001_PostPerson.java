@@ -54,7 +54,7 @@ public class TC001_PostPerson extends TestBase {
 		logger.info("***************** Checking Status Code **************");
 		int statusCode = response.getStatusCode();
 		logger.info("Response Code is ==> "+statusCode);
-		AssertJUnit.assertEquals(statusCode, 201);
+		AssertJUnit.assertEquals(statusCode, 200);
 	}
 	@Test
 	public void checkResponseTime() {
